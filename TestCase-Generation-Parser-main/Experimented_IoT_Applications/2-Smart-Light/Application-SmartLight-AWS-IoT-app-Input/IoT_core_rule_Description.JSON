@@ -1,0 +1,36 @@
+[
+{
+    "ruleArn": "arn:aws:iot:us-east-1:109043899433:rule/LightSensor", 
+    "rule": {
+        "ruleName": "LightSensor", 
+        "actions": [
+            {
+                "lambda": {
+                    "functionArn": "arn:aws:lambda:us-east-1:109043899433:function:DeviceData_Lambda"
+                }
+            }
+        ], 
+        "createdAt": 1650286611.0, 
+        "sql": "SELECT uv_visible FROM \"lightSensorTopic\"", 
+        "awsIotSqlVersion": "2016-03-23", 
+        "ruleDisabled": false
+    }
+},
+{
+    "ruleArn": "arn:aws:iot:us-east-1:109043899433:rule/AssertRule", 
+    "rule": {
+        "ruleName": "AssertRule", 
+        "actions": [
+            {
+                "lambda": {
+                    "functionArn": "arn:aws:lambda:us-east-1:109043899433:function:Assert_Lambda"
+                }
+            }
+        ], 
+        "createdAt": 1643883229.0, 
+        "sql": "SELECT * FROM lightOnDurationTopic", 
+        "awsIotSqlVersion": "2016-03-23", 
+        "ruleDisabled": false
+    }
+}
+]

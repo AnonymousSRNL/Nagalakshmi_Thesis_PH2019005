@@ -1,0 +1,170 @@
+[DEBUG] MyAnalysis initialized.
+[FUNC ENTER] <anonymous> at (index.js:1:1:22:16), Args: [], Timestamp: 1742451101963
+[LITERAL] Value: undefined at (index.js:1:1:22:16)
+[FUNC EXIT] <anonymous> at (index.js:1:1:22:16), Return: undefined, Exception: {}, Timestamp: 1742451101994
+[FUNC ENTER] <anonymous> at (index.js:1:1:22:16), Args: [{},null,{"id":".","path":"/home/sasank/PE/order-conflict","exports":"[Circular]","filename":"/home/sasank/PE/order-conflict/index.js","loaded":false,"children":[],"paths":["/home/sasank/PE/order-conflict/node_modules","/home/sasank/PE/node_modules","/home/sasank/node_modules","/home/node_modules","/node_modules"]},"/home/sasank/PE/order-conflict/index.js","/home/sasank/PE/order-conflict"], Timestamp: 1742451102009
+[READ] Identifier: require, Value at (index.js:2:16:2:23)
+[LITERAL] Value: "./sensor" at (index.js:2:24:2:34)
+[FUNC ENTER] <anonymous> at (sensor.js:1:1:16:31), Args: [], Timestamp: 1742451102048
+[LITERAL] Value: undefined at (sensor.js:1:1:16:31)
+[FUNC EXIT] <anonymous> at (sensor.js:1:1:16:31), Return: undefined, Exception: {}, Timestamp: 1742451102055
+[FUNC ENTER] <anonymous> at (sensor.js:1:1:16:31), Args: [{},null,{"id":"/home/sasank/PE/order-conflict/sensor.js","path":"/home/sasank/PE/order-conflict","exports":"[Circular]","filename":"/home/sasank/PE/order-conflict/sensor.js","loaded":false,"children":[],"paths":["/home/sasank/PE/order-conflict/node_modules","/home/sasank/PE/node_modules","/home/sasank/node_modules","/home/node_modules","/node_modules"]},"/home/sasank/PE/order-conflict/sensor.js","/home/sasank/PE/order-conflict"], Timestamp: 1742451102059
+[READ] Identifier: require, Value at (sensor.js:1:22:1:29)
+[LITERAL] Value: "events" at (sensor.js:1:30:1:38)
+[WRITE] Identifier: EventEmitter, Value at (sensor.js:1:1:1:39)
+[READ] Identifier: EventEmitter, Value at (sensor.js:2:22:2:34)
+[LITERAL] Value: undefined at (sensor.js:8:5:14:6)
+[READ] Identifier: module, Value at (sensor.js:16:1:16:7)
+[READ] Identifier: Sensor, Value at (sensor.js:16:22:16:28)
+[FUNC ENTER] Sensor at (sensor.js:2:1:15:2), Args: [null], Timestamp: 1742451102090
+[LITERAL] Value: 50 at (sensor.js:5:26:5:28)
+[FUNC EXIT] Sensor at (sensor.js:2:1:15:2), Return: {"_events":{},"_eventsCount":0,"threshold":50}, Exception: {}, Timestamp: 1742451102101
+[FUNC EXIT] <anonymous> at (sensor.js:1:1:16:31), Return: undefined, Exception: {}, Timestamp: 1742451102112
+[WRITE] Identifier: sensor, Value at (index.js:2:1:2:35)
+[READ] Identifier: require, Value at (index.js:3:14:3:21)
+[LITERAL] Value: "./mqtt" at (index.js:3:22:3:30)
+[FUNC ENTER] <anonymous> at (mqtt.js:1:1:21:34), Args: [], Timestamp: 1742451102135
+[LITERAL] Value: undefined at (mqtt.js:1:1:21:34)
+[FUNC EXIT] <anonymous> at (mqtt.js:1:1:21:34), Return: undefined, Exception: {}, Timestamp: 1742451102143
+[FUNC ENTER] <anonymous> at (mqtt.js:1:1:21:34), Args: [{},null,{"id":"/home/sasank/PE/order-conflict/mqtt.js","path":"/home/sasank/PE/order-conflict","exports":"[Circular]","filename":"/home/sasank/PE/order-conflict/mqtt.js","loaded":false,"children":[],"paths":["/home/sasank/PE/order-conflict/node_modules","/home/sasank/PE/node_modules","/home/sasank/node_modules","/home/node_modules","/node_modules"]},"/home/sasank/PE/order-conflict/mqtt.js","/home/sasank/PE/order-conflict"], Timestamp: 1742451102148
+[READ] Identifier: require, Value at (mqtt.js:2:22:2:29)
+[LITERAL] Value: "events" at (mqtt.js:2:30:2:38)
+[WRITE] Identifier: EventEmitter, Value at (mqtt.js:2:1:2:39)
+[READ] Identifier: EventEmitter, Value at (mqtt.js:3:27:3:39)
+[LITERAL] Value: undefined at (mqtt.js:4:5:7:6)
+[READ] Identifier: module, Value at (mqtt.js:9:1:9:7)
+[READ] Identifier: MQTTHandler, Value at (mqtt.js:9:22:9:33)
+[FUNC ENTER] MQTTHandler at (mqtt.js:3:1:8:2), Args: [null], Timestamp: 1742451102160
+[FUNC EXIT] MQTTHandler at (mqtt.js:3:1:8:2), Return: {"_events":{},"_eventsCount":0}, Exception: {}, Timestamp: 1742451102163
+[FUNC EXIT] <anonymous> at (mqtt.js:1:1:21:34), Return: undefined, Exception: {}, Timestamp: 1742451102166
+[WRITE] Identifier: mqtt, Value at (index.js:3:1:3:31)
+[READ] Identifier: require, Value at (index.js:4:20:4:27)
+[LITERAL] Value: "./ruleEngine" at (index.js:4:28:4:42)
+[FUNC ENTER] <anonymous> at (ruleEngine.js:1:1:18:29), Args: [], Timestamp: 1742451102186
+[LITERAL] Value: undefined at (ruleEngine.js:1:1:18:29)
+[FUNC EXIT] <anonymous> at (ruleEngine.js:1:1:18:29), Return: undefined, Exception: {}, Timestamp: 1742451102193
+[FUNC ENTER] <anonymous> at (ruleEngine.js:1:1:18:29), Args: [{},null,{"id":"/home/sasank/PE/order-conflict/ruleEngine.js","path":"/home/sasank/PE/order-conflict","exports":"[Circular]","filename":"/home/sasank/PE/order-conflict/ruleEngine.js","loaded":false,"children":[],"paths":["/home/sasank/PE/order-conflict/node_modules","/home/sasank/PE/node_modules","/home/sasank/node_modules","/home/node_modules","/node_modules"]},"/home/sasank/PE/order-conflict/ruleEngine.js","/home/sasank/PE/order-conflict"], Timestamp: 1742451102198
+[READ] Identifier: require, Value at (ruleEngine.js:2:14:2:21)
+[LITERAL] Value: "./mqtt" at (ruleEngine.js:2:22:2:30)
+[WRITE] Identifier: mqtt, Value at (ruleEngine.js:2:1:2:31)
+[READ] Identifier: require, Value at (ruleEngine.js:4:37:4:44)
+[LITERAL] Value: "./lambda" at (ruleEngine.js:4:45:4:55)
+[FUNC ENTER] <anonymous> at (lambda.js:1:1:14:46), Args: [], Timestamp: 1742451102222
+[LITERAL] Value: undefined at (lambda.js:1:1:14:46)
+[FUNC EXIT] <anonymous> at (lambda.js:1:1:14:46), Return: undefined, Exception: {}, Timestamp: 1742451102228
+[FUNC ENTER] <anonymous> at (lambda.js:1:1:14:46), Args: [{},null,{"id":"/home/sasank/PE/order-conflict/lambda.js","path":"/home/sasank/PE/order-conflict","exports":"[Circular]","filename":"/home/sasank/PE/order-conflict/lambda.js","loaded":false,"children":[],"paths":["/home/sasank/PE/order-conflict/node_modules","/home/sasank/PE/node_modules","/home/sasank/node_modules","/home/node_modules","/node_modules"]},"/home/sasank/PE/order-conflict/lambda.js","/home/sasank/PE/order-conflict"], Timestamp: 1742451102231
+[LITERAL] Value: undefined at (lambda.js:2:1:6:2)
+[WRITE] Identifier: createBundle, Value at (lambda.js:2:1:6:2)
+[LITERAL] Value: undefined at (lambda.js:8:1:12:2)
+[WRITE] Identifier: uploadStr, Value at (lambda.js:8:1:12:2)
+[READ] Identifier: module, Value at (lambda.js:14:1:14:7)
+[READ] Identifier: createBundle, Value at (lambda.js:14:20:14:32)
+[READ] Identifier: uploadStr, Value at (lambda.js:14:34:14:43)
+[LITERAL] Value: {} at (lambda.js:14:18:14:45)
+[FUNC EXIT] <anonymous> at (lambda.js:1:1:14:46), Return: undefined, Exception: {}, Timestamp: 1742451102255
+[WRITE] Identifier: createBundle, Value at (ruleEngine.js:4:9:4:21)
+[WRITE] Identifier: uploadStr, Value at (ruleEngine.js:4:23:4:32)
+[LITERAL] Value: undefined at (ruleEngine.js:6:12:16:6)
+[READ] Identifier: module, Value at (ruleEngine.js:18:1:18:7)
+[READ] Identifier: RuleEngine, Value at (ruleEngine.js:18:18:18:28)
+[FUNC EXIT] <anonymous> at (ruleEngine.js:1:1:18:29), Return: undefined, Exception: {}, Timestamp: 1742451102269
+[WRITE] Identifier: RuleEngine, Value at (index.js:4:1:4:43)
+[READ] Identifier: require, Value at (index.js:5:37:5:44)
+[LITERAL] Value: "./lambda" at (index.js:5:45:5:55)
+[WRITE] Identifier: createBundle, Value at (index.js:5:9:5:21)
+[WRITE] Identifier: uploadStr, Value at (index.js:5:23:5:32)
+[READ] Identifier: sensor, Value at (index.js:7:1:7:7)
+[LITERAL] Value: "data" at (index.js:7:11:7:17)
+[LITERAL] Value: undefined at (index.js:7:19:9:2)
+[READ] Identifier: mqtt, Value at (index.js:11:1:11:5)
+[LITERAL] Value: "message" at (index.js:11:9:11:18)
+[LITERAL] Value: undefined at (index.js:11:20:13:2)
+[READ] Identifier: sensor, Value at (index.js:22:1:22:7)
+[FUNC ENTER] start at (sensor.js:8:5:14:6), Args: [], Timestamp: 1742451102295
+[READ] Identifier: Math, Value at (sensor.js:10:33:10:37)
+[LITERAL] Value: 100 at (sensor.js:10:49:10:52)
+[BINARY] 0.8929733577011598 * 100 = 89.29733577011598 at (sensor.js:10:33:10:52)
+[WRITE] Identifier: temperature, Value at (sensor.js:10:13:10:52)
+[READ] Identifier: console, Value at (sensor.js:11:13:11:20)
+[LITERAL] Value: "Sensor reading: " at (sensor.js:11:25:11:44)
+[READ] Identifier: temperature, Value at (sensor.js:11:44:11:55)
+[LITERAL] Value: "" at (sensor.js:11:55:11:57)
+[BINARY] Sensor reading:  + 89.29733577011598 = Sensor reading: 89.29733577011598 at (sensor.js:11:25:11:57)
+Sensor reading: 89.29733577011598
+[READ] Identifier: this, Value at (sensor.js:12:13:12:17)
+[LITERAL] Value: "data" at (sensor.js:12:23:12:29)
+[READ] Identifier: temperature, Value at (sensor.js:12:31:12:42)
+[FUNC ENTER] <anonymous> at (index.js:7:19:9:2), Args: [89.29733577011598], Timestamp: 1742451102327
+[READ] Identifier: mqtt, Value at (index.js:8:5:8:9)
+[READ] Identifier: data, Value at (index.js:8:18:8:22)
+[FUNC ENTER] publish at (mqtt.js:4:5:7:6), Args: [89.29733577011598], Timestamp: 1742451102333
+[READ] Identifier: console, Value at (mqtt.js:5:9:5:16)
+[LITERAL] Value: "MQTT Published: " at (mqtt.js:5:21:5:40)
+[READ] Identifier: data, Value at (mqtt.js:5:40:5:44)
+[LITERAL] Value: "" at (mqtt.js:5:44:5:46)
+[BINARY] MQTT Published:  + 89.29733577011598 = MQTT Published: 89.29733577011598 at (mqtt.js:5:21:5:46)
+MQTT Published: 89.29733577011598
+[READ] Identifier: this, Value at (mqtt.js:6:9:6:13)
+[LITERAL] Value: "message" at (mqtt.js:6:19:6:28)
+[READ] Identifier: data, Value at (mqtt.js:6:30:6:34)
+[FUNC ENTER] <anonymous> at (index.js:11:20:13:2), Args: [89.29733577011598], Timestamp: 1742451102346
+[READ] Identifier: RuleEngine, Value at (index.js:12:5:12:15)
+[READ] Identifier: data, Value at (index.js:12:36:12:40)
+[FUNC ENTER] handleFireDetection at (ruleEngine.js:6:12:16:6), Args: [89.29733577011598], Timestamp: 1742451102350
+[READ] Identifier: data, Value at (ruleEngine.js:7:13:7:17)
+[LITERAL] Value: 50 at (ruleEngine.js:7:20:7:22)
+[BINARY] 89.29733577011598 > 50 = true at (ruleEngine.js:7:13:7:22)
+[CONDITIONAL] Result: true at (ruleEngine.js:7:13:7:22)
+[READ] Identifier: console, Value at (ruleEngine.js:8:13:8:20)
+[LITERAL] Value: "Fire detected! Processing handlers..." at (ruleEngine.js:8:25:8:64)
+Fire detected! Processing handlers...
+[READ] Identifier: console, Value at (ruleEngine.js:10:13:10:20)
+[LITERAL] Value: "Invoking asynchronous handlers..." at (ruleEngine.js:10:25:10:60)
+Invoking asynchronous handlers...
+[READ] Identifier: createBundle, Value at (ruleEngine.js:12:13:12:25)
+[READ] Identifier: data, Value at (ruleEngine.js:12:26:12:30)
+[ASYNC ENTER] at (lambda.js:2:1:6:2)
+[FUNC ENTER] createBundle at (lambda.js:2:1:6:2), Args: [89.29733577011598], Timestamp: 1742451102379
+[READ] Identifier: setTimeout, Value at (lambda.js:3:5:3:15)
+[LITERAL] Value: undefined at (lambda.js:3:16:5:6)
+[READ] Identifier: Math, Value at (lambda.js:5:8:5:12)
+[LITERAL] Value: 2000 at (lambda.js:5:24:5:28)
+[BINARY] 0.08549665340025492 * 2000 = 170.99330680050983 at (lambda.js:5:8:5:28)
+[FUNC EXIT] createBundle at (lambda.js:2:1:6:2), Return: undefined, Exception: {}, Timestamp: 1742451102396
+[ASYNC EXIT] at (lambda.js:2:1:6:2), Return: {}, Exception: {}
+[READ] Identifier: uploadStr, Value at (ruleEngine.js:13:13:13:22)
+[READ] Identifier: data, Value at (ruleEngine.js:13:23:13:27)
+[ASYNC ENTER] at (lambda.js:8:1:12:2)
+[FUNC ENTER] uploadStr at (lambda.js:8:1:12:2), Args: [89.29733577011598], Timestamp: 1742451102408
+[READ] Identifier: setTimeout, Value at (lambda.js:9:5:9:15)
+[LITERAL] Value: undefined at (lambda.js:9:16:11:6)
+[READ] Identifier: Math, Value at (lambda.js:11:8:11:12)
+[LITERAL] Value: 2000 at (lambda.js:11:24:11:28)
+[BINARY] 0.49041893410691106 * 2000 = 980.8378682138222 at (lambda.js:11:8:11:28)
+[FUNC EXIT] uploadStr at (lambda.js:8:1:12:2), Return: undefined, Exception: {}, Timestamp: 1742451102415
+[ASYNC EXIT] at (lambda.js:8:1:12:2), Return: {}, Exception: {}
+[READ] Identifier: console, Value at (ruleEngine.js:14:13:14:20)
+[LITERAL] Value: "Fire detection handlers invoked." at (ruleEngine.js:14:25:14:59)
+Fire detection handlers invoked.
+[FUNC EXIT] handleFireDetection at (ruleEngine.js:6:12:16:6), Return: undefined, Exception: {}, Timestamp: 1742451102419
+[FUNC EXIT] <anonymous> at (index.js:11:20:13:2), Return: undefined, Exception: {}, Timestamp: 1742451102420
+[FUNC EXIT] publish at (mqtt.js:4:5:7:6), Return: undefined, Exception: {}, Timestamp: 1742451102421
+[FUNC EXIT] <anonymous> at (index.js:7:19:9:2), Return: undefined, Exception: {}, Timestamp: 1742451102422
+[FUNC EXIT] start at (sensor.js:8:5:14:6), Return: undefined, Exception: {}, Timestamp: 1742451102424
+[FUNC EXIT] <anonymous> at (index.js:1:1:22:16), Return: undefined, Exception: {}, Timestamp: 1742451102425
+[FUNC ENTER] <anonymous> at (lambda.js:3:16:5:6), Args: [], Timestamp: 1742451102575
+[READ] Identifier: console, Value at (lambda.js:4:9:4:16)
+[LITERAL] Value: "Bundle created for data: " at (lambda.js:4:21:4:49)
+[READ] Identifier: data, Value at (lambda.js:4:49:4:53)
+[LITERAL] Value: "" at (lambda.js:4:53:4:55)
+[BINARY] Bundle created for data:  + 89.29733577011598 = Bundle created for data: 89.29733577011598 at (lambda.js:4:21:4:55)
+Bundle created for data: 89.29733577011598
+[FUNC EXIT] <anonymous> at (lambda.js:3:16:5:6), Return: undefined, Exception: {}, Timestamp: 1742451102586
+[FUNC ENTER] <anonymous> at (lambda.js:9:16:11:6), Args: [], Timestamp: 1742451103405
+[READ] Identifier: console, Value at (lambda.js:10:9:10:16)
+[LITERAL] Value: "Data uploaded: " at (lambda.js:10:21:10:39)
+[READ] Identifier: data, Value at (lambda.js:10:39:10:43)
+[LITERAL] Value: "" at (lambda.js:10:43:10:45)
+[BINARY] Data uploaded:  + 89.29733577011598 = Data uploaded: 89.29733577011598 at (lambda.js:10:21:10:45)
+Data uploaded: 89.29733577011598
+[FUNC EXIT] <anonymous> at (lambda.js:9:16:11:6), Return: undefined, Exception: {}, Timestamp: 1742451103410

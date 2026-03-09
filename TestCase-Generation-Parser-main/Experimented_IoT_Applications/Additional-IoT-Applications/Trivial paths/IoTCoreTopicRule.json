@@ -1,0 +1,20 @@
+{
+    "ruleArn": "",
+    "rule": {
+        "ruleName": "",
+        "actions": [
+            {
+                "s3": {
+                    "bucketName": "your-s3-bucket-name",
+                    "key": "sensordata/${timestamp()}",
+                    "roleArn": "arn:aws:iam::YOUR_ROLE_ARN"
+                }
+            }
+        ],
+        "createdAt": 0.0,
+        "sql": "SELECT * FROM 'temperature-topic'",
+        "awsIotSqlVersion": "2016-03-23",
+        "ruleDisabled": false
+    }
+}
+

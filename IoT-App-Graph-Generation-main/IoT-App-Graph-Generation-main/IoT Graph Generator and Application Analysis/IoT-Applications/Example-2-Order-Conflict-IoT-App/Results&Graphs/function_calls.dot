@@ -1,0 +1,28 @@
+digraph FunctionCalls {
+    node [shape=box];
+    edge [color=black];
+    "anonymous_2 (index.js:1:1:22:16)" -> "anonymous_3 (sensor.js:1:1:16:31)";
+    "anonymous_2 (index.js:1:1:22:16)" -> "anonymous_4 (sensor.js:1:1:16:31)";
+    "anonymous_2 (index.js:1:1:22:16)" -> "anonymous_5 (mqtt.js:1:1:21:34)";
+    "anonymous_2 (index.js:1:1:22:16)" -> "anonymous_6 (mqtt.js:1:1:21:34)";
+    "anonymous_2 (index.js:1:1:22:16)" -> "anonymous_7 (ruleEngine.js:1:1:18:29)";
+    "anonymous_2 (index.js:1:1:22:16)" -> "anonymous_8 (ruleEngine.js:1:1:18:29)";
+    "anonymous_2 (index.js:1:1:22:16)" -> "start (sensor.js:8:5:14:6)";
+    "anonymous_4 (sensor.js:1:1:16:31)" -> "Sensor (sensor.js:2:1:15:2)";
+    "anonymous_6 (mqtt.js:1:1:21:34)" -> "MQTTHandler (mqtt.js:3:1:8:2)";
+    "anonymous_8 (ruleEngine.js:1:1:18:29)" -> "anonymous_9 (lambda.js:1:1:14:46)";
+    "anonymous_8 (ruleEngine.js:1:1:18:29)" -> "anonymous_10 (lambda.js:1:1:14:46)";
+    "start (sensor.js:8:5:14:6)" -> "anonymous_11 (index.js:7:19:9:2)";
+    "anonymous_11 (index.js:7:19:9:2)" -> "publish (mqtt.js:4:5:7:6)";
+    "publish (mqtt.js:4:5:7:6)" -> "anonymous_12 (index.js:11:20:13:2)";
+    "anonymous_12 (index.js:11:20:13:2)" -> "handleFireDetection (ruleEngine.js:6:12:16:6)";
+    "handleFireDetection (ruleEngine.js:6:12:16:6)" -> "createBundle (lambda.js:2:1:6:2)";
+    "handleFireDetection (ruleEngine.js:6:12:16:6)" -> "uploadStr (lambda.js:8:1:12:2)";
+    "Sensor (sensor.js:2:1:15:2)" -> "Sensor (sensor.js:2:1:15:2)" [label="return", style=dashed, color=red];
+    "MQTTHandler (mqtt.js:3:1:8:2)" -> "MQTTHandler (mqtt.js:3:1:8:2)" [label="return", style=dashed, color=red];
+    "createBundle (lambda.js:2:1:6:2)" -> "createBundle (lambda.js:2:1:6:2)" [label="return", style=dashed, color=red];
+    "uploadStr (lambda.js:8:1:12:2)" -> "uploadStr (lambda.js:8:1:12:2)" [label="return", style=dashed, color=red];
+    "handleFireDetection (ruleEngine.js:6:12:16:6)" -> "handleFireDetection (ruleEngine.js:6:12:16:6)" [label="return", style=dashed, color=red];
+    "publish (mqtt.js:4:5:7:6)" -> "publish (mqtt.js:4:5:7:6)" [label="return", style=dashed, color=red];
+    "start (sensor.js:8:5:14:6)" -> "start (sensor.js:8:5:14:6)" [label="return", style=dashed, color=red];
+}

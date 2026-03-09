@@ -1,0 +1,58 @@
+Test Event
+{
+  "engine_speed": "120",
+  "breaking_event": "4"
+}
+output:
+Function Logs
+START RequestId: cc76b50e-ea41-4a78-ab87-6ca7ac88f928 Version: $LATEST
+2022-07-02T07:11:57.425Z	cc76b50e-ea41-4a78-ab87-6ca7ac88f928	INFO	Event => {"engine_speed":"140","breaking_event":"4"}
+2022-07-02T07:11:57.425Z	cc76b50e-ea41-4a78-ab87-6ca7ac88f928	INFO	you have applied sudden break due to some circumstances and break_status is high
+2022-07-02T07:11:57.425Z	cc76b50e-ea41-4a78-ab87-6ca7ac88f928	INFO	 but, sudden break at high speed may cause hit with preceding vehicle
+END RequestId: cc76b50e-ea41-4a78-ab87-6ca7ac88f928
+REPORT RequestId: cc76b50e-ea41-4a78-ab87-6ca7ac88f928	Duration: 11.30 ms	Billed Duration: 12 ms	Memory Size: 128 MB	Max Memory Used: 75 MB	Init Duration: 439.49 ms
+
+Test Event
+{
+  "engine_speed": "60",
+  "breaking_event": "4"
+}
+output:
+Function Logs
+START RequestId: eb7b5681-ec4f-4a64-a89b-1ad861cb64a9 Version: $LATEST
+2022-07-02T07:36:36.772Z	eb7b5681-ec4f-4a64-a89b-1ad861cb64a9	INFO	Event => {"engine_speed":"60","breaking_event":"4"}
+2022-07-02T07:36:36.772Z	eb7b5681-ec4f-4a64-a89b-1ad861cb64a9	INFO	you have applied sudden break due to some circumstances and break_status is high
+END RequestId: eb7b5681-ec4f-4a64-a89b-1ad861cb64a9
+REPORT RequestId: eb7b5681-ec4f-4a64-a89b-1ad861cb64a9	Duration: 148.61 ms	Billed Duration: 149 ms	Memory Size: 128 MB	Max Memory Used: 76 MB
+
+
+Test Event
+{
+  "engine_speed": "60",
+  "breaking_event": "2"
+}
+output:
+Function Logs
+START RequestId: 1c170f0f-d9e7-46a9-9203-94774f74ba89 Version: $LATEST
+2022-07-02T07:39:46.074Z	1c170f0f-d9e7-46a9-9203-94774f74ba89	INFO	Event => {"engine_speed":"60","breaking_event":"2"}
+2022-07-02T07:39:46.113Z	1c170f0f-d9e7-46a9-9203-94774f74ba89	INFO	break_status is low
+END RequestId: 1c170f0f-d9e7-46a9-9203-94774f74ba89
+REPORT RequestId: 1c170f0f-d9e7-46a9-9203-94774f74ba89	Duration: 101.17 ms	Billed Duration: 102 ms	Memory Size: 128 MB	Max Memory Used: 77 MB
+
+
+Test Event
+{
+  "engine_speed": "120",
+  "breaking_event": "2"
+}
+
+output:
+Function Logs
+START RequestId: 55543bf1-ae62-41fd-8438-3664cd3ae349 Version: $LATEST
+2022-07-02T07:40:49.932Z	55543bf1-ae62-41fd-8438-3664cd3ae349	INFO	Event => {"engine_speed":"120","breaking_event":"2"}
+2022-07-02T07:40:49.932Z	55543bf1-ae62-41fd-8438-3664cd3ae349	INFO	break_status is low
+END RequestId: 55543bf1-ae62-41fd-8438-3664cd3ae349
+REPORT RequestId: 55543bf1-ae62-41fd-8438-3664cd3ae349	Duration: 1.33 ms	Billed Duration: 2 ms	Memory Size: 128 MB	Max Memory Used: 77 MB
+
+Request ID
+55543bf1-ae62-41fd-8438-3664cd3ae349

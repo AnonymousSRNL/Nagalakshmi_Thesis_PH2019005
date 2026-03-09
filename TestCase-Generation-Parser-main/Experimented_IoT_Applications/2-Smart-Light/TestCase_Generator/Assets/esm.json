@@ -1,0 +1,14 @@
+[
+  {
+    "eventSource": "iot",
+    "filter": { "topic": "lightSensorTopic" }
+  },
+  {
+    "eventSource": "cloudwatch",
+    "filter": { "schedule": "rate(5 minutes)" }
+  },
+  {
+    "eventSource": "iot",
+    "filter": { "topic": "lightOnDurationTopic" }
+  }
+]

@@ -1,0 +1,24 @@
+[
+{
+  "topicFilter": "lightSensorTopic",
+  "messages": [
+    {
+      "payload": {
+        "sensorId": "lightSensor",
+        "uv_visible": 742.44
+      }
+    }
+  ]
+},
+{
+  "topicFilter": "lightOnDurationTopic",
+  "messages": [
+    {
+      "payload": {
+        "sensorId": "lightBulb",
+        "lightOnDuration": 200
+      }
+    }
+  ]
+}]
+

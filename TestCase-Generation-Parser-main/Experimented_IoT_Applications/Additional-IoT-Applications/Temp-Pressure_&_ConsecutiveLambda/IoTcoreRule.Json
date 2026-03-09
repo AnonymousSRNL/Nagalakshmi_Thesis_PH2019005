@@ -1,0 +1,36 @@
+{
+    "ruleArn": "arn:aws:iot:your-region:your-account-id:rule/TemperatureRule",
+    "rule": {
+        "ruleName": "TemperatureRule",
+        "actions": [
+            {
+                "lambda": {
+                    "functionArn": "arn:aws:lambda:your-region:your-account-id:function:Lambda1FunctionName"
+                }
+            }
+        ],
+        "createdAt": 1655116302.0,
+        "sql": "SELECT * FROM 'temperature/topic' WHERE temperature > 0",
+        "awsIotSqlVersion": "2016-03-23",
+        "ruleDisabled": false
+    }
+}
+
+{
+    "ruleArn": "arn:aws:iot:your-region:your-account-id:rule/PressureRule",
+    "rule": {
+        "ruleName": "PressureRule",
+        "actions": [
+            {
+                "lambda": {
+                    "functionArn": "arn:aws:lambda:your-region:your-account-id:function:Lambda1FunctionName"
+                }
+            }
+        ],
+        "createdAt": 1655116302.0,
+        "sql": "SELECT * FROM 'pressure/topic' WHERE pressure > 0",
+        "awsIotSqlVersion": "2016-03-23",
+        "ruleDisabled": false
+    }
+}
+

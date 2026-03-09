@@ -1,0 +1,178 @@
+[{
+  "topicFilter": "mycar/telemetry",
+  "qos": 0,
+  "messages": [
+    {
+      "format": "json",
+      "topic": "mycar/telemetry",
+      "timestamp": 1655115350779,
+      "payload": {
+        "clientId": "ID-91B2F06B3F05",
+        "serialNumber": "SN-D7F3C8947867",
+        "engine_speed": 115.30133321824933,
+        "fuel_level_ltrs": 32.24764185221574,
+        "breaking_event": 5,
+        "oil_temp": 81.1620457679609,
+        "car_status": 1
+      }
+    },
+    {
+      "format": "json",
+      "topic": "mycar/telemetry",
+      "timestamp": 1655115340790,
+      "payload": {
+        "clientId": "ID-91B2F06B3F05",
+        "serialNumber": "SN-D7F3C8947867",
+        "engine_speed": 39.23780263505862,
+        "fuel_level_ltrs": 33.588540575817184,
+        "breaking_event": 3,
+        "oil_temp": 65.86536750382542,
+        "car_status": 1
+      }
+    },
+    {
+      "format": "json",
+      "topic": "mycar/telemetry",
+      "timestamp": 1655115330744,
+      "payload": {
+        "clientId": "ID-91B2F06B3F05",
+        "serialNumber": "SN-D7F3C8947867",
+        "engine_speed": 74.47572885375803,
+        "fuel_level_ltrs": 33.01493306697234,
+        "breaking_event": 3,
+        "oil_temp": 38.705356448884324,
+        "car_status": 1
+      }
+    },
+    {
+      "format": "json",
+      "topic": "mycar/telemetry",
+      "timestamp": 1655115320736,
+      "payload": {
+        "clientId": "ID-91B2F06B3F05",
+        "serialNumber": "SN-D7F3C8947867",
+        "engine_speed": 79.55043861829647,
+        "fuel_level_ltrs": 3.801868078288363,
+        "breaking_event": 5,
+        "oil_temp": 48.913821870026965,
+        "car_status": 0
+      }
+    },
+    {
+      "format": "json",
+      "topic": "mycar/telemetry",
+      "timestamp": 1655115310721,
+      "payload": {
+        "clientId": "ID-91B2F06B3F05",
+        "serialNumber": "SN-D7F3C8947867",
+        "engine_speed": 61.01230699530015,
+        "fuel_level_ltrs": 11.81269627209296,
+        "breaking_event": 3,
+        "oil_temp": 81.20411945798546,
+        "car_status": 0
+      }
+    },
+    {
+      "format": "json",
+      "topic": "mycar/telemetry",
+      "timestamp": 1655115300811,
+      "payload": {
+        "clientId": "ID-91B2F06B3F05",
+        "serialNumber": "SN-D7F3C8947867",
+        "engine_speed": 28.71164679342217,
+        "fuel_level_ltrs": 3.9731184172299927,
+        "breaking_event": 2,
+        "oil_temp": 63.871842497352155,
+        "car_status": 0
+      }
+    },
+    {
+      "format": "json",
+      "topic": "mycar/telemetry",
+      "timestamp": 1655115290980,
+      "payload": {
+        "clientId": "ID-91B2F06B3F05",
+        "serialNumber": "SN-D7F3C8947867",
+        "engine_speed": 12.112678167805067,
+        "fuel_level_ltrs": 34.150529365078356,
+        "breaking_event": 5,
+        "oil_temp": 107.60633061405903,
+        "car_status": 0
+      }
+    },
+    {
+      "format": "json",
+      "topic": "mycar/telemetry",
+      "timestamp": 1655115228375,
+      "payload": {
+        "clientId": "ID-91B2F06B3F05",
+        "serialNumber": "SN-D7F3C8947867",
+        "engine_speed": 103.35596718006119,
+        "fuel_level_ltrs": 3.9477027709929216,
+        "breaking_event": 5,
+        "oil_temp": 108.56110691775888
+      }
+    },
+    {
+      "format": "json",
+      "topic": "mycar/telemetry",
+      "timestamp": 1655115218400,
+      "payload": {
+        "clientId": "ID-91B2F06B3F05",
+        "serialNumber": "SN-D7F3C8947867",
+        "engine_speed": 101.80857869195732,
+        "fuel_level_ltrs": 1.6829831649978455,
+        "breaking_event": 3,
+        "oil_temp": 82.52199732750154
+      }
+    }
+  ]},
+ 
+
+
+  {
+  "topicFilter": "lightSensorTopic",
+  "qos": 0,
+  "messages": [
+    {
+      "format": "json",
+      "topic": "lightSensorTopic",
+      "timestamp": 1650286895446,
+      "payload": {
+        "uv_visible": 742.4426453424581
+      }
+    },
+    {
+      "format": "json",
+      "topic": "lightSensorTopic",
+      "timestamp": 1650286885438,
+      "payload": {
+        "uv_visible": 650.3233539182089
+      }
+    },
+    {
+      "format": "json",
+      "topic": "lightSensorTopic",
+      "timestamp": 1650286875426,
+      "payload": {
+        "uv_visible": 281.6200242106699
+      }
+    },
+    {
+      "format": "json",
+      "topic": "lightSensorTopic",
+      "timestamp": 1650286865405,
+      "payload": {
+        "uv_visible": 367.43249172849545
+      }
+    },
+    {
+      "format": "json",
+      "topic": "lightSensorTopic",
+      "timestamp": 1650286855440,
+      "payload": {
+        "uv_visible": 917.8688240848032
+      }
+    }
+  ]
+}]

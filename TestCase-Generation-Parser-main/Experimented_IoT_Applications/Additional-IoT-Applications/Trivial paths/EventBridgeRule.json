@@ -1,0 +1,30 @@
+{
+    "Name": "YOUR_RULE_NAME",
+    "Arn": "arn:aws:events:YOUR_REGION:YOUR_ACCOUNT_ID:rule/YOUR_RULE_NAME",
+    "EventPattern": {
+        "source": [
+            "aws.s3"
+        ],
+        "detail": {
+            "eventName": [
+                "PutObject"
+            ]
+        },
+        "resources": [
+            "arn:aws:s3:::YOUR_S3_BUCKET_NAME/*"
+        ],
+        "detailType": "S3_Object_Creation_Event"
+    },
+    "State": "ENABLED",
+    "Description": "S3 PutObject Event Rule",
+    "ScheduleExpression": null,
+    "RoleArn": "arn:aws:iam::YOUR_ACCOUNT_ID:role/service-role/YOUR_ROLE_NAME",
+    "ManagedBy": "events.amazonaws.com",
+    "EventBusName": null,
+    "Targets": [
+        {
+            "Id": "1",
+            "Arn": "arn:aws:sns:YOUR_REGION:YOUR_ACCOUNT_ID:YOUR_SNS_TOPIC_ARN"
+        }
+    ]
+}

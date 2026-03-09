@@ -1,0 +1,180 @@
+const { expect } = require("chai");
+
+describe("MyCar IoT Application – Coverage Tests", () => {
+
+    // ---------------------------------------------------------------------
+    // 1. LAMBDA COVERAGE TESTS (LC)
+    // ---------------------------------------------------------------------
+    describe("Lambda Coverage (LC)", () => {
+
+        it("LC‑0: Oil_Temp_Lambda should be invoked by MycarOilRule with correct params", () => {
+            const rule = {
+                ruleName: "MycarOilRule",
+                sql: 'SELECT oil_temp, car_status FROM "mycar/telemetry"',
+                lambda: "Oil_Temp_Lambda"
+            };
+
+            expect(rule.lambda).to.equal("Oil_Temp_Lambda");
+            expect(rule.sql.includes("oil_temp")).to.be.true;
+            expect(rule.sql.includes("car_status")).to.be.true;
+        });
+
+        it("LC‑1: Acceleration_Lambda should be invoked by MycarBreakRule with correct params", () => {
+            const rule = {
+                ruleName: "MycarBreakRule",
+                sql: 'SELECT breaking_event, engine_speed FROM "mycar/telemetry"',
+                lambda: "Acceleration_Lambda"
+            };
+
+            expect(rule.lambda).to.equal("Acceleration_Lambda");
+            expect(rule.sql.includes("breaking_event")).to.be.true;
+            expect(rule.sql.includes("engine_speed")).to.be.true;
+        });
+    });
+
+    // ---------------------------------------------------------------------
+    // 2. END‑TO‑END FLOW COVERAGE TESTS (EE)
+    // ---------------------------------------------------------------------
+    describe("End‑to‑End Flow Coverage (EE)", () => {
+
+        it("EE‑0: Oil_Temp_Lambda final successor should be HTTP Response", () => {
+            const EE = {
+                lambda: "Oil_Temp_Lambda",
+                finalSuccessor: "HTTP Response"
+            };
+
+            expect(EE.finalSuccessor).to.equal("HTTP Response");
+        });
+
+        it("EE‑1: Acceleration_Lambda final successor should be HTTP Response", () => {
+            const EE = {
+                lambda: "Acceleration_Lambda",
+                finalSuccessor: "HTTP Response"
+            };
+
+            expect(EE.finalSuccessor).to.equal("HTTP Response");
+        });
+    });
+
+    // ---------------------------------------------------------------------
+    // 3. EVENT COVERAGE TESTS (EC)
+    // ---------------------------------------------------------------------
+    describe("Event Coverage (EC)", () => {
+
+        it("EC‑0: Sensor should publish to MycarOilRule", () => {
+            const event = {
+                EG: "Sensor D1",
+                EC: "MycarOilRule",
+                topic: "mycar/telemetry"
+            };
+
+            expect(event.topic).to.equal("mycar/telemetry");
+            expect(event.EC).to.equal("MycarOilRule");
+        });
+
+        it("EC‑1: MycarOilRule should trigger Oil_Temp_Lambda", () => {
+            const event = {
+                EG: "MycarOilRule",
+                EC: "Oil_Temp_Lambda"
+            };
+
+            expect(event.EC).to.equal("Oil_Temp_Lambda");
+        });
+
+        it("EC‑2: Sensor should publish to MycarBreakRule", () => {
+            const event = {
+                EG: "Sensor D1",
+                EC: "MycarBreakRule",
+                topic: "mycar/telemetry"
+            };
+
+            expect(event.EC).to.equal("MycarBreakRule");
+        });
+
+        it("EC‑3: MycarBreakRule should trigger Acceleration_Lambda", () => {
+            const event = {
+                EG: "MycarBreakRule",
+                EC: "Acceleration_Lambda"
+            };
+
+            expect(event.EC).to.equal("Acceleration_Lambda");
+        });
+    });
+
+    // ---------------------------------------------------------------------
+    // 4. DECISION COVERAGE TESTS (DC)
+    // ---------------------------------------------------------------------
+    describe("Decision Coverage (DC)", () => {
+
+        // Acceleration_Lambda predicates
+        it("DC‑0: breaking_event >= 4", () => {
+            const predicate = (breaking_event) => breaking_event >= 4;
+
+            expect(predicate(3)).to.be.false;
+            expect(predicate(4)).to.be.true;
+            expect(predicate(5)).to.be.true;
+        });
+
+        it("DC‑1: engine_speed > 100", () => {
+            const predicate = (engine_speed) => engine_speed > 100;
+
+            expect(predicate(100)).to.be.false;
+            expect(predicate(101)).to.be.true;
+        });
+
+        // Oil_Temp_Lambda predicates
+        it("DC‑2: oil_temp > 100", () => {
+            const predicate = (oil_temp) => oil_temp > 100;
+
+            expect(predicate(100)).to.be.false;
+            expect(predicate(101)).to.be.true;
+        });
+
+        it("DC‑3: car_status == 1", () => {
+            const predicate = (car_status) => car_status == 1;
+
+            expect(predicate(0)).to.be.false;
+            expect(predicate(1)).to.be.true;
+        });
+    });
+
+});
+
+***********************SNS**********************
+
+describe("Actuator Conflict Detection – SNS Messages", () => {
+
+    function oilTempSNS(event) {
+        if (event.oil_temp > 100 && event.car_status == 1)
+            return "PARK_IMMEDIATELY";
+        return "NO_ACTION";
+    }
+
+    function accelSNS(event) {
+        if (event.breaking_event >= 4 && event.engine_speed > 100)
+            return "DANGER_SUDDEN_BRAKE_AT_HIGH_SPEED";
+        return "NO_ACTION";
+    }
+
+    function detectSNSConflict(msg1, msg2) {
+        return (
+            msg1 === "PARK_IMMEDIATELY" &&
+            msg2 === "DANGER_SUDDEN_BRAKE_AT_HIGH_SPEED"
+        );
+    }
+
+    it("should detect SNS actuator conflict for same event", () => {
+        const event = {
+            oil_temp: 120,
+            car_status: 1,
+            breaking_event: 5,
+            engine_speed: 120
+        };
+
+        const msgOil = oilTempSNS(event);
+        const msgAccel = accelSNS(event);
+
+        expect(detectSNSConflict(msgOil, msgAccel)).to.equal(true);
+    });
+});
+

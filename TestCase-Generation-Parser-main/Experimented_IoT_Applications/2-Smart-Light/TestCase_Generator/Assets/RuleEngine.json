@@ -1,0 +1,28 @@
+[
+  {
+    "rule": {
+      "ruleName": "LightSensor",
+      "sql": "SELECT uv_visible FROM \"lightSensorTopic\"",
+      "actions": [
+        {
+          "lambda": {
+            "functionArn": "arn:aws:lambda:us-east-1:109043899433:function:DeviceData_Lambda"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "rule": {
+      "ruleName": "AssertRule",
+      "sql": "SELECT * FROM \"lightOnDurationTopic\"",
+      "actions": [
+        {
+          "lambda": {
+            "functionArn": "arn:aws:lambda:us-east-1:109043899433:function:Assert_Lambda"
+          }
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,374 @@
+[DEBUG] MyAnalysis initialized.
+[FUNC ENTER] <anonymous> at (index.js:1:1:27:17), Args: [], Timestamp: 1742414138471
+[LITERAL] Value: undefined at (index.js:1:1:27:17)
+[FUNC EXIT] <anonymous> at (index.js:1:1:27:17), Return: undefined, Exception: {}, Timestamp: 1742414138511
+[FUNC ENTER] <anonymous> at (index.js:1:1:27:17), Args: [{},null,{"id":".","path":"/home/sasank/PE/chain-action","exports":"[Circular]","filename":"/home/sasank/PE/chain-action/index.js","loaded":false,"children":[],"paths":["/home/sasank/PE/chain-action/node_modules","/home/sasank/PE/node_modules","/home/sasank/node_modules","/home/node_modules","/node_modules"]},"/home/sasank/PE/chain-action/index.js","/home/sasank/PE/chain-action"], Timestamp: 1742414138525
+[READ] Identifier: require, Value at (index.js:2:30:2:37)
+[LITERAL] Value: "./sensor" at (index.js:2:38:2:48)
+[FUNC ENTER] <anonymous> at (sensor.js:1:1:16:98), Args: [], Timestamp: 1742414138564
+[LITERAL] Value: undefined at (sensor.js:1:1:16:98)
+[FUNC EXIT] <anonymous> at (sensor.js:1:1:16:98), Return: undefined, Exception: {}, Timestamp: 1742414138587
+[FUNC ENTER] <anonymous> at (sensor.js:1:1:16:98), Args: [{},null,{"id":"/home/sasank/PE/chain-action/sensor.js","path":"/home/sasank/PE/chain-action","exports":"[Circular]","filename":"/home/sasank/PE/chain-action/sensor.js","loaded":false,"children":[],"paths":["/home/sasank/PE/chain-action/node_modules","/home/sasank/PE/node_modules","/home/sasank/node_modules","/home/node_modules","/node_modules"]},"/home/sasank/PE/chain-action/sensor.js","/home/sasank/PE/chain-action"], Timestamp: 1742414138593
+[READ] Identifier: require, Value at (sensor.js:1:22:1:29)
+[LITERAL] Value: "events" at (sensor.js:1:30:1:38)
+[WRITE] Identifier: EventEmitter, Value at (sensor.js:1:1:1:39)
+[READ] Identifier: EventEmitter, Value at (sensor.js:2:22:2:34)
+[LITERAL] Value: undefined at (sensor.js:8:5:14:6)
+[READ] Identifier: module, Value at (sensor.js:16:1:16:7)
+[READ] Identifier: Sensor, Value at (sensor.js:16:33:16:39)
+[LITERAL] Value: "Temperature Sensor" at (sensor.js:16:40:16:60)
+[FUNC ENTER] Sensor at (sensor.js:2:1:15:2), Args: [null,"Temperature Sensor"], Timestamp: 1742414138632
+[READ] Identifier: name, Value at (sensor.js:5:21:5:25)
+[FUNC EXIT] Sensor at (sensor.js:2:1:15:2), Return: {"_events":{},"_eventsCount":0,"name":"Temperature Sensor"}, Exception: {}, Timestamp: 1742414138640
+[READ] Identifier: Sensor, Value at (sensor.js:16:76:16:82)
+[LITERAL] Value: "AC Sensor" at (sensor.js:16:83:16:94)
+[FUNC ENTER] Sensor at (sensor.js:2:1:15:2), Args: [null,"AC Sensor"], Timestamp: 1742414138652
+[READ] Identifier: name, Value at (sensor.js:5:21:5:25)
+[FUNC EXIT] Sensor at (sensor.js:2:1:15:2), Return: {"_events":{},"_eventsCount":0,"name":"AC Sensor"}, Exception: {}, Timestamp: 1742414138656
+[LITERAL] Value: {"sensor1":{"_events":{},"_eventsCount":0,"name":"Temperature Sensor"},"sensor2":{"_events":{},"_eventsCount":0,"name":"AC Sensor"}} at (sensor.js:16:18:16:97)
+[FUNC EXIT] <anonymous> at (sensor.js:1:1:16:98), Return: undefined, Exception: {}, Timestamp: 1742414138664
+[WRITE] Identifier: sensor1, Value at (index.js:2:9:2:16)
+[WRITE] Identifier: sensor2, Value at (index.js:2:18:2:25)
+[READ] Identifier: require, Value at (index.js:3:14:3:21)
+[LITERAL] Value: "./mqtt" at (index.js:3:22:3:30)
+[FUNC ENTER] <anonymous> at (mqtt.js:1:1:8:36), Args: [], Timestamp: 1742414138686
+[LITERAL] Value: undefined at (mqtt.js:1:1:8:36)
+[FUNC EXIT] <anonymous> at (mqtt.js:1:1:8:36), Return: undefined, Exception: {}, Timestamp: 1742414138689
+[FUNC ENTER] <anonymous> at (mqtt.js:1:1:8:36), Args: [{},null,{"id":"/home/sasank/PE/chain-action/mqtt.js","path":"/home/sasank/PE/chain-action","exports":"[Circular]","filename":"/home/sasank/PE/chain-action/mqtt.js","loaded":false,"children":[],"paths":["/home/sasank/PE/chain-action/node_modules","/home/sasank/PE/node_modules","/home/sasank/node_modules","/home/node_modules","/node_modules"]},"/home/sasank/PE/chain-action/mqtt.js","/home/sasank/PE/chain-action"], Timestamp: 1742414138691
+[READ] Identifier: require, Value at (mqtt.js:1:22:1:29)
+[LITERAL] Value: "events" at (mqtt.js:1:30:1:38)
+[WRITE] Identifier: EventEmitter, Value at (mqtt.js:1:1:1:39)
+[READ] Identifier: EventEmitter, Value at (mqtt.js:2:27:2:39)
+[LITERAL] Value: undefined at (mqtt.js:3:5:6:6)
+[READ] Identifier: module, Value at (mqtt.js:8:1:8:7)
+[READ] Identifier: MQTTHandler, Value at (mqtt.js:8:22:8:33)
+[FUNC ENTER] MQTTHandler at (mqtt.js:2:1:7:2), Args: [null], Timestamp: 1742414138710
+[FUNC EXIT] MQTTHandler at (mqtt.js:2:1:7:2), Return: {"_events":{},"_eventsCount":0}, Exception: {}, Timestamp: 1742414138713
+[FUNC EXIT] <anonymous> at (mqtt.js:1:1:8:36), Return: undefined, Exception: {}, Timestamp: 1742414138714
+[WRITE] Identifier: mqtt, Value at (index.js:3:1:3:31)
+[READ] Identifier: require, Value at (index.js:4:20:4:27)
+[LITERAL] Value: "./ruleEngine" at (index.js:4:28:4:42)
+[FUNC ENTER] <anonymous> at (ruleEngine.js:1:1:18:29), Args: [], Timestamp: 1742414138729
+[LITERAL] Value: undefined at (ruleEngine.js:1:1:18:29)
+[FUNC EXIT] <anonymous> at (ruleEngine.js:1:1:18:29), Return: undefined, Exception: {}, Timestamp: 1742414138734
+[FUNC ENTER] <anonymous> at (ruleEngine.js:1:1:18:29), Args: [{},null,{"id":"/home/sasank/PE/chain-action/ruleEngine.js","path":"/home/sasank/PE/chain-action","exports":"[Circular]","filename":"/home/sasank/PE/chain-action/ruleEngine.js","loaded":false,"children":[],"paths":["/home/sasank/PE/chain-action/node_modules","/home/sasank/PE/node_modules","/home/sasank/node_modules","/home/node_modules","/node_modules"]},"/home/sasank/PE/chain-action/ruleEngine.js","/home/sasank/PE/chain-action"], Timestamp: 1742414138738
+[READ] Identifier: require, Value at (ruleEngine.js:2:14:2:21)
+[LITERAL] Value: "./mqtt" at (ruleEngine.js:2:22:2:30)
+[WRITE] Identifier: mqtt, Value at (ruleEngine.js:2:1:2:31)
+[READ] Identifier: require, Value at (ruleEngine.js:3:20:3:27)
+[LITERAL] Value: "./tempLambda" at (ruleEngine.js:3:28:3:42)
+[FUNC ENTER] <anonymous> at (tempLambda.js:1:1:11:29), Args: [], Timestamp: 1742414138756
+[LITERAL] Value: undefined at (tempLambda.js:1:1:11:29)
+[FUNC EXIT] <anonymous> at (tempLambda.js:1:1:11:29), Return: undefined, Exception: {}, Timestamp: 1742414138760
+[FUNC ENTER] <anonymous> at (tempLambda.js:1:1:11:29), Args: [{},null,{"id":"/home/sasank/PE/chain-action/tempLambda.js","path":"/home/sasank/PE/chain-action","exports":"[Circular]","filename":"/home/sasank/PE/chain-action/tempLambda.js","loaded":false,"children":[],"paths":["/home/sasank/PE/chain-action/node_modules","/home/sasank/PE/node_modules","/home/sasank/node_modules","/home/node_modules","/node_modules"]},"/home/sasank/PE/chain-action/tempLambda.js","/home/sasank/PE/chain-action"], Timestamp: 1742414138764
+[LITERAL] Value: undefined at (tempLambda.js:4:1:10:2)
+[WRITE] Identifier: tempLambda, Value at (tempLambda.js:4:1:10:2)
+[READ] Identifier: require, Value at (tempLambda.js:2:14:2:21)
+[LITERAL] Value: "./mqtt" at (tempLambda.js:2:22:2:30)
+[WRITE] Identifier: mqtt, Value at (tempLambda.js:2:1:2:31)
+[READ] Identifier: require, Value at (tempLambda.js:3:13:3:20)
+[LITERAL] Value: "./sns" at (tempLambda.js:3:21:3:28)
+[FUNC ENTER] <anonymous> at (sns.js:1:1:6:22), Args: [], Timestamp: 1742414138802
+[LITERAL] Value: undefined at (sns.js:1:1:6:22)
+[FUNC EXIT] <anonymous> at (sns.js:1:1:6:22), Return: undefined, Exception: {}, Timestamp: 1742414138808
+[FUNC ENTER] <anonymous> at (sns.js:1:1:6:22), Args: [{},null,{"id":"/home/sasank/PE/chain-action/sns.js","path":"/home/sasank/PE/chain-action","exports":"[Circular]","filename":"/home/sasank/PE/chain-action/sns.js","loaded":false,"children":[],"paths":["/home/sasank/PE/chain-action/node_modules","/home/sasank/PE/node_modules","/home/sasank/node_modules","/home/node_modules","/node_modules"]},"/home/sasank/PE/chain-action/sns.js","/home/sasank/PE/chain-action"], Timestamp: 1742414138811
+[LITERAL] Value: undefined at (sns.js:2:12:4:6)
+[READ] Identifier: module, Value at (sns.js:6:1:6:7)
+[READ] Identifier: SNS, Value at (sns.js:6:18:6:21)
+[FUNC EXIT] <anonymous> at (sns.js:1:1:6:22), Return: undefined, Exception: {}, Timestamp: 1742414138825
+[WRITE] Identifier: sns, Value at (tempLambda.js:3:1:3:29)
+[READ] Identifier: module, Value at (tempLambda.js:11:1:11:7)
+[READ] Identifier: tempLambda, Value at (tempLambda.js:11:18:11:28)
+[FUNC EXIT] <anonymous> at (tempLambda.js:1:1:11:29), Return: undefined, Exception: {}, Timestamp: 1742414138829
+[WRITE] Identifier: tempLambda, Value at (ruleEngine.js:3:1:3:43)
+[READ] Identifier: require, Value at (ruleEngine.js:4:18:4:25)
+[LITERAL] Value: "./acLambda" at (ruleEngine.js:4:26:4:38)
+[FUNC ENTER] <anonymous> at (acLambda.js:1:1:9:27), Args: [], Timestamp: 1742414138846
+[LITERAL] Value: undefined at (acLambda.js:1:1:9:27)
+[FUNC EXIT] <anonymous> at (acLambda.js:1:1:9:27), Return: undefined, Exception: {}, Timestamp: 1742414138852
+[FUNC ENTER] <anonymous> at (acLambda.js:1:1:9:27), Args: [{},null,{"id":"/home/sasank/PE/chain-action/acLambda.js","path":"/home/sasank/PE/chain-action","exports":"[Circular]","filename":"/home/sasank/PE/chain-action/acLambda.js","loaded":false,"children":[],"paths":["/home/sasank/PE/chain-action/node_modules","/home/sasank/PE/node_modules","/home/sasank/node_modules","/home/node_modules","/node_modules"]},"/home/sasank/PE/chain-action/acLambda.js","/home/sasank/PE/chain-action"], Timestamp: 1742414138855
+[LITERAL] Value: undefined at (acLambda.js:3:1:8:2)
+[WRITE] Identifier: acLambda, Value at (acLambda.js:3:1:8:2)
+[READ] Identifier: require, Value at (acLambda.js:2:13:2:20)
+[LITERAL] Value: "./sns" at (acLambda.js:2:21:2:28)
+[WRITE] Identifier: sns, Value at (acLambda.js:2:1:2:29)
+[READ] Identifier: module, Value at (acLambda.js:9:1:9:7)
+[READ] Identifier: acLambda, Value at (acLambda.js:9:18:9:26)
+[FUNC EXIT] <anonymous> at (acLambda.js:1:1:9:27), Return: undefined, Exception: {}, Timestamp: 1742414138870
+[WRITE] Identifier: acLambda, Value at (ruleEngine.js:4:1:4:39)
+[LITERAL] Value: undefined at (ruleEngine.js:7:12:10:6)
+[LITERAL] Value: undefined at (ruleEngine.js:12:12:15:6)
+[READ] Identifier: module, Value at (ruleEngine.js:18:1:18:7)
+[READ] Identifier: RuleEngine, Value at (ruleEngine.js:18:18:18:28)
+[FUNC EXIT] <anonymous> at (ruleEngine.js:1:1:18:29), Return: undefined, Exception: {}, Timestamp: 1742414138885
+[WRITE] Identifier: RuleEngine, Value at (index.js:4:1:4:43)
+[READ] Identifier: sensor1, Value at (index.js:6:1:6:8)
+[LITERAL] Value: "data" at (index.js:6:12:6:18)
+[LITERAL] Value: undefined at (index.js:6:20:8:2)
+[READ] Identifier: sensor2, Value at (index.js:10:1:10:8)
+[LITERAL] Value: "data" at (index.js:10:12:10:18)
+[LITERAL] Value: undefined at (index.js:10:20:12:2)
+[READ] Identifier: mqtt, Value at (index.js:14:1:14:5)
+[LITERAL] Value: "temperature" at (index.js:14:9:14:22)
+[LITERAL] Value: undefined at (index.js:14:24:16:2)
+[READ] Identifier: mqtt, Value at (index.js:18:1:18:5)
+[LITERAL] Value: "acStatus" at (index.js:18:9:18:19)
+[LITERAL] Value: undefined at (index.js:18:21:20:2)
+[READ] Identifier: mqtt, Value at (index.js:22:1:22:5)
+[LITERAL] Value: "acSensor" at (index.js:22:9:22:19)
+[LITERAL] Value: undefined at (index.js:22:21:24:2)
+[READ] Identifier: sensor1, Value at (index.js:26:1:26:8)
+[FUNC ENTER] start at (sensor.js:8:5:14:6), Args: [], Timestamp: 1742414138923
+[READ] Identifier: Math, Value at (sensor.js:10:27:10:31)
+[LITERAL] Value: 40 at (sensor.js:10:43:10:45)
+[BINARY] 0.9585270352276201 * 40 = 38.3410814091048 at (sensor.js:10:27:10:45)
+[LITERAL] Value: 10 at (sensor.js:10:27:10:50)
+[BINARY] 38.3410814091048 + 10 = 48.3410814091048 at (sensor.js:10:27:10:50)
+[WRITE] Identifier: value, Value at (sensor.js:10:13:10:50)
+[READ] Identifier: console, Value at (sensor.js:11:13:11:20)
+[LITERAL] Value: "" at (sensor.js:11:25:11:28)
+[READ] Identifier: this, Value at (sensor.js:11:28:11:32)
+[LITERAL] Value: " reading: " at (sensor.js:11:37:11:50)
+[READ] Identifier: value, Value at (sensor.js:11:50:11:55)
+[LITERAL] Value: "" at (sensor.js:11:55:11:57)
+[BINARY]  + Temperature Sensor = Temperature Sensor reading: 48.3410814091048 at (sensor.js:11:25:11:57)
+Temperature Sensor reading: 48.3410814091048
+[READ] Identifier: this, Value at (sensor.js:12:13:12:17)
+[LITERAL] Value: "data" at (sensor.js:12:23:12:29)
+[READ] Identifier: value, Value at (sensor.js:12:31:12:36)
+[FUNC ENTER] <anonymous> at (index.js:6:20:8:2), Args: [48.3410814091048], Timestamp: 1742414138942
+[READ] Identifier: mqtt, Value at (index.js:7:5:7:9)
+[LITERAL] Value: "temperature" at (index.js:7:18:7:31)
+[READ] Identifier: data, Value at (index.js:7:33:7:37)
+[FUNC ENTER] publish at (mqtt.js:3:5:6:6), Args: ["temperature",48.3410814091048], Timestamp: 1742414138955
+[READ] Identifier: console, Value at (mqtt.js:4:9:4:16)
+[LITERAL] Value: "MQTT Published on " at (mqtt.js:4:21:4:42)
+[READ] Identifier: topic, Value at (mqtt.js:4:42:4:47)
+[LITERAL] Value: ": " at (mqtt.js:4:47:4:52)
+[READ] Identifier: data, Value at (mqtt.js:4:52:4:56)
+[LITERAL] Value: "" at (mqtt.js:4:56:4:58)
+[BINARY] MQTT Published on  + temperature = MQTT Published on temperature: 48.3410814091048 at (mqtt.js:4:21:4:58)
+MQTT Published on temperature: 48.3410814091048
+[READ] Identifier: this, Value at (mqtt.js:5:9:5:13)
+[READ] Identifier: topic, Value at (mqtt.js:5:19:5:24)
+[READ] Identifier: data, Value at (mqtt.js:5:26:5:30)
+[FUNC ENTER] <anonymous> at (index.js:14:24:16:2), Args: [48.3410814091048], Timestamp: 1742414138966
+[READ] Identifier: RuleEngine, Value at (index.js:15:5:15:15)
+[READ] Identifier: data, Value at (index.js:15:22:15:26)
+[FUNC ENTER] rule1 at (ruleEngine.js:7:12:10:6), Args: [48.3410814091048], Timestamp: 1742414138969
+[READ] Identifier: console, Value at (ruleEngine.js:8:9:8:16)
+[LITERAL] Value: "Rule1: Evaluating temperature data..." at (ruleEngine.js:8:21:8:60)
+Rule1: Evaluating temperature data...
+[READ] Identifier: tempLambda, Value at (ruleEngine.js:9:9:9:19)
+[READ] Identifier: temp, Value at (ruleEngine.js:9:20:9:24)
+[ASYNC ENTER] at (tempLambda.js:4:1:10:2)
+[FUNC ENTER] tempLambda at (tempLambda.js:4:1:10:2), Args: [48.3410814091048], Timestamp: 1742414138977
+[READ] Identifier: console, Value at (tempLambda.js:5:5:5:12)
+[LITERAL] Value: "Lambda: Processing temperature data..." at (tempLambda.js:5:17:5:57)
+Lambda: Processing temperature data...
+[READ] Identifier: temp, Value at (tempLambda.js:6:22:6:26)
+[LITERAL] Value: 30 at (tempLambda.js:6:29:6:31)
+[BINARY] 48.3410814091048 > 30 = true at (tempLambda.js:6:22:6:31)
+[CONDITIONAL] Result: true at (tempLambda.js:6:22:6:31)
+[LITERAL] Value: "ON" at (tempLambda.js:6:34:6:38)
+[WRITE] Identifier: acStatus, Value at (tempLambda.js:6:5:6:45)
+[READ] Identifier: console, Value at (tempLambda.js:7:5:7:12)
+[LITERAL] Value: "Lambda: AC Status: " at (tempLambda.js:7:17:7:39)
+[READ] Identifier: acStatus, Value at (tempLambda.js:7:39:7:47)
+[LITERAL] Value: "" at (tempLambda.js:7:47:7:49)
+[BINARY] Lambda: AC Status:  + ON = Lambda: AC Status: ON at (tempLambda.js:7:17:7:49)
+Lambda: AC Status: ON
+[READ] Identifier: mqtt, Value at (tempLambda.js:8:5:8:9)
+[LITERAL] Value: "acStatus" at (tempLambda.js:8:18:8:28)
+[READ] Identifier: acStatus, Value at (tempLambda.js:8:30:8:38)
+[FUNC ENTER] publish at (mqtt.js:3:5:6:6), Args: ["acStatus","ON"], Timestamp: 1742414138998
+[READ] Identifier: console, Value at (mqtt.js:4:9:4:16)
+[LITERAL] Value: "MQTT Published on " at (mqtt.js:4:21:4:42)
+[READ] Identifier: topic, Value at (mqtt.js:4:42:4:47)
+[LITERAL] Value: ": " at (mqtt.js:4:47:4:52)
+[READ] Identifier: data, Value at (mqtt.js:4:52:4:56)
+[LITERAL] Value: "" at (mqtt.js:4:56:4:58)
+[BINARY] MQTT Published on  + acStatus = MQTT Published on acStatus: ON at (mqtt.js:4:21:4:58)
+MQTT Published on acStatus: ON
+[READ] Identifier: this, Value at (mqtt.js:5:9:5:13)
+[READ] Identifier: topic, Value at (mqtt.js:5:19:5:24)
+[READ] Identifier: data, Value at (mqtt.js:5:26:5:30)
+[FUNC ENTER] <anonymous> at (index.js:18:21:20:2), Args: ["ON"], Timestamp: 1742414139003
+[READ] Identifier: mqtt, Value at (index.js:19:5:19:9)
+[LITERAL] Value: "acSensor" at (index.js:19:18:19:28)
+[READ] Identifier: status, Value at (index.js:19:30:19:36)
+[FUNC ENTER] publish at (mqtt.js:3:5:6:6), Args: ["acSensor","ON"], Timestamp: 1742414139010
+[READ] Identifier: console, Value at (mqtt.js:4:9:4:16)
+[LITERAL] Value: "MQTT Published on " at (mqtt.js:4:21:4:42)
+[READ] Identifier: topic, Value at (mqtt.js:4:42:4:47)
+[LITERAL] Value: ": " at (mqtt.js:4:47:4:52)
+[READ] Identifier: data, Value at (mqtt.js:4:52:4:56)
+[LITERAL] Value: "" at (mqtt.js:4:56:4:58)
+[BINARY] MQTT Published on  + acSensor = MQTT Published on acSensor: ON at (mqtt.js:4:21:4:58)
+MQTT Published on acSensor: ON
+[READ] Identifier: this, Value at (mqtt.js:5:9:5:13)
+[READ] Identifier: topic, Value at (mqtt.js:5:19:5:24)
+[READ] Identifier: data, Value at (mqtt.js:5:26:5:30)
+[FUNC ENTER] <anonymous> at (index.js:22:21:24:2), Args: ["ON"], Timestamp: 1742414139015
+[READ] Identifier: RuleEngine, Value at (index.js:23:5:23:15)
+[READ] Identifier: data, Value at (index.js:23:22:23:26)
+[FUNC ENTER] rule2 at (ruleEngine.js:12:12:15:6), Args: ["ON"], Timestamp: 1742414139018
+[READ] Identifier: console, Value at (ruleEngine.js:13:9:13:16)
+[LITERAL] Value: "Rule2: Evaluating AC sensor data..." at (ruleEngine.js:13:21:13:58)
+Rule2: Evaluating AC sensor data...
+[READ] Identifier: acLambda, Value at (ruleEngine.js:14:9:14:17)
+[READ] Identifier: acData, Value at (ruleEngine.js:14:18:14:24)
+[ASYNC ENTER] at (acLambda.js:3:1:8:2)
+[FUNC ENTER] acLambda at (acLambda.js:3:1:8:2), Args: ["ON"], Timestamp: 1742414139026
+[READ] Identifier: console, Value at (acLambda.js:4:5:4:12)
+[LITERAL] Value: "Lambda: Processing AC status change..." at (acLambda.js:4:17:4:57)
+Lambda: Processing AC status change...
+[READ] Identifier: acStatus, Value at (acLambda.js:5:26:5:34)
+[LITERAL] Value: "ON" at (acLambda.js:5:26:5:43)
+[BINARY] ON === ON = true at (acLambda.js:5:26:5:43)
+[CONDITIONAL] Result: true at (acLambda.js:5:26:5:43)
+[LITERAL] Value: "CLOSED" at (acLambda.js:5:46:5:54)
+[WRITE] Identifier: windowStatus, Value at (acLambda.js:5:5:5:62)
+[READ] Identifier: console, Value at (acLambda.js:6:5:6:12)
+[LITERAL] Value: "Lambda: Window Status: " at (acLambda.js:6:17:6:43)
+[READ] Identifier: windowStatus, Value at (acLambda.js:6:43:6:55)
+[LITERAL] Value: "" at (acLambda.js:6:55:6:57)
+[BINARY] Lambda: Window Status:  + CLOSED = Lambda: Window Status: CLOSED at (acLambda.js:6:17:6:57)
+Lambda: Window Status: CLOSED
+[READ] Identifier: sns, Value at (acLambda.js:7:5:7:8)
+[LITERAL] Value: "WindowAlert" at (acLambda.js:7:26:7:39)
+[LITERAL] Value: "AC is " at (acLambda.js:7:41:7:50)
+[READ] Identifier: acStatus, Value at (acLambda.js:7:50:7:58)
+[LITERAL] Value: ", window set to " at (acLambda.js:7:58:7:77)
+[READ] Identifier: windowStatus, Value at (acLambda.js:7:77:7:89)
+[LITERAL] Value: "" at (acLambda.js:7:89:7:91)
+[BINARY] AC is  + ON = AC is ON, window set to CLOSED at (acLambda.js:7:41:7:91)
+[FUNC ENTER] sendNotification at (sns.js:2:12:4:6), Args: ["WindowAlert","AC is ON, window set to CLOSED"], Timestamp: 1742414139058
+[READ] Identifier: console, Value at (sns.js:3:9:3:16)
+[LITERAL] Value: "SNS Notification sent on " at (sns.js:3:21:3:49)
+[READ] Identifier: topic, Value at (sns.js:3:49:3:54)
+[LITERAL] Value: ": " at (sns.js:3:54:3:59)
+[READ] Identifier: message, Value at (sns.js:3:59:3:66)
+[LITERAL] Value: "" at (sns.js:3:66:3:68)
+[BINARY] SNS Notification sent on  + WindowAlert = SNS Notification sent on WindowAlert: AC is ON, window set to CLOSED at (sns.js:3:21:3:68)
+SNS Notification sent on WindowAlert: AC is ON, window set to CLOSED
+[FUNC EXIT] sendNotification at (sns.js:2:12:4:6), Return: undefined, Exception: {}, Timestamp: 1742414139064
+[FUNC EXIT] acLambda at (acLambda.js:3:1:8:2), Return: undefined, Exception: {}, Timestamp: 1742414139065
+[ASYNC EXIT] at (acLambda.js:3:1:8:2), Return: {}, Exception: {}
+[FUNC EXIT] rule2 at (ruleEngine.js:12:12:15:6), Return: undefined, Exception: {}, Timestamp: 1742414139068
+[FUNC EXIT] <anonymous> at (index.js:22:21:24:2), Return: undefined, Exception: {}, Timestamp: 1742414139068
+[FUNC EXIT] publish at (mqtt.js:3:5:6:6), Return: undefined, Exception: {}, Timestamp: 1742414139069
+[FUNC EXIT] <anonymous> at (index.js:18:21:20:2), Return: undefined, Exception: {}, Timestamp: 1742414139069
+[FUNC EXIT] publish at (mqtt.js:3:5:6:6), Return: undefined, Exception: {}, Timestamp: 1742414139070
+[READ] Identifier: sns, Value at (tempLambda.js:9:5:9:8)
+[LITERAL] Value: "TemperatureAlert" at (tempLambda.js:9:26:9:44)
+[LITERAL] Value: "Temperature reached " at (tempLambda.js:9:46:9:69)
+[READ] Identifier: temp, Value at (tempLambda.js:9:69:9:73)
+[LITERAL] Value: "°C, AC turned " at (tempLambda.js:9:73:9:90)
+[READ] Identifier: acStatus, Value at (tempLambda.js:9:90:9:98)
+[LITERAL] Value: "" at (tempLambda.js:9:98:9:100)
+[BINARY] Temperature reached  + 48.3410814091048 = Temperature reached 48.3410814091048°C, AC turned ON at (tempLambda.js:9:46:9:100)
+[FUNC ENTER] sendNotification at (sns.js:2:12:4:6), Args: ["TemperatureAlert","Temperature reached 48.3410814091048°C, AC turned ON"], Timestamp: 1742414139080
+[READ] Identifier: console, Value at (sns.js:3:9:3:16)
+[LITERAL] Value: "SNS Notification sent on " at (sns.js:3:21:3:49)
+[READ] Identifier: topic, Value at (sns.js:3:49:3:54)
+[LITERAL] Value: ": " at (sns.js:3:54:3:59)
+[READ] Identifier: message, Value at (sns.js:3:59:3:66)
+[LITERAL] Value: "" at (sns.js:3:66:3:68)
+[BINARY] SNS Notification sent on  + TemperatureAlert = SNS Notification sent on TemperatureAlert: Temperature reached 48.3410814091048°C, AC turned ON at (sns.js:3:21:3:68)
+SNS Notification sent on TemperatureAlert: Temperature reached 48.3410814091048°C, AC turned ON
+[FUNC EXIT] sendNotification at (sns.js:2:12:4:6), Return: undefined, Exception: {}, Timestamp: 1742414139083
+[FUNC EXIT] tempLambda at (tempLambda.js:4:1:10:2), Return: undefined, Exception: {}, Timestamp: 1742414139084
+[ASYNC EXIT] at (tempLambda.js:4:1:10:2), Return: {}, Exception: {}
+[FUNC EXIT] rule1 at (ruleEngine.js:7:12:10:6), Return: undefined, Exception: {}, Timestamp: 1742414139086
+[FUNC EXIT] <anonymous> at (index.js:14:24:16:2), Return: undefined, Exception: {}, Timestamp: 1742414139087
+[FUNC EXIT] publish at (mqtt.js:3:5:6:6), Return: undefined, Exception: {}, Timestamp: 1742414139088
+[FUNC EXIT] <anonymous> at (index.js:6:20:8:2), Return: undefined, Exception: {}, Timestamp: 1742414139088
+[FUNC EXIT] start at (sensor.js:8:5:14:6), Return: undefined, Exception: {}, Timestamp: 1742414139089
+[READ] Identifier: sensor2, Value at (index.js:27:1:27:8)
+[FUNC ENTER] start at (sensor.js:8:5:14:6), Args: [], Timestamp: 1742414139090
+[READ] Identifier: Math, Value at (sensor.js:10:27:10:31)
+[LITERAL] Value: 40 at (sensor.js:10:43:10:45)
+[BINARY] 0.8128157548399225 * 40 = 32.5126301935969 at (sensor.js:10:27:10:45)
+[LITERAL] Value: 10 at (sensor.js:10:27:10:50)
+[BINARY] 32.5126301935969 + 10 = 42.5126301935969 at (sensor.js:10:27:10:50)
+[WRITE] Identifier: value, Value at (sensor.js:10:13:10:50)
+[READ] Identifier: console, Value at (sensor.js:11:13:11:20)
+[LITERAL] Value: "" at (sensor.js:11:25:11:28)
+[READ] Identifier: this, Value at (sensor.js:11:28:11:32)
+[LITERAL] Value: " reading: " at (sensor.js:11:37:11:50)
+[READ] Identifier: value, Value at (sensor.js:11:50:11:55)
+[LITERAL] Value: "" at (sensor.js:11:55:11:57)
+[BINARY]  + AC Sensor = AC Sensor reading: 42.5126301935969 at (sensor.js:11:25:11:57)
+AC Sensor reading: 42.5126301935969
+[READ] Identifier: this, Value at (sensor.js:12:13:12:17)
+[LITERAL] Value: "data" at (sensor.js:12:23:12:29)
+[READ] Identifier: value, Value at (sensor.js:12:31:12:36)
+[FUNC ENTER] <anonymous> at (index.js:10:20:12:2), Args: [42.5126301935969], Timestamp: 1742414139097
+[READ] Identifier: mqtt, Value at (index.js:11:5:11:9)
+[LITERAL] Value: "acSensor" at (index.js:11:18:11:28)
+[READ] Identifier: data, Value at (index.js:11:30:11:34)
+[FUNC ENTER] publish at (mqtt.js:3:5:6:6), Args: ["acSensor",42.5126301935969], Timestamp: 1742414139102
+[READ] Identifier: console, Value at (mqtt.js:4:9:4:16)
+[LITERAL] Value: "MQTT Published on " at (mqtt.js:4:21:4:42)
+[READ] Identifier: topic, Value at (mqtt.js:4:42:4:47)
+[LITERAL] Value: ": " at (mqtt.js:4:47:4:52)
+[READ] Identifier: data, Value at (mqtt.js:4:52:4:56)
+[LITERAL] Value: "" at (mqtt.js:4:56:4:58)
+[BINARY] MQTT Published on  + acSensor = MQTT Published on acSensor: 42.5126301935969 at (mqtt.js:4:21:4:58)
+MQTT Published on acSensor: 42.5126301935969
+[READ] Identifier: this, Value at (mqtt.js:5:9:5:13)
+[READ] Identifier: topic, Value at (mqtt.js:5:19:5:24)
+[READ] Identifier: data, Value at (mqtt.js:5:26:5:30)
+[FUNC ENTER] <anonymous> at (index.js:22:21:24:2), Args: [42.5126301935969], Timestamp: 1742414139108
+[READ] Identifier: RuleEngine, Value at (index.js:23:5:23:15)
+[READ] Identifier: data, Value at (index.js:23:22:23:26)
+[FUNC ENTER] rule2 at (ruleEngine.js:12:12:15:6), Args: [42.5126301935969], Timestamp: 1742414139111
+[READ] Identifier: console, Value at (ruleEngine.js:13:9:13:16)
+[LITERAL] Value: "Rule2: Evaluating AC sensor data..." at (ruleEngine.js:13:21:13:58)
+Rule2: Evaluating AC sensor data...
+[READ] Identifier: acLambda, Value at (ruleEngine.js:14:9:14:17)
+[READ] Identifier: acData, Value at (ruleEngine.js:14:18:14:24)
+[ASYNC ENTER] at (acLambda.js:3:1:8:2)
+[FUNC ENTER] acLambda at (acLambda.js:3:1:8:2), Args: [42.5126301935969], Timestamp: 1742414139113
+[READ] Identifier: console, Value at (acLambda.js:4:5:4:12)
+[LITERAL] Value: "Lambda: Processing AC status change..." at (acLambda.js:4:17:4:57)
+Lambda: Processing AC status change...
+[READ] Identifier: acStatus, Value at (acLambda.js:5:26:5:34)
+[LITERAL] Value: "ON" at (acLambda.js:5:26:5:43)
+[BINARY] 42.5126301935969 === ON = false at (acLambda.js:5:26:5:43)
+[CONDITIONAL] Result: false at (acLambda.js:5:26:5:43)
+[LITERAL] Value: "OPEN" at (acLambda.js:5:57:5:63)
+[WRITE] Identifier: windowStatus, Value at (acLambda.js:5:5:5:62)
+[READ] Identifier: console, Value at (acLambda.js:6:5:6:12)
+[LITERAL] Value: "Lambda: Window Status: " at (acLambda.js:6:17:6:43)
+[READ] Identifier: windowStatus, Value at (acLambda.js:6:43:6:55)
+[LITERAL] Value: "" at (acLambda.js:6:55:6:57)
+[BINARY] Lambda: Window Status:  + OPEN = Lambda: Window Status: OPEN at (acLambda.js:6:17:6:57)
+Lambda: Window Status: OPEN
+[READ] Identifier: sns, Value at (acLambda.js:7:5:7:8)
+[LITERAL] Value: "WindowAlert" at (acLambda.js:7:26:7:39)
+[LITERAL] Value: "AC is " at (acLambda.js:7:41:7:50)
+[READ] Identifier: acStatus, Value at (acLambda.js:7:50:7:58)
+[LITERAL] Value: ", window set to " at (acLambda.js:7:58:7:77)
+[READ] Identifier: windowStatus, Value at (acLambda.js:7:77:7:89)
+[LITERAL] Value: "" at (acLambda.js:7:89:7:91)
+[BINARY] AC is  + 42.5126301935969 = AC is 42.5126301935969, window set to OPEN at (acLambda.js:7:41:7:91)
+[FUNC ENTER] sendNotification at (sns.js:2:12:4:6), Args: ["WindowAlert","AC is 42.5126301935969, window set to OPEN"], Timestamp: 1742414139121
+[READ] Identifier: console, Value at (sns.js:3:9:3:16)
+[LITERAL] Value: "SNS Notification sent on " at (sns.js:3:21:3:49)
+[READ] Identifier: topic, Value at (sns.js:3:49:3:54)
+[LITERAL] Value: ": " at (sns.js:3:54:3:59)
+[READ] Identifier: message, Value at (sns.js:3:59:3:66)
+[LITERAL] Value: "" at (sns.js:3:66:3:68)
+[BINARY] SNS Notification sent on  + WindowAlert = SNS Notification sent on WindowAlert: AC is 42.5126301935969, window set to OPEN at (sns.js:3:21:3:68)
+SNS Notification sent on WindowAlert: AC is 42.5126301935969, window set to OPEN
+[FUNC EXIT] sendNotification at (sns.js:2:12:4:6), Return: undefined, Exception: {}, Timestamp: 1742414139124
+[FUNC EXIT] acLambda at (acLambda.js:3:1:8:2), Return: undefined, Exception: {}, Timestamp: 1742414139125
+[ASYNC EXIT] at (acLambda.js:3:1:8:2), Return: {}, Exception: {}
+[FUNC EXIT] rule2 at (ruleEngine.js:12:12:15:6), Return: undefined, Exception: {}, Timestamp: 1742414139125
+[FUNC EXIT] <anonymous> at (index.js:22:21:24:2), Return: undefined, Exception: {}, Timestamp: 1742414139126
+[FUNC EXIT] publish at (mqtt.js:3:5:6:6), Return: undefined, Exception: {}, Timestamp: 1742414139126
+[FUNC EXIT] <anonymous> at (index.js:10:20:12:2), Return: undefined, Exception: {}, Timestamp: 1742414139126
+[FUNC EXIT] start at (sensor.js:8:5:14:6), Return: undefined, Exception: {}, Timestamp: 1742414139127
+[FUNC EXIT] <anonymous> at (index.js:1:1:27:17), Return: undefined, Exception: {}, Timestamp: 1742414139127

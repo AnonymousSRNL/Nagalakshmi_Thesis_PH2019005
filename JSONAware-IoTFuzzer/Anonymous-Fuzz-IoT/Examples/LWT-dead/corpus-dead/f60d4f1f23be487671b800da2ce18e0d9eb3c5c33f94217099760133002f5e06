@@ -1,0 +1,5 @@
+{
+  "topic": "sensor/status",
+  "sensorId": "dev1",
+  "status": "offline"
+}

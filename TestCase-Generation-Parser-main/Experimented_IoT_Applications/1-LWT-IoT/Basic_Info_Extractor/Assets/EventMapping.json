@@ -1,0 +1,14 @@
+[
+  {
+    "EventSourceArn": "arn:aws:iot:ap-south-1:123456789012:rule/SensorDataToLambda",
+    "FunctionArn": "arn:aws:lambda:ap-south-1:123456789012:function:lambda-data-status-handler"
+  },
+  {
+    "EventSourceArn": "arn:aws:iot:ap-south-1:123456789012:rule/SensorStatusToLambda",
+    "FunctionArn": "arn:aws:lambda:ap-south-1:123456789012:function:lambda-data-status-handler"
+  },
+  {
+    "EventSourceArn": "arn:aws:iot:ap-south-1:123456789012:rule/SensorStatusToAlarmLambda",
+    "FunctionArn": "arn:aws:lambda:ap-south-1:123456789012:function:lambda-alarm-handler"
+  }
+]

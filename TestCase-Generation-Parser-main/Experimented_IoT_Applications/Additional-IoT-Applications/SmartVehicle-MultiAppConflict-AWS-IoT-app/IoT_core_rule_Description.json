@@ -1,0 +1,57 @@
+
+
+[{
+    "ruleArn": "arn:aws:iot:us-east-1:109043899433:rule/MycarOilRule", 
+    "rule": {
+        "ruleName": "MycarOilRule", 
+        "actions": [
+            {
+                "lambda": {
+                    "functionArn": "arn:aws:lambda:us-east-1:109043899433:function:Oil_Temp_Lambda"
+                }
+            }
+        ], 
+        "createdAt": 1655116302.0, 
+        "sql": "SELECT oil_temp, car_status FROM \"mycar/telemetry\"", 
+        "awsIotSqlVersion": "2016-03-23", 
+        "ruleDisabled": false
+    }
+},
+
+
+
+{
+    "ruleArn": "arn:aws:iot:us-east-1:109043899433:rule/MycarBreakRule", 
+    "rule": {
+        "ruleName": "MycarBreakRule", 
+        "actions": [
+            {
+                "lambda": {
+                    "functionArn": "arn:aws:lambda:us-east-1:109043899433:function:Acceleration_Lambda"
+                }
+            }
+        ], 
+        "createdAt": 1655126857.0, 
+        "sql": "SELECT breaking_event, engine_speed FROM \"mycar/telemetry\"", 
+        "awsIotSqlVersion": "2016-03-23", 
+        "ruleDisabled": false
+    }
+},
+{
+    "ruleArn": "arn:aws:iot:us-east-1:109043899433:rule/MycarBreakRule", 
+    "rule": {
+        "ruleName": "MycarBreakRule", 
+        "actions": [
+            {
+                "lambda": {
+                    "functionArn": "arn:aws:lambda:us-east-1:109043899433:function:sequence_Lambda"
+                }
+            }
+        ], 
+        "createdAt": 1655126857.0, 
+        "sql": "SELECT * FROM \"mycar/telemetry\"", 
+        "awsIotSqlVersion": "2016-03-23", 
+        "ruleDisabled": false
+    }
+}
+]

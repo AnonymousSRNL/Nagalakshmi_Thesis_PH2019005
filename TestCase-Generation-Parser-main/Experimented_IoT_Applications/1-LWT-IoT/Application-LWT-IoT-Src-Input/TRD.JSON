@@ -1,0 +1,28 @@
+[
+  {
+    "rule": {
+      "ruleName": "SensorDataToLambda",
+      "sql": "SELECT sensorId, timestamp, temperature, pressure, classified FROM \"sensor/data\"",
+      "actions": [
+        {
+          "lambda": {
+            "functionArn": "arn:aws:lambda:ap-south-1:123456789012:function:lambda-data-status-handler"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "rule": {
+      "ruleName": "SensorStatusToAlarmLambda",
+      "sql": "SELECT sensorId, status, timestamp FROM \"sensor/status\"",
+      "actions": [
+        {
+          "lambda": {
+            "functionArn": "arn:aws:lambda:ap-south-1:123456789012:function:lambda-alarm-handler"
+          }
+        }
+      ]
+    }
+  }
+]

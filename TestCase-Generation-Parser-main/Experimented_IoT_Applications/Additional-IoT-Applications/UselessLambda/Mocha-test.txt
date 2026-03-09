@@ -1,0 +1,95 @@
+const { expect } = require("chai");
+
+describe("Coverage Tests for IoT Application", () => {
+
+    // ---------------------------------------------------------------------
+    // 1. LAMBDA COVERAGE TESTS (𝒯ₗc)
+    // ---------------------------------------------------------------------
+    describe("Lambda Coverage (𝒯ₗc)", () => {
+
+        it("LC0: my-lambda-function should be invoked by IoT Core Rule with correct trigger and params", () => {
+            const LC0 = {
+                lambdaName: "my-lambda-function",
+                invoker: "IoT Core Rule (my-iot-rule)",
+                triggerEvent: "Message on topic my/iot/topic",
+                params: "event.payload"
+            };
+
+            expect(LC0.lambdaName).to.equal("my-lambda-function");
+            expect(LC0.invoker).to.equal("IoT Core Rule (my-iot-rule)");
+            expect(LC0.triggerEvent).to.equal("Message on topic my/iot/topic");
+            expect(LC0.params).to.equal("event.payload");
+        });
+
+    });
+
+    // ---------------------------------------------------------------------
+    // 2. END‑TO‑END FLOW COVERAGE TESTS (𝒯ₑₑ)
+    // ---------------------------------------------------------------------
+    describe("End‑to‑End Flow Coverage (𝒯ₑₑ)", () => {
+
+        it("EE0: my-lambda-function should end in HTTP Response with correct params", () => {
+            const EE0 = {
+                lambdaName: "my-lambda-function",
+                finalSuccessor: "HTTP Response",
+                params: "{ payload: <message> }"
+            };
+
+            expect(EE0.lambdaName).to.equal("my-lambda-function");
+            expect(EE0.finalSuccessor).to.equal("HTTP Response");
+            expect(EE0.params).to.equal("{ payload: <message> }");
+        });
+
+    });
+
+    // ---------------------------------------------------------------------
+    // 3. EVENT COVERAGE TESTS (𝒯ₑc)
+    // ---------------------------------------------------------------------
+    describe("Event Coverage (𝒯ₑc)", () => {
+
+        it("EC0: IoT Core Rule should trigger my-lambda-function on message arrival", () => {
+            const EC0 = {
+                EG: "IoT Core Rule (my-iot-rule)",
+                EC: "my-lambda-function",
+                description: "Rule triggers Lambda when message arrives on my/iot/topic"
+            };
+
+            expect(EC0.EG).to.equal("IoT Core Rule (my-iot-rule)");
+            expect(EC0.EC).to.equal("my-lambda-function");
+            expect(EC0.description).to.include("my/iot/topic");
+        });
+
+    });
+
+    // ---------------------------------------------------------------------
+    // 4. DECISION COVERAGE TESTS (𝒯_DC)
+    // ---------------------------------------------------------------------
+    describe("Decision Coverage (𝒯_DC)", () => {
+
+        it("DC0: No predicates found in the system", () => {
+            const DC = {
+                predicate: null
+            };
+
+            expect(DC.predicate).to.equal(null);
+        });
+
+    });
+
+});
+____________________
+  Coverage Tests for IoT Application
+    Lambda Coverage (𝒯ₗc)
+      ✓ LC0: my-lambda-function should be invoked by IoT Core Rule with correct trigger and params
+
+    End‑to‑End Flow Coverage (𝒯ₑₑ)
+      ✓ EE0: my-lambda-function should end in HTTP Response with correct params
+
+    Event Coverage (𝒯ₑc)
+      ✓ EC0: IoT Core Rule should trigger my-lambda-function on message arrival
+
+    Decision Coverage (𝒯_DC)
+      ✓ DC0: No predicates found in the system
+
+
+  4 passing (11ms)

@@ -1,0 +1,1165 @@
+[
+  {
+    "type": "function-enter",
+    "value": "<anonymous>",
+    "location": "index.js:1:1:22:16",
+    "args": [],
+    "timestamp": 1742451101963
+  },
+  {
+    "type": "function-exit",
+    "value": "<anonymous>",
+    "location": "index.js:1:1:22:16",
+    "returnValue": null,
+    "exception": {},
+    "timestamp": 1742451101994
+  },
+  {
+    "type": "function-enter",
+    "value": "<anonymous>",
+    "location": "index.js:1:1:22:16",
+    "args": [
+      {},
+      null,
+      {
+        "id": ".",
+        "path": "/home/sasank/PE/order-conflict",
+        "exports": "[Circular]",
+        "filename": "/home/sasank/PE/order-conflict/index.js",
+        "loaded": false,
+        "children": [],
+        "paths": [
+          "/home/sasank/PE/order-conflict/node_modules",
+          "/home/sasank/PE/node_modules",
+          "/home/sasank/node_modules",
+          "/home/node_modules",
+          "/node_modules"
+        ]
+      },
+      "/home/sasank/PE/order-conflict/index.js",
+      "/home/sasank/PE/order-conflict"
+    ],
+    "timestamp": 1742451102009
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: require, Value",
+        "location": "index.js:2:16:2:23"
+      }
+    ],
+    "location": "index.js:2:16:2:23",
+    "timestamp": 1742451161664
+  },
+  {
+    "type": "function-enter",
+    "value": "<anonymous>",
+    "location": "sensor.js:1:1:16:31",
+    "args": [],
+    "timestamp": 1742451102048
+  },
+  {
+    "type": "function-exit",
+    "value": "<anonymous>",
+    "location": "sensor.js:1:1:16:31",
+    "returnValue": null,
+    "exception": {},
+    "timestamp": 1742451102055
+  },
+  {
+    "type": "function-enter",
+    "value": "<anonymous>",
+    "location": "sensor.js:1:1:16:31",
+    "args": [
+      {},
+      null,
+      {
+        "id": "/home/sasank/PE/order-conflict/sensor.js",
+        "path": "/home/sasank/PE/order-conflict",
+        "exports": "[Circular]",
+        "filename": "/home/sasank/PE/order-conflict/sensor.js",
+        "loaded": false,
+        "children": [],
+        "paths": [
+          "/home/sasank/PE/order-conflict/node_modules",
+          "/home/sasank/PE/node_modules",
+          "/home/sasank/node_modules",
+          "/home/node_modules",
+          "/node_modules"
+        ]
+      },
+      "/home/sasank/PE/order-conflict/sensor.js",
+      "/home/sasank/PE/order-conflict"
+    ],
+    "timestamp": 1742451102059
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: require, Value",
+        "location": "sensor.js:1:22:1:29"
+      }
+    ],
+    "location": "sensor.js:1:22:1:29",
+    "timestamp": 1742451161665
+  },
+  {
+    "type": "WRITE",
+    "value": [
+      {
+        "type": "write",
+        "value": "Identifier: EventEmitter, Value",
+        "location": "sensor.js:1:1:1:39"
+      },
+      {
+        "type": "read",
+        "value": "Identifier: EventEmitter, Value",
+        "location": "sensor.js:2:22:2:34"
+      }
+    ],
+    "location": "sensor.js:1:1:1:39",
+    "timestamp": 1742451161666
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: module, Value",
+        "location": "sensor.js:16:1:16:7"
+      }
+    ],
+    "location": "sensor.js:16:1:16:7",
+    "timestamp": 1742451161667
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: Sensor, Value",
+        "location": "sensor.js:16:22:16:28"
+      }
+    ],
+    "location": "sensor.js:16:22:16:28",
+    "timestamp": 1742451161667
+  },
+  {
+    "type": "function-enter",
+    "value": "Sensor",
+    "location": "sensor.js:2:1:15:2",
+    "args": [
+      null
+    ],
+    "timestamp": 1742451102090
+  },
+  {
+    "type": "function-exit",
+    "value": "Sensor",
+    "location": "sensor.js:2:1:15:2",
+    "returnValue": {
+      "_events": {},
+      "_eventsCount": 0,
+      "threshold": 50
+    },
+    "exception": {},
+    "timestamp": 1742451102101
+  },
+  {
+    "type": "function-exit",
+    "value": "<anonymous>",
+    "location": "sensor.js:1:1:16:31",
+    "returnValue": null,
+    "exception": {},
+    "timestamp": 1742451102112
+  },
+  {
+    "type": "WRITE",
+    "value": [
+      {
+        "type": "write",
+        "value": "Identifier: sensor, Value",
+        "location": "index.js:2:1:2:35"
+      },
+      {
+        "type": "read",
+        "value": "Identifier: require, Value",
+        "location": "index.js:3:14:3:21"
+      }
+    ],
+    "location": "index.js:2:1:2:35",
+    "timestamp": 1742451161668
+  },
+  {
+    "type": "function-enter",
+    "value": "<anonymous>",
+    "location": "mqtt.js:1:1:21:34",
+    "args": [],
+    "timestamp": 1742451102135
+  },
+  {
+    "type": "function-exit",
+    "value": "<anonymous>",
+    "location": "mqtt.js:1:1:21:34",
+    "returnValue": null,
+    "exception": {},
+    "timestamp": 1742451102143
+  },
+  {
+    "type": "function-enter",
+    "value": "<anonymous>",
+    "location": "mqtt.js:1:1:21:34",
+    "args": [
+      {},
+      null,
+      {
+        "id": "/home/sasank/PE/order-conflict/mqtt.js",
+        "path": "/home/sasank/PE/order-conflict",
+        "exports": "[Circular]",
+        "filename": "/home/sasank/PE/order-conflict/mqtt.js",
+        "loaded": false,
+        "children": [],
+        "paths": [
+          "/home/sasank/PE/order-conflict/node_modules",
+          "/home/sasank/PE/node_modules",
+          "/home/sasank/node_modules",
+          "/home/node_modules",
+          "/node_modules"
+        ]
+      },
+      "/home/sasank/PE/order-conflict/mqtt.js",
+      "/home/sasank/PE/order-conflict"
+    ],
+    "timestamp": 1742451102148
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: require, Value",
+        "location": "mqtt.js:2:22:2:29"
+      }
+    ],
+    "location": "mqtt.js:2:22:2:29",
+    "timestamp": 1742451161669
+  },
+  {
+    "type": "WRITE",
+    "value": [
+      {
+        "type": "write",
+        "value": "Identifier: EventEmitter, Value",
+        "location": "mqtt.js:2:1:2:39"
+      },
+      {
+        "type": "read",
+        "value": "Identifier: EventEmitter, Value",
+        "location": "mqtt.js:3:27:3:39"
+      }
+    ],
+    "location": "mqtt.js:2:1:2:39",
+    "timestamp": 1742451161669
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: module, Value",
+        "location": "mqtt.js:9:1:9:7"
+      }
+    ],
+    "location": "mqtt.js:9:1:9:7",
+    "timestamp": 1742451161669
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: MQTTHandler, Value",
+        "location": "mqtt.js:9:22:9:33"
+      }
+    ],
+    "location": "mqtt.js:9:22:9:33",
+    "timestamp": 1742451161670
+  },
+  {
+    "type": "function-enter",
+    "value": "MQTTHandler",
+    "location": "mqtt.js:3:1:8:2",
+    "args": [
+      null
+    ],
+    "timestamp": 1742451102160
+  },
+  {
+    "type": "function-exit",
+    "value": "MQTTHandler",
+    "location": "mqtt.js:3:1:8:2",
+    "returnValue": {
+      "_events": {},
+      "_eventsCount": 0
+    },
+    "exception": {},
+    "timestamp": 1742451102163
+  },
+  {
+    "type": "function-exit",
+    "value": "<anonymous>",
+    "location": "mqtt.js:1:1:21:34",
+    "returnValue": null,
+    "exception": {},
+    "timestamp": 1742451102166
+  },
+  {
+    "type": "WRITE",
+    "value": [
+      {
+        "type": "write",
+        "value": "Identifier: mqtt, Value",
+        "location": "index.js:3:1:3:31"
+      },
+      {
+        "type": "read",
+        "value": "Identifier: require, Value",
+        "location": "index.js:4:20:4:27"
+      }
+    ],
+    "location": "index.js:3:1:3:31",
+    "timestamp": 1742451161670
+  },
+  {
+    "type": "function-enter",
+    "value": "<anonymous>",
+    "location": "ruleEngine.js:1:1:18:29",
+    "args": [],
+    "timestamp": 1742451102186
+  },
+  {
+    "type": "function-exit",
+    "value": "<anonymous>",
+    "location": "ruleEngine.js:1:1:18:29",
+    "returnValue": null,
+    "exception": {},
+    "timestamp": 1742451102193
+  },
+  {
+    "type": "function-enter",
+    "value": "<anonymous>",
+    "location": "ruleEngine.js:1:1:18:29",
+    "args": [
+      {},
+      null,
+      {
+        "id": "/home/sasank/PE/order-conflict/ruleEngine.js",
+        "path": "/home/sasank/PE/order-conflict",
+        "exports": "[Circular]",
+        "filename": "/home/sasank/PE/order-conflict/ruleEngine.js",
+        "loaded": false,
+        "children": [],
+        "paths": [
+          "/home/sasank/PE/order-conflict/node_modules",
+          "/home/sasank/PE/node_modules",
+          "/home/sasank/node_modules",
+          "/home/node_modules",
+          "/node_modules"
+        ]
+      },
+      "/home/sasank/PE/order-conflict/ruleEngine.js",
+      "/home/sasank/PE/order-conflict"
+    ],
+    "timestamp": 1742451102198
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: require, Value",
+        "location": "ruleEngine.js:2:14:2:21"
+      }
+    ],
+    "location": "ruleEngine.js:2:14:2:21",
+    "timestamp": 1742451161672
+  },
+  {
+    "type": "WRITE",
+    "value": [
+      {
+        "type": "write",
+        "value": "Identifier: mqtt, Value",
+        "location": "ruleEngine.js:2:1:2:31"
+      },
+      {
+        "type": "read",
+        "value": "Identifier: require, Value",
+        "location": "ruleEngine.js:4:37:4:44"
+      }
+    ],
+    "location": "ruleEngine.js:2:1:2:31",
+    "timestamp": 1742451161673
+  },
+  {
+    "type": "function-enter",
+    "value": "<anonymous>",
+    "location": "lambda.js:1:1:14:46",
+    "args": [],
+    "timestamp": 1742451102222
+  },
+  {
+    "type": "function-exit",
+    "value": "<anonymous>",
+    "location": "lambda.js:1:1:14:46",
+    "returnValue": null,
+    "exception": {},
+    "timestamp": 1742451102228
+  },
+  {
+    "type": "function-enter",
+    "value": "<anonymous>",
+    "location": "lambda.js:1:1:14:46",
+    "args": [
+      {},
+      null,
+      {
+        "id": "/home/sasank/PE/order-conflict/lambda.js",
+        "path": "/home/sasank/PE/order-conflict",
+        "exports": "[Circular]",
+        "filename": "/home/sasank/PE/order-conflict/lambda.js",
+        "loaded": false,
+        "children": [],
+        "paths": [
+          "/home/sasank/PE/order-conflict/node_modules",
+          "/home/sasank/PE/node_modules",
+          "/home/sasank/node_modules",
+          "/home/node_modules",
+          "/node_modules"
+        ]
+      },
+      "/home/sasank/PE/order-conflict/lambda.js",
+      "/home/sasank/PE/order-conflict"
+    ],
+    "timestamp": 1742451102231
+  },
+  {
+    "type": "WRITE",
+    "value": [
+      {
+        "type": "write",
+        "value": "Identifier: createBundle, Value",
+        "location": "lambda.js:2:1:6:2"
+      }
+    ],
+    "location": "lambda.js:2:1:6:2",
+    "timestamp": 1742451161676
+  },
+  {
+    "type": "WRITE",
+    "value": [
+      {
+        "type": "write",
+        "value": "Identifier: uploadStr, Value",
+        "location": "lambda.js:8:1:12:2"
+      },
+      {
+        "type": "read",
+        "value": "Identifier: module, Value",
+        "location": "lambda.js:14:1:14:7"
+      }
+    ],
+    "location": "lambda.js:8:1:12:2",
+    "timestamp": 1742451161676
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: createBundle, Value",
+        "location": "lambda.js:14:20:14:32"
+      }
+    ],
+    "location": "lambda.js:14:20:14:32",
+    "timestamp": 1742451161677
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: uploadStr, Value",
+        "location": "lambda.js:14:34:14:43"
+      }
+    ],
+    "location": "lambda.js:14:34:14:43",
+    "timestamp": 1742451161677
+  },
+  {
+    "type": "function-exit",
+    "value": "<anonymous>",
+    "location": "lambda.js:1:1:14:46",
+    "returnValue": null,
+    "exception": {},
+    "timestamp": 1742451102255
+  },
+  {
+    "type": "WRITE",
+    "value": [
+      {
+        "type": "write",
+        "value": "Identifier: createBundle, Value",
+        "location": "ruleEngine.js:4:9:4:21"
+      },
+      {
+        "type": "write",
+        "value": "Identifier: uploadStr, Value",
+        "location": "ruleEngine.js:4:23:4:32"
+      }
+    ],
+    "location": "ruleEngine.js:4:9:4:21",
+    "timestamp": 1742451161678
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: module, Value",
+        "location": "ruleEngine.js:18:1:18:7"
+      }
+    ],
+    "location": "ruleEngine.js:18:1:18:7",
+    "timestamp": 1742451161679
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: RuleEngine, Value",
+        "location": "ruleEngine.js:18:18:18:28"
+      }
+    ],
+    "location": "ruleEngine.js:18:18:18:28",
+    "timestamp": 1742451161679
+  },
+  {
+    "type": "function-exit",
+    "value": "<anonymous>",
+    "location": "ruleEngine.js:1:1:18:29",
+    "returnValue": null,
+    "exception": {},
+    "timestamp": 1742451102269
+  },
+  {
+    "type": "WRITE",
+    "value": [
+      {
+        "type": "write",
+        "value": "Identifier: RuleEngine, Value",
+        "location": "index.js:4:1:4:43"
+      },
+      {
+        "type": "read",
+        "value": "Identifier: require, Value",
+        "location": "index.js:5:37:5:44"
+      }
+    ],
+    "location": "index.js:4:1:4:43",
+    "timestamp": 1742451161691
+  },
+  {
+    "type": "WRITE",
+    "value": [
+      {
+        "type": "write",
+        "value": "Identifier: createBundle, Value",
+        "location": "index.js:5:9:5:21"
+      },
+      {
+        "type": "write",
+        "value": "Identifier: uploadStr, Value",
+        "location": "index.js:5:23:5:32"
+      },
+      {
+        "type": "read",
+        "value": "Identifier: sensor, Value",
+        "location": "index.js:7:1:7:7"
+      }
+    ],
+    "location": "index.js:5:9:5:21",
+    "timestamp": 1742451161693
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: mqtt, Value",
+        "location": "index.js:11:1:11:5"
+      }
+    ],
+    "location": "index.js:11:1:11:5",
+    "timestamp": 1742451161695
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: sensor, Value",
+        "location": "index.js:22:1:22:7"
+      }
+    ],
+    "location": "index.js:22:1:22:7",
+    "timestamp": 1742451161695
+  },
+  {
+    "type": "function-enter",
+    "value": "start",
+    "location": "sensor.js:8:5:14:6",
+    "args": [],
+    "timestamp": 1742451102295
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: Math, Value",
+        "location": "sensor.js:10:33:10:37"
+      }
+    ],
+    "location": "sensor.js:10:33:10:37",
+    "timestamp": 1742451161696
+  },
+  {
+    "type": "WRITE",
+    "value": [
+      {
+        "type": "write",
+        "value": "Identifier: temperature, Value",
+        "location": "sensor.js:10:13:10:52"
+      },
+      {
+        "type": "read",
+        "value": "Identifier: console, Value",
+        "location": "sensor.js:11:13:11:20"
+      }
+    ],
+    "location": "sensor.js:10:13:10:52",
+    "timestamp": 1742451161696
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: temperature, Value",
+        "location": "sensor.js:11:44:11:55"
+      }
+    ],
+    "location": "sensor.js:11:44:11:55",
+    "timestamp": 1742451161697
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: this, Value",
+        "location": "sensor.js:12:13:12:17"
+      }
+    ],
+    "location": "sensor.js:12:13:12:17",
+    "timestamp": 1742451161697
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: temperature, Value",
+        "location": "sensor.js:12:31:12:42"
+      }
+    ],
+    "location": "sensor.js:12:31:12:42",
+    "timestamp": 1742451161698
+  },
+  {
+    "type": "function-enter",
+    "value": "<anonymous>",
+    "location": "index.js:7:19:9:2",
+    "args": [
+      89.29733577011598
+    ],
+    "timestamp": 1742451102327
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: mqtt, Value",
+        "location": "index.js:8:5:8:9"
+      }
+    ],
+    "location": "index.js:8:5:8:9",
+    "timestamp": 1742451161698
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: data, Value",
+        "location": "index.js:8:18:8:22"
+      }
+    ],
+    "location": "index.js:8:18:8:22",
+    "timestamp": 1742451161698
+  },
+  {
+    "type": "function-enter",
+    "value": "publish",
+    "location": "mqtt.js:4:5:7:6",
+    "args": [
+      89.29733577011598
+    ],
+    "timestamp": 1742451102333
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: console, Value",
+        "location": "mqtt.js:5:9:5:16"
+      }
+    ],
+    "location": "mqtt.js:5:9:5:16",
+    "timestamp": 1742451161699
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: data, Value",
+        "location": "mqtt.js:5:40:5:44"
+      }
+    ],
+    "location": "mqtt.js:5:40:5:44",
+    "timestamp": 1742451161699
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: this, Value",
+        "location": "mqtt.js:6:9:6:13"
+      }
+    ],
+    "location": "mqtt.js:6:9:6:13",
+    "timestamp": 1742451161700
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: data, Value",
+        "location": "mqtt.js:6:30:6:34"
+      }
+    ],
+    "location": "mqtt.js:6:30:6:34",
+    "timestamp": 1742451161700
+  },
+  {
+    "type": "function-enter",
+    "value": "<anonymous>",
+    "location": "index.js:11:20:13:2",
+    "args": [
+      89.29733577011598
+    ],
+    "timestamp": 1742451102346
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: RuleEngine, Value",
+        "location": "index.js:12:5:12:15"
+      }
+    ],
+    "location": "index.js:12:5:12:15",
+    "timestamp": 1742451161700
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: data, Value",
+        "location": "index.js:12:36:12:40"
+      }
+    ],
+    "location": "index.js:12:36:12:40",
+    "timestamp": 1742451161701
+  },
+  {
+    "type": "function-enter",
+    "value": "handleFireDetection",
+    "location": "ruleEngine.js:6:12:16:6",
+    "args": [
+      89.29733577011598
+    ],
+    "timestamp": 1742451102350
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: data, Value",
+        "location": "ruleEngine.js:7:13:7:17"
+      }
+    ],
+    "location": "ruleEngine.js:7:13:7:17",
+    "timestamp": 1742451161701
+  },
+  {
+    "type": "conditional",
+    "value": true,
+    "location": "ruleEngine.js:7:13:7:22",
+    "timestamp": 1742451161703
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: console, Value",
+        "location": "ruleEngine.js:8:13:8:20"
+      }
+    ],
+    "location": "ruleEngine.js:8:13:8:20",
+    "timestamp": 1742451161703
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: console, Value",
+        "location": "ruleEngine.js:10:13:10:20"
+      }
+    ],
+    "location": "ruleEngine.js:10:13:10:20",
+    "timestamp": 1742451161704
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: createBundle, Value",
+        "location": "ruleEngine.js:12:13:12:25"
+      }
+    ],
+    "location": "ruleEngine.js:12:13:12:25",
+    "timestamp": 1742451161705
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: data, Value",
+        "location": "ruleEngine.js:12:26:12:30"
+      }
+    ],
+    "location": "ruleEngine.js:12:26:12:30",
+    "timestamp": 1742451161706
+  },
+  {
+    "type": "async-enter",
+    "value": null,
+    "location": "lambda.js:2:1:6:2",
+    "timestamp": 1742451161707
+  },
+  {
+    "type": "function-enter",
+    "value": "createBundle",
+    "location": "lambda.js:2:1:6:2",
+    "args": [
+      89.29733577011598
+    ],
+    "timestamp": 1742451102379
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: setTimeout, Value",
+        "location": "lambda.js:3:5:3:15"
+      }
+    ],
+    "location": "lambda.js:3:5:3:15",
+    "timestamp": 1742451161707
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: Math, Value",
+        "location": "lambda.js:5:8:5:12"
+      }
+    ],
+    "location": "lambda.js:5:8:5:12",
+    "timestamp": 1742451161708
+  },
+  {
+    "type": "function-exit",
+    "value": "createBundle",
+    "location": "lambda.js:2:1:6:2",
+    "returnValue": null,
+    "exception": {},
+    "timestamp": 1742451102396
+  },
+  {
+    "type": "async-exit",
+    "value": null,
+    "location": "lambda.js:2:1:6:2",
+    "returnValue": {},
+    "exception": null,
+    "timestamp": 1742451161743
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: uploadStr, Value",
+        "location": "ruleEngine.js:13:13:13:22"
+      }
+    ],
+    "location": "ruleEngine.js:13:13:13:22",
+    "timestamp": 1742451161743
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: data, Value",
+        "location": "ruleEngine.js:13:23:13:27"
+      }
+    ],
+    "location": "ruleEngine.js:13:23:13:27",
+    "timestamp": 1742451161781
+  },
+  {
+    "type": "async-enter",
+    "value": null,
+    "location": "lambda.js:8:1:12:2",
+    "timestamp": 1742451161782
+  },
+  {
+    "type": "function-enter",
+    "value": "uploadStr",
+    "location": "lambda.js:8:1:12:2",
+    "args": [
+      89.29733577011598
+    ],
+    "timestamp": 1742451102408
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: setTimeout, Value",
+        "location": "lambda.js:9:5:9:15"
+      }
+    ],
+    "location": "lambda.js:9:5:9:15",
+    "timestamp": 1742451161782
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: Math, Value",
+        "location": "lambda.js:11:8:11:12"
+      }
+    ],
+    "location": "lambda.js:11:8:11:12",
+    "timestamp": 1742451161782
+  },
+  {
+    "type": "function-exit",
+    "value": "uploadStr",
+    "location": "lambda.js:8:1:12:2",
+    "returnValue": null,
+    "exception": {},
+    "timestamp": 1742451102415
+  },
+  {
+    "type": "async-exit",
+    "value": null,
+    "location": "lambda.js:8:1:12:2",
+    "returnValue": {},
+    "exception": null,
+    "timestamp": 1742451161784
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: console, Value",
+        "location": "ruleEngine.js:14:13:14:20"
+      }
+    ],
+    "location": "ruleEngine.js:14:13:14:20",
+    "timestamp": 1742451161785
+  },
+  {
+    "type": "function-exit",
+    "value": "handleFireDetection",
+    "location": "ruleEngine.js:6:12:16:6",
+    "returnValue": null,
+    "exception": {},
+    "timestamp": 1742451102419
+  },
+  {
+    "type": "function-exit",
+    "value": "<anonymous>",
+    "location": "index.js:11:20:13:2",
+    "returnValue": null,
+    "exception": {},
+    "timestamp": 1742451102420
+  },
+  {
+    "type": "function-exit",
+    "value": "publish",
+    "location": "mqtt.js:4:5:7:6",
+    "returnValue": null,
+    "exception": {},
+    "timestamp": 1742451102421
+  },
+  {
+    "type": "function-exit",
+    "value": "<anonymous>",
+    "location": "index.js:7:19:9:2",
+    "returnValue": null,
+    "exception": {},
+    "timestamp": 1742451102422
+  },
+  {
+    "type": "function-exit",
+    "value": "start",
+    "location": "sensor.js:8:5:14:6",
+    "returnValue": null,
+    "exception": {},
+    "timestamp": 1742451102424
+  },
+  {
+    "type": "function-exit",
+    "value": "<anonymous>",
+    "location": "index.js:1:1:22:16",
+    "returnValue": null,
+    "exception": {},
+    "timestamp": 1742451102425
+  },
+  {
+    "type": "function-enter",
+    "value": "<anonymous>",
+    "location": "lambda.js:3:16:5:6",
+    "args": [],
+    "timestamp": 1742451102575
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: console, Value",
+        "location": "lambda.js:4:9:4:16"
+      }
+    ],
+    "location": "lambda.js:4:9:4:16",
+    "timestamp": 1742451161790
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: data, Value",
+        "location": "lambda.js:4:49:4:53"
+      }
+    ],
+    "location": "lambda.js:4:49:4:53",
+    "timestamp": 1742451161790
+  },
+  {
+    "type": "function-exit",
+    "value": "<anonymous>",
+    "location": "lambda.js:3:16:5:6",
+    "returnValue": null,
+    "exception": {},
+    "timestamp": 1742451102586
+  },
+  {
+    "type": "function-enter",
+    "value": "<anonymous>",
+    "location": "lambda.js:9:16:11:6",
+    "args": [],
+    "timestamp": 1742451103405
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: console, Value",
+        "location": "lambda.js:10:9:10:16"
+      }
+    ],
+    "location": "lambda.js:10:9:10:16",
+    "timestamp": 1742451161792
+  },
+  {
+    "type": "READ",
+    "value": [
+      {
+        "type": "read",
+        "value": "Identifier: data, Value",
+        "location": "lambda.js:10:39:10:43"
+      }
+    ],
+    "location": "lambda.js:10:39:10:43",
+    "timestamp": 1742451161792
+  },
+  {
+    "type": "function-exit",
+    "value": "<anonymous>",
+    "location": "lambda.js:9:16:11:6",
+    "returnValue": null,
+    "exception": {},
+    "timestamp": 1742451103410
+  }
+]

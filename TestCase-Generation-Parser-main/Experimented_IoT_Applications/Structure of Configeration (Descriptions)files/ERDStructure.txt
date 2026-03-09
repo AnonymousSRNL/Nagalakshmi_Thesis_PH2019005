@@ -1,0 +1,53 @@
+An EventBridge Rule Description is used to define the conditions and actions associated with a rule in Amazon EventBridge 
+(formerly known as Amazon CloudWatch Events). 
+EventBridge allows you to route and process events from various sources to different targets based on specified rules. 
+
+Here's a generalized structure for describing an EventBridge rule:
+
+  {
+        "Name": "DynamoDBToSNSRule",
+        "EventPattern": {
+            "source": [
+                "aws.dynamodb"
+            ],
+            "detail-type": [
+                "DynamoDB Table Activity"
+            ],
+            "detail": {
+                "eventSource": [
+                    "dynamodb.amazonaws.com"
+                ],
+                "eventName": [
+                    "Insert",
+                    "Modify",
+                    "Remove"
+                ],
+                "requestParameters": {
+                    "tableName": [
+                        "YourDynamoDBTableName"
+                    ]
+                }
+            }
+        },
+        "State": "ENABLED",
+        "Description": "Rule that triggers an SNS topic for DynamoDB events",
+        "Targets": [
+            {
+                "Id": "SnsTarget",
+                "Arn": "arn:aws:sns:us-west-2:123456789012:YourSnsTopic"
+            }
+        ]
+    },
+In this example JSON structure:
+
+"Name" is a user-defined name for the EventBridge rule.
+"event_pattern" defines the conditions that trigger the rule. It specifies the sources, detail types, 
+and specific details of events that should match the pattern.
+"source" and "detailType" filter events based on their source and detail type.
+"detail" allows you to filter events based on specific attributes within the event detail.
+"state" indicates whether the rule is enabled or disabled.
+"targets" specifies the actions to be taken when the rule is triggered. In this example, there are two targets:
+The first target is an AWS Lambda function specified by its ARN, and it also includes an optional input field, 
+which can pass additional data to the Lambda function.
+The second target is an Amazon Simple Queue Service (SQS) queue specified by its ARN, 
+and it uses the inputPath to extract specific data from the event and send it to the queue.

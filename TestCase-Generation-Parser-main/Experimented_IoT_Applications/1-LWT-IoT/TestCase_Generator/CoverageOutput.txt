@@ -1,0 +1,18 @@
+
+
+C:\Users\IIITB\Documents\TestCase-Generation-Parser-main\TestCase-Generation-Parser-main\LWT-IoT\TestCase_Generator>node LambdaCoverage.js
+┌─────────┬──────────────────────────────┬───────────────────────┬─────────────────────────────┬────────────────────────────────────────────────────────────────────────┬─────────────────┬───────────────────────────────────────────────────────────────────────────────────────────────────┬─────────────┐
+│ (index) │ Lambdas                      │ Service               │ RuleName                    │ SQLQuery                                                               │ Topic           │ Params                                                                                            │ Device Name │
+├─────────┼──────────────────────────────┼───────────────────────┼─────────────────────────────┼────────────────────────────────────────────────────────────────────────┼─────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────┼─────────────┤
+│ 0       │ 'lambda-data-status-handler' │ 'IoTCore Rule Engine' │ 'SensorDataToLambda'        │ 'SELECT sensorId, timestamp, temperature, pressure FROM "sensor/data"' │ 'sensor/data'   │ '{"sensorId":"device-19","timestamp":"2025-01-01T00:00:00Z","temperature":41.2,"pressure":108.4}' │ 'device-19' │
+│ 1       │ 'lambda-data-status-handler' │ 'IoTCore Rule Engine' │ 'SensorStatusToLambda'      │ 'SELECT sensorId, status, timestamp FROM "sensor/status"'              │ 'sensor/status' │ '{"sensorId":"device-19","status":"dead","timestamp":"2025-01-01T00:00:10Z"}'                     │ 'device-19' │
+│ 2       │ 'lambda-alarm-handler'       │ 'IoTCore Rule Engine' │ 'SensorStatusToAlarmLambda' │ 'SELECT sensorId, status, timestamp FROM "sensor/status"'              │ 'sensor/status' │ '{"sensorId":"device-19","status":"dead","timestamp":"2025-01-01T00:00:10Z"}'                     │ 'device-19' │
+└─────────┴──────────────────────────────┴───────────────────────┴─────────────────────────────┴────────────────────────────────────────────────────────────────────────┴─────────────────┴───────────────────────────────────────────────────────────────────────────────────────────────────┴─────────────┘
+
+C:\Users\IIITB\Documents\TestCase-Generation-Parser-main\TestCase-Generation-Parser-main\LWT-IoT\TestCase_Generator>node EndtoEnd_FlowCoverage.js
+┌─────────┬──────────────────┬─────────────┬──────────────────────────────┬───────────────────────┬─────────────────────────────┬───────────────────────────────────────────────────────────┐
+│ (index) │ Destination Path │ Destination │ Lambdas                      │ Service               │ RuleName                    │ SQLQuery                                                  │
+├─────────┼──────────────────┼─────────────┼──────────────────────────────┼───────────────────────┼─────────────────────────────┼───────────────────────────────────────────────────────────┤
+│ 0       │ ''               │ 'SNS'       │ 'lambda-data-status-handler' │ 'IoTCore Rule Engine' │ 'SensorStatusToLambda'      │ 'SELECT sensorId, status, timestamp FROM "sensor/status"' │
+│ 1       │ ''               │ 'Actuator'  │ 'lambda-alarm-handler'       │ 'IoTCore Rule Engine' │ 'SensorStatusToAlarmLambda' │ 'SELECT sensorId, status, timestamp FROM "sensor/status"' │
+└─────────┴──────────────────┴─────────────┴──────────────────────────────┴───────────────────────┴─────────────────────────────┴───────────────────────────────────────────────────────────┘

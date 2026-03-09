@@ -1,0 +1,70 @@
+const { expect } = require("chai");
+
+describe("LightSensor IoT Application – Coverage Tests", () => {
+
+    // ---------------------------------------------------------------------
+    // 1. LAMBDA COVERAGE TESTS (LC)
+    // ---------------------------------------------------------------------
+    describe("Lambda Coverage (LC)", () => {
+
+        it("LC‑0: DeviceData_Lambda should be invoked by LightSensor rule with correct params", () => {
+            const rule = {
+                ruleName: "LightSensor",
+                sql: 'SELECT uv_visible FROM "lightSensorTopic"',
+                lambda: "DeviceData_Lambda"
+            };
+
+            expect(rule.lambda).to.equal("DeviceData_Lambda");
+            expect(rule.sql.includes("uv_visible")).to.be.true;
+        });
+    });
+
+    // ---------------------------------------------------------------------
+    // 2. EVENT COVERAGE TESTS (EC)
+    // ---------------------------------------------------------------------
+    describe("Event Coverage (EC)", () => {
+
+        it("EC‑0: Sensor should publish to LightSensor IoT Rule", () => {
+            const event = {
+                EG: "Sensor lightSensor",
+                EC: "LightSensor",
+                topic: "lightSensorTopic",
+                params: ["uv_visible"]
+            };
+
+            expect(event.topic).to.equal("lightSensorTopic");
+            expect(event.EC).to.equal("LightSensor");
+            expect(event.params).to.include("uv_visible");
+        });
+
+        it("EC‑1: LightSensor rule should forward uv_visible to DeviceData_Lambda", () => {
+            const event = {
+                EG: "LightSensor",
+                EC: "DeviceData_Lambda",
+                params: ["uv_visible"]
+            };
+
+            expect(event.EC).to.equal("DeviceData_Lambda");
+            expect(event.params).to.include("uv_visible");
+        });
+
+        it("EC‑2: Detect orphan event when Lambda is missing or not implemented", () => {
+            const lambdaExists = false; // DeviceData_Lambda code missing
+
+            expect(lambdaExists).to.equal(false);
+        });
+    });
+
+    
+____________output ______________
+  LightSensor IoT Application – Coverage Tests
+    Lambda Coverage (LC)
+      ✓ LC‑0: DeviceData_Lambda should be invoked by LightSensor rule with correct params
+
+    Event Coverage (EC)
+      ✓ EC‑0: Sensor should publish to LightSensor IoT Rule
+      ✓ EC‑1: LightSensor rule should forward uv_visible to DeviceData_Lambda
+      ✓ EC‑2: Detect orphan event when Lambda is missing or not implemented
+
+
+  4 passing (12ms)

@@ -1,0 +1,61 @@
+AWS IoT
+Manage
+Things
+lightBulb
+Classic Shadow
+Classic Shadow
+
+Delete
+Device Shadow details
+ARN
+arn:aws:iot:us-east-1:109043899433:thing/lightBulb
+MQTT topic prefix
+$aws/things/lightBulb/shadow
+Device Shadow URL
+https://a3jb9ni9xg51t6-ats.iot.us-east-1.amazonaws.com/things/lightBulb/shadow
+Last updated
+April 18, 2022, 18:43:46 (UTC+0530)
+Version
+668
+
+Device Shadow document
+
+MQTT topics
+Device Shadow documentInfo
+The Device Shadow document contains the reported, desired, and delta values of the device's state. You can edit the state values here or programmatically. Your device can sync its state while it's connected to AWS IoT.
+
+Edit
+Device Shadow state
+{
+  "state": {
+    "desired": {
+      "lights": true
+    },
+    "reported": {
+      "welcome": "aws-iot",
+      "lights": false,
+      "lightOffTimestamp": "2022-02-03T10:17:17.216Z"
+    }
+  }
+}
+Device Shadow metadata
+{
+  "metadata": {
+    "desired": {
+      "lights": {
+        "timestamp": 1650287706
+      }
+    },
+    "reported": {
+      "welcome": {
+        "timestamp": 1643871116
+      },
+      "lights": {
+        "timestamp": 1643883437
+      },
+      "lightOffTimestamp": {
+        "timestamp": 1643883437
+      }
+    }
+  }
+}

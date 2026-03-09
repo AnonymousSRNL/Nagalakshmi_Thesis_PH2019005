@@ -1,0 +1,467 @@
+[DEBUG] MyAnalysis initialized.
+[FUNC ENTER] <anonymous> at (main.js:1:1:30:12), Args: [], Timestamp: 1769084934314
+[LITERAL] Value: undefined at (main.js:1:1:30:12)
+[FUNC EXIT] <anonymous> at (main.js:1:1:30:12), Return: undefined, Exception: {}, Timestamp: 1769084934358
+[FUNC ENTER] <anonymous> at (main.js:1:1:30:12), Args: [{},null,{"id":".","path":"/home/nish/Sasank_Setta/Homesafety-IoT","exports":"[Circular]","filename":"/home/nish/Sasank_Setta/Homesafety-IoT/main.js","loaded":false,"children":[],"paths":["/home/nish/Sasank_Setta/Homesafety-IoT/node_modules","/home/nish/Sasank_Setta/node_modules","/home/nish/node_modules","/home/node_modules","/node_modules"]},"/home/nish/Sasank_Setta/Homesafety-IoT/main.js","/home/nish/Sasank_Setta/Homesafety-IoT"], Timestamp: 1769084934365
+[READ] Identifier: require, Value at (main.js:1:20:1:27)
+[LITERAL] Value: "./Mqtt" at (main.js:1:28:1:36)
+[FUNC ENTER] <anonymous> at (Mqtt.js:1:1:71:30), Args: [], Timestamp: 1769084934393
+[LITERAL] Value: undefined at (Mqtt.js:1:1:71:30)
+[FUNC EXIT] <anonymous> at (Mqtt.js:1:1:71:30), Return: undefined, Exception: {}, Timestamp: 1769084934396
+[FUNC ENTER] <anonymous> at (Mqtt.js:1:1:71:30), Args: [{},null,{"id":"/home/nish/Sasank_Setta/Homesafety-IoT/Mqtt.js","path":"/home/nish/Sasank_Setta/Homesafety-IoT","exports":"[Circular]","filename":"/home/nish/Sasank_Setta/Homesafety-IoT/Mqtt.js","loaded":false,"children":[],"paths":["/home/nish/Sasank_Setta/Homesafety-IoT/node_modules","/home/nish/Sasank_Setta/node_modules","/home/nish/node_modules","/home/node_modules","/node_modules"]},"/home/nish/Sasank_Setta/Homesafety-IoT/Mqtt.js","/home/nish/Sasank_Setta/Homesafety-IoT"], Timestamp: 1769084934397
+[READ] Identifier: require, Value at (Mqtt.js:1:22:1:29)
+[LITERAL] Value: "events" at (Mqtt.js:1:30:1:38)
+[WRITE] Identifier: EventEmitter, Value at (Mqtt.js:1:1:1:39)
+[READ] Identifier: EventEmitter, Value at (Mqtt.js:3:26:3:38)
+[LITERAL] Value: undefined at (Mqtt.js:11:3:15:4)
+[LITERAL] Value: undefined at (Mqtt.js:17:3:27:4)
+[LITERAL] Value: undefined at (Mqtt.js:29:3:35:4)
+[LITERAL] Value: undefined at (Mqtt.js:37:3:45:4)
+[LITERAL] Value: undefined at (Mqtt.js:49:3:54:4)
+[LITERAL] Value: undefined at (Mqtt.js:56:3:61:4)
+[LITERAL] Value: undefined at (Mqtt.js:63:3:68:4)
+[READ] Identifier: module, Value at (Mqtt.js:71:1:71:7)
+[READ] Identifier: MQTTBroker, Value at (Mqtt.js:71:18:71:28)
+[FUNC EXIT] <anonymous> at (Mqtt.js:1:1:71:30), Return: undefined, Exception: {}, Timestamp: 1769084934429
+[WRITE] Identifier: MQTTBroker, Value at (main.js:1:1:1:37)
+[READ] Identifier: require, Value at (main.js:2:26:2:33)
+[LITERAL] Value: "./homeSafetySensor" at (main.js:2:34:2:54)
+[FUNC ENTER] <anonymous> at (homeSafetySensor.js:1:1:54:37), Args: [], Timestamp: 1769084934445
+[LITERAL] Value: undefined at (homeSafetySensor.js:1:1:54:37)
+[FUNC EXIT] <anonymous> at (homeSafetySensor.js:1:1:54:37), Return: undefined, Exception: {}, Timestamp: 1769084934448
+[FUNC ENTER] <anonymous> at (homeSafetySensor.js:1:1:54:37), Args: [{},null,{"id":"/home/nish/Sasank_Setta/Homesafety-IoT/homeSafetySensor.js","path":"/home/nish/Sasank_Setta/Homesafety-IoT","exports":"[Circular]","filename":"/home/nish/Sasank_Setta/Homesafety-IoT/homeSafetySensor.js","loaded":false,"children":[],"paths":["/home/nish/Sasank_Setta/Homesafety-IoT/node_modules","/home/nish/Sasank_Setta/node_modules","/home/nish/node_modules","/home/node_modules","/node_modules"]},"/home/nish/Sasank_Setta/Homesafety-IoT/homeSafetySensor.js","/home/nish/Sasank_Setta/Homesafety-IoT"], Timestamp: 1769084934450
+[READ] Identifier: require, Value at (homeSafetySensor.js:1:22:1:29)
+[LITERAL] Value: "./homeSafetyDataGenerator" at (homeSafetySensor.js:1:30:1:57)
+[FUNC ENTER] <anonymous> at (homeSafetyDataGenerator.js:1:1:10:49), Args: [], Timestamp: 1769084934462
+[LITERAL] Value: undefined at (homeSafetyDataGenerator.js:1:1:10:49)
+[FUNC EXIT] <anonymous> at (homeSafetyDataGenerator.js:1:1:10:49), Return: undefined, Exception: {}, Timestamp: 1769084934465
+[FUNC ENTER] <anonymous> at (homeSafetyDataGenerator.js:1:1:10:49), Args: [{},null,{"id":"/home/nish/Sasank_Setta/Homesafety-IoT/homeSafetyDataGenerator.js","path":"/home/nish/Sasank_Setta/Homesafety-IoT","exports":"[Circular]","filename":"/home/nish/Sasank_Setta/Homesafety-IoT/homeSafetyDataGenerator.js","loaded":false,"children":[],"paths":["/home/nish/Sasank_Setta/Homesafety-IoT/node_modules","/home/nish/Sasank_Setta/node_modules","/home/nish/node_modules","/home/node_modules","/node_modules"]},"/home/nish/Sasank_Setta/Homesafety-IoT/homeSafetyDataGenerator.js","/home/nish/Sasank_Setta/Homesafety-IoT"], Timestamp: 1769084934467
+[LITERAL] Value: undefined at (homeSafetyDataGenerator.js:1:1:8:2)
+[WRITE] Identifier: generateHomeSafetySystemData, Value at (homeSafetyDataGenerator.js:1:1:8:2)
+[READ] Identifier: module, Value at (homeSafetyDataGenerator.js:10:1:10:7)
+[READ] Identifier: generateHomeSafetySystemData, Value at (homeSafetyDataGenerator.js:10:18:10:46)
+[FUNC EXIT] <anonymous> at (homeSafetyDataGenerator.js:1:1:10:49), Return: undefined, Exception: {}, Timestamp: 1769084934478
+[WRITE] Identifier: generateData, Value at (homeSafetySensor.js:1:1:1:58)
+[LITERAL] Value: undefined at (homeSafetySensor.js:10:5:30:6)
+[LITERAL] Value: undefined at (homeSafetySensor.js:32:5:36:6)
+[LITERAL] Value: undefined at (homeSafetySensor.js:38:5:44:6)
+[LITERAL] Value: undefined at (homeSafetySensor.js:46:5:51:6)
+[READ] Identifier: module, Value at (homeSafetySensor.js:54:1:54:7)
+[READ] Identifier: HomeSafetySensor, Value at (homeSafetySensor.js:54:18:54:34)
+[FUNC EXIT] <anonymous> at (homeSafetySensor.js:1:1:54:37), Return: undefined, Exception: {}, Timestamp: 1769084934484
+[WRITE] Identifier: HomeSafetySensor, Value at (main.js:2:1:2:55)
+[READ] Identifier: require, Value at (main.js:3:26:3:33)
+[LITERAL] Value: "./homeSafetyLambda" at (main.js:3:34:3:54)
+[FUNC ENTER] <anonymous> at (homeSafetyLambda.js:1:1:28:37), Args: [], Timestamp: 1769084934497
+[LITERAL] Value: undefined at (homeSafetyLambda.js:1:1:28:37)
+[FUNC EXIT] <anonymous> at (homeSafetyLambda.js:1:1:28:37), Return: undefined, Exception: {}, Timestamp: 1769084934498
+[FUNC ENTER] <anonymous> at (homeSafetyLambda.js:1:1:28:37), Args: [{},null,{"id":"/home/nish/Sasank_Setta/Homesafety-IoT/homeSafetyLambda.js","path":"/home/nish/Sasank_Setta/Homesafety-IoT","exports":"[Circular]","filename":"/home/nish/Sasank_Setta/Homesafety-IoT/homeSafetyLambda.js","loaded":false,"children":[],"paths":["/home/nish/Sasank_Setta/Homesafety-IoT/node_modules","/home/nish/Sasank_Setta/node_modules","/home/nish/node_modules","/home/node_modules","/node_modules"]},"/home/nish/Sasank_Setta/Homesafety-IoT/homeSafetyLambda.js","/home/nish/Sasank_Setta/Homesafety-IoT"], Timestamp: 1769084934500
+[LITERAL] Value: undefined at (homeSafetyLambda.js:6:5:18:6)
+[LITERAL] Value: undefined at (homeSafetyLambda.js:20:5:25:6)
+[READ] Identifier: module, Value at (homeSafetyLambda.js:28:1:28:7)
+[READ] Identifier: HomeSafetyLambda, Value at (homeSafetyLambda.js:28:18:28:34)
+[FUNC EXIT] <anonymous> at (homeSafetyLambda.js:1:1:28:37), Return: undefined, Exception: {}, Timestamp: 1769084934504
+[WRITE] Identifier: HomeSafetyLambda, Value at (main.js:3:1:3:55)
+[READ] Identifier: require, Value at (main.js:4:27:4:34)
+[LITERAL] Value: "./homeSafetyStorage" at (main.js:4:35:4:56)
+[FUNC ENTER] <anonymous> at (homeSafetyStorage.js:1:1:28:38), Args: [], Timestamp: 1769084934523
+[LITERAL] Value: undefined at (homeSafetyStorage.js:1:1:28:38)
+[FUNC EXIT] <anonymous> at (homeSafetyStorage.js:1:1:28:38), Return: undefined, Exception: {}, Timestamp: 1769084934525
+[FUNC ENTER] <anonymous> at (homeSafetyStorage.js:1:1:28:38), Args: [{},null,{"id":"/home/nish/Sasank_Setta/Homesafety-IoT/homeSafetyStorage.js","path":"/home/nish/Sasank_Setta/Homesafety-IoT","exports":"[Circular]","filename":"/home/nish/Sasank_Setta/Homesafety-IoT/homeSafetyStorage.js","loaded":false,"children":[],"paths":["/home/nish/Sasank_Setta/Homesafety-IoT/node_modules","/home/nish/Sasank_Setta/node_modules","/home/nish/node_modules","/home/node_modules","/node_modules"]},"/home/nish/Sasank_Setta/Homesafety-IoT/homeSafetyStorage.js","/home/nish/Sasank_Setta/Homesafety-IoT"], Timestamp: 1769084934526
+[LITERAL] Value: undefined at (homeSafetyStorage.js:7:5:25:6)
+[READ] Identifier: module, Value at (homeSafetyStorage.js:28:1:28:7)
+[READ] Identifier: HomeSafetyStorage, Value at (homeSafetyStorage.js:28:18:28:35)
+[FUNC EXIT] <anonymous> at (homeSafetyStorage.js:1:1:28:38), Return: undefined, Exception: {}, Timestamp: 1769084934530
+[WRITE] Identifier: HomeSafetyStorage, Value at (main.js:4:1:4:57)
+[READ] Identifier: require, Value at (main.js:5:25:5:32)
+[LITERAL] Value: "./homeSafetyAlarm" at (main.js:5:33:5:52)
+[FUNC ENTER] <anonymous> at (homeSafetyAlarm.js:1:1:28:38), Args: [], Timestamp: 1769084934541
+[LITERAL] Value: undefined at (homeSafetyAlarm.js:1:1:28:38)
+[FUNC EXIT] <anonymous> at (homeSafetyAlarm.js:1:1:28:38), Return: undefined, Exception: {}, Timestamp: 1769084934544
+[FUNC ENTER] <anonymous> at (homeSafetyAlarm.js:1:1:28:38), Args: [{},null,{"id":"/home/nish/Sasank_Setta/Homesafety-IoT/homeSafetyAlarm.js","path":"/home/nish/Sasank_Setta/Homesafety-IoT","exports":"[Circular]","filename":"/home/nish/Sasank_Setta/Homesafety-IoT/homeSafetyAlarm.js","loaded":false,"children":[],"paths":["/home/nish/Sasank_Setta/Homesafety-IoT/node_modules","/home/nish/Sasank_Setta/node_modules","/home/nish/node_modules","/home/node_modules","/node_modules"]},"/home/nish/Sasank_Setta/Homesafety-IoT/homeSafetyAlarm.js","/home/nish/Sasank_Setta/Homesafety-IoT"], Timestamp: 1769084934547
+[LITERAL] Value: undefined at (homeSafetyAlarm.js:7:5:25:6)
+[READ] Identifier: module, Value at (homeSafetyAlarm.js:28:1:28:7)
+[READ] Identifier: HomeSafetyStorage, Value at (homeSafetyAlarm.js:28:18:28:35)
+[FUNC EXIT] <anonymous> at (homeSafetyAlarm.js:1:1:28:38), Return: undefined, Exception: {}, Timestamp: 1769084934561
+[WRITE] Identifier: HomeSafetyAlarm, Value at (main.js:5:1:5:53)
+[READ] Identifier: MQTTBroker, Value at (main.js:7:20:7:30)
+[FUNC ENTER] MQTTBroker at (Mqtt.js:3:1:69:2), Args: [null], Timestamp: 1769084934569
+[READ] Identifier: Map, Value at (Mqtt.js:6:24:6:27)
+[READ] Identifier: Map, Value at (Mqtt.js:7:30:7:33)
+[READ] Identifier: Map, Value at (Mqtt.js:8:33:8:36)
+[FUNC EXIT] MQTTBroker at (Mqtt.js:3:1:69:2), Return: {"_events":{},"_eventsCount":0,"clients":{},"subscriptions":{},"retainedMessages":{}}, Exception: {}, Timestamp: 1769084934573
+[WRITE] Identifier: broker, Value at (main.js:7:1:7:32)
+[READ] Identifier: HomeSafetySensor, Value at (main.js:9:20:9:36)
+[LITERAL] Value: "home-sensor-001" at (main.js:9:37:9:54)
+[READ] Identifier: broker, Value at (main.js:9:56:9:62)
+[FUNC ENTER] HomeSafetySensor at (homeSafetySensor.js:3:1:52:2), Args: ["home-sensor-001",{"_events":{},"_eventsCount":0,"clients":{},"subscriptions":{},"retainedMessages":{}}], Timestamp: 1769084934589
+[READ] Identifier: this, Value at (homeSafetySensor.js:5:9:5:13)
+[READ] Identifier: sensorId, Value at (homeSafetySensor.js:5:25:5:33)
+[READ] Identifier: this, Value at (homeSafetySensor.js:6:9:6:13)
+[READ] Identifier: broker, Value at (homeSafetySensor.js:6:23:6:29)
+[READ] Identifier: this, Value at (homeSafetySensor.js:7:9:7:13)
+[LITERAL] Value: null at (homeSafetySensor.js:7:25:7:29)
+[FUNC EXIT] HomeSafetySensor at (homeSafetySensor.js:3:1:52:2), Return: undefined, Exception: {}, Timestamp: 1769084934601
+[WRITE] Identifier: sensor, Value at (main.js:9:1:9:63)
+[READ] Identifier: HomeSafetyLambda, Value at (main.js:11:20:11:36)
+[READ] Identifier: broker, Value at (main.js:11:37:11:43)
+[FUNC ENTER] HomeSafetyLambda at (homeSafetyLambda.js:1:1:26:2), Args: [{"_events":{},"_eventsCount":0,"clients":{},"subscriptions":{},"retainedMessages":{}}], Timestamp: 1769084934605
+[READ] Identifier: this, Value at (homeSafetyLambda.js:3:9:3:13)
+[READ] Identifier: broker, Value at (homeSafetyLambda.js:3:23:3:29)
+[FUNC EXIT] HomeSafetyLambda at (homeSafetyLambda.js:1:1:26:2), Return: undefined, Exception: {}, Timestamp: 1769084934607
+[WRITE] Identifier: lambda, Value at (main.js:11:1:11:44)
+[READ] Identifier: lambda, Value at (main.js:12:1:12:7)
+[FUNC ENTER] start at (homeSafetyLambda.js:6:5:18:6), Args: [], Timestamp: 1769084934609
+[READ] Identifier: this, Value at (homeSafetyLambda.js:7:9:7:13)
+[LITERAL] Value: "message" at (homeSafetyLambda.js:7:24:7:33)
+[LITERAL] Value: undefined at (homeSafetyLambda.js:7:35:17:10)
+[FUNC EXIT] start at (homeSafetyLambda.js:6:5:18:6), Return: undefined, Exception: {}, Timestamp: 1769084934613
+[READ] Identifier: HomeSafetyStorage, Value at (main.js:14:21:14:38)
+[READ] Identifier: broker, Value at (main.js:14:39:14:45)
+[FUNC ENTER] HomeSafetyStorage at (homeSafetyStorage.js:1:1:26:2), Args: [{"_events":{},"_eventsCount":1,"clients":{},"subscriptions":{},"retainedMessages":{}}], Timestamp: 1769084934616
+[READ] Identifier: this, Value at (homeSafetyStorage.js:3:9:3:13)
+[READ] Identifier: broker, Value at (homeSafetyStorage.js:3:23:3:29)
+[READ] Identifier: this, Value at (homeSafetyStorage.js:4:9:4:13)
+[LITERAL] Value: [] at (homeSafetyStorage.js:4:19:4:21)
+[FUNC EXIT] HomeSafetyStorage at (homeSafetyStorage.js:1:1:26:2), Return: undefined, Exception: {}, Timestamp: 1769084934621
+[WRITE] Identifier: storage, Value at (main.js:14:1:14:46)
+[READ] Identifier: storage, Value at (main.js:15:1:15:8)
+[FUNC ENTER] start at (homeSafetyStorage.js:7:5:25:6), Args: [], Timestamp: 1769084934624
+[READ] Identifier: this, Value at (homeSafetyStorage.js:8:9:8:13)
+[LITERAL] Value: "storage" at (homeSafetyStorage.js:8:31:8:40)
+[LITERAL] Value: "home/processed" at (homeSafetyStorage.js:8:42:8:58)
+[FUNC ENTER] subscribe at (Mqtt.js:29:3:35:4), Args: ["storage","home/processed"], Timestamp: 1769084934629
+[READ] Identifier: this, Value at (Mqtt.js:30:10:30:14)
+[READ] Identifier: topic, Value at (Mqtt.js:30:33:30:38)
+[CONDITIONAL] Result: false at (Mqtt.js:30:10:30:39)
+[READ] Identifier: this, Value at (Mqtt.js:31:7:31:11)
+[READ] Identifier: topic, Value at (Mqtt.js:31:30:31:35)
+[LITERAL] Value: [] at (Mqtt.js:31:37:31:39)
+[READ] Identifier: this, Value at (Mqtt.js:33:5:33:9)
+[READ] Identifier: topic, Value at (Mqtt.js:33:28:33:33)
+[READ] Identifier: clientId, Value at (Mqtt.js:33:40:33:48)
+[READ] Identifier: console, Value at (Mqtt.js:34:5:34:12)
+[LITERAL] Value: "[Broker] Client \"" at (Mqtt.js:34:17:34:37)
+[READ] Identifier: clientId, Value at (Mqtt.js:34:37:34:45)
+[LITERAL] Value: "\" subscribed to \"" at (Mqtt.js:34:45:34:65)
+[READ] Identifier: topic, Value at (Mqtt.js:34:65:34:70)
+[LITERAL] Value: "\"." at (Mqtt.js:34:70:34:74)
+[BINARY] [Broker] Client " + storage = [Broker] Client "storage" subscribed to "home/processed". at (Mqtt.js:34:17:34:74)
+[Broker] Client "storage" subscribed to "home/processed".
+[FUNC EXIT] subscribe at (Mqtt.js:29:3:35:4), Return: undefined, Exception: {}, Timestamp: 1769084934653
+[READ] Identifier: this, Value at (homeSafetyStorage.js:10:9:10:13)
+[LITERAL] Value: "message" at (homeSafetyStorage.js:10:24:10:33)
+[LITERAL] Value: undefined at (homeSafetyStorage.js:10:35:24:10)
+[FUNC EXIT] start at (homeSafetyStorage.js:7:5:25:6), Return: undefined, Exception: {}, Timestamp: 1769084934656
+[READ] Identifier: HomeSafetyAlarm, Value at (main.js:17:19:17:34)
+[READ] Identifier: broker, Value at (main.js:17:35:17:41)
+[FUNC ENTER] HomeSafetyStorage at (homeSafetyAlarm.js:1:1:26:2), Args: [{"_events":{"message":[null,null]},"_eventsCount":1,"clients":{},"subscriptions":{},"retainedMessages":{}}], Timestamp: 1769084934658
+[READ] Identifier: this, Value at (homeSafetyAlarm.js:3:9:3:13)
+[READ] Identifier: broker, Value at (homeSafetyAlarm.js:3:23:3:29)
+[READ] Identifier: this, Value at (homeSafetyAlarm.js:4:9:4:13)
+[LITERAL] Value: [] at (homeSafetyAlarm.js:4:19:4:21)
+[FUNC EXIT] HomeSafetyStorage at (homeSafetyAlarm.js:1:1:26:2), Return: undefined, Exception: {}, Timestamp: 1769084934663
+[WRITE] Identifier: alarm, Value at (main.js:17:1:17:42)
+[READ] Identifier: alarm, Value at (main.js:18:1:18:6)
+[FUNC ENTER] start at (homeSafetyAlarm.js:7:5:25:6), Args: [], Timestamp: 1769084934666
+[READ] Identifier: this, Value at (homeSafetyAlarm.js:8:9:8:13)
+[LITERAL] Value: "storage" at (homeSafetyAlarm.js:8:31:8:40)
+[LITERAL] Value: "home/processed" at (homeSafetyAlarm.js:8:42:8:58)
+[FUNC ENTER] subscribe at (Mqtt.js:29:3:35:4), Args: ["storage","home/processed"], Timestamp: 1769084934672
+[READ] Identifier: this, Value at (Mqtt.js:30:10:30:14)
+[READ] Identifier: topic, Value at (Mqtt.js:30:33:30:38)
+[CONDITIONAL] Result: true at (Mqtt.js:30:10:30:39)
+[READ] Identifier: this, Value at (Mqtt.js:33:5:33:9)
+[READ] Identifier: topic, Value at (Mqtt.js:33:28:33:33)
+[READ] Identifier: clientId, Value at (Mqtt.js:33:40:33:48)
+[READ] Identifier: console, Value at (Mqtt.js:34:5:34:12)
+[LITERAL] Value: "[Broker] Client \"" at (Mqtt.js:34:17:34:37)
+[READ] Identifier: clientId, Value at (Mqtt.js:34:37:34:45)
+[LITERAL] Value: "\" subscribed to \"" at (Mqtt.js:34:45:34:65)
+[READ] Identifier: topic, Value at (Mqtt.js:34:65:34:70)
+[LITERAL] Value: "\"." at (Mqtt.js:34:70:34:74)
+[BINARY] [Broker] Client " + storage = [Broker] Client "storage" subscribed to "home/processed". at (Mqtt.js:34:17:34:74)
+[Broker] Client "storage" subscribed to "home/processed".
+[FUNC EXIT] subscribe at (Mqtt.js:29:3:35:4), Return: undefined, Exception: {}, Timestamp: 1769084934681
+[READ] Identifier: this, Value at (homeSafetyAlarm.js:10:9:10:13)
+[LITERAL] Value: "message" at (homeSafetyAlarm.js:10:24:10:33)
+[LITERAL] Value: undefined at (homeSafetyAlarm.js:10:35:24:10)
+[FUNC EXIT] start at (homeSafetyAlarm.js:7:5:25:6), Return: undefined, Exception: {}, Timestamp: 1769084934688
+[READ] Identifier: sensor, Value at (main.js:20:1:20:7)
+[FUNC ENTER] connect at (homeSafetySensor.js:10:5:30:6), Args: [], Timestamp: 1769084934690
+[READ] Identifier: this, Value at (homeSafetySensor.js:11:9:11:13)
+[READ] Identifier: this, Value at (homeSafetySensor.js:11:29:11:33)
+[LITERAL] Value: "home/status" at (homeSafetySensor.js:13:24:13:37)
+[READ] Identifier: JSON, Value at (homeSafetySensor.js:14:26:14:30)
+[READ] Identifier: this, Value at (homeSafetySensor.js:14:53:14:57)
+[LITERAL] Value: "dead" at (homeSafetySensor.js:14:76:14:82)
+[LITERAL] Value: {"sensorId":"home-sensor-001","status":"dead"} at (homeSafetySensor.js:14:41:14:84)
+[LITERAL] Value: {"topic":"home/status","message":"{\"sensorId\":\"home-sensor-001\",\"status\":\"dead\"}"} at (homeSafetySensor.js:12:18:15:14)
+[LITERAL] Value: {"LWT":{"topic":"home/status","message":"{\"sensorId\":\"home-sensor-001\",\"status\":\"dead\"}"}} at (homeSafetySensor.js:11:44:16:10)
+[WRITE] Identifier: clientId, Value at (Mqtt.js:11:11:11:19)
+[LITERAL] Value: undefined at (Mqtt.js:11:21:11:33)
+[BINARY] [object Object] === undefined = false at (Mqtt.js:11:21:11:33)
+[CONDITIONAL] Result: false at (Mqtt.js:11:21:11:33)
+[WRITE] Identifier: options, Value at (Mqtt.js:11:21:11:33)
+[FUNC ENTER] connect at (Mqtt.js:11:3:15:4), Args: ["home-sensor-001",{"LWT":{"topic":"home/status","message":"{\"sensorId\":\"home-sensor-001\",\"status\":\"dead\"}"}}], Timestamp: 1769084934706
+[READ] Identifier: this, Value at (Mqtt.js:12:5:12:9)
+[READ] Identifier: clientId, Value at (Mqtt.js:12:22:12:30)
+[READ] Identifier: options, Value at (Mqtt.js:12:32:12:39)
+[READ] Identifier: console, Value at (Mqtt.js:13:5:13:12)
+[LITERAL] Value: "[Broker] Client \"" at (Mqtt.js:13:17:13:37)
+[READ] Identifier: clientId, Value at (Mqtt.js:13:37:13:45)
+[LITERAL] Value: "\" connected." at (Mqtt.js:13:45:13:59)
+[BINARY] [Broker] Client " + home-sensor-001 = [Broker] Client "home-sensor-001" connected. at (Mqtt.js:13:17:13:59)
+[Broker] Client "home-sensor-001" connected.
+[READ] Identifier: this, Value at (Mqtt.js:14:5:14:9)
+[LITERAL] Value: "connect" at (Mqtt.js:14:15:14:24)
+[READ] Identifier: clientId, Value at (Mqtt.js:14:26:14:34)
+[READ] Identifier: options, Value at (Mqtt.js:14:36:14:43)
+[FUNC EXIT] connect at (Mqtt.js:11:3:15:4), Return: undefined, Exception: {}, Timestamp: 1769084934726
+[READ] Identifier: this, Value at (homeSafetySensor.js:19:9:19:13)
+[FUNC ENTER] publishData at (homeSafetySensor.js:32:5:36:6), Args: [], Timestamp: 1769084934728
+[READ] Identifier: generateData, Value at (homeSafetySensor.js:33:22:33:34)
+[FUNC ENTER] generateHomeSafetySystemData at (homeSafetyDataGenerator.js:1:1:8:2), Args: [], Timestamp: 1769084934730
+[READ] Identifier: Math, Value at (homeSafetyDataGenerator.js:3:22:3:26)
+[READ] Identifier: Math, Value at (homeSafetyDataGenerator.js:3:33:3:37)
+[LITERAL] Value: 100 at (homeSafetyDataGenerator.js:3:49:3:52)
+[BINARY] 0.18198365466280042 * 100 = 18.19836546628004 at (homeSafetyDataGenerator.js:3:33:3:52)
+[READ] Identifier: Math, Value at (homeSafetyDataGenerator.js:4:19:4:23)
+[READ] Identifier: Math, Value at (homeSafetyDataGenerator.js:4:30:4:34)
+[LITERAL] Value: 100 at (homeSafetyDataGenerator.js:4:46:4:49)
+[BINARY] 0.8882808818392481 * 100 = 88.82808818392482 at (homeSafetyDataGenerator.js:4:30:4:49)
+[READ] Identifier: Math, Value at (homeSafetyDataGenerator.js:5:21:5:25)
+[LITERAL] Value: 0.5 at (homeSafetyDataGenerator.js:5:37:5:40)
+[BINARY] 0.37892252574241503 < 0.5 = true at (homeSafetyDataGenerator.js:5:21:5:40)
+[READ] Identifier: Math, Value at (homeSafetyDataGenerator.js:6:25:6:29)
+[LITERAL] Value: 0.5 at (homeSafetyDataGenerator.js:6:41:6:44)
+[BINARY] 0.10478160010912507 < 0.5 = true at (homeSafetyDataGenerator.js:6:25:6:44)
+[LITERAL] Value: {"temperature":18,"humidity":88,"gasLeakage":true,"motionDetected":true} at (homeSafetyDataGenerator.js:2:12:7:6)
+[RETURN] at (homeSafetyDataGenerator.js:2:5:7:7), Value: {"temperature":18,"humidity":88,"gasLeakage":true,"motionDetected":true}
+[FUNC EXIT] generateHomeSafetySystemData at (homeSafetyDataGenerator.js:1:1:8:2), Return: {"temperature":18,"humidity":88,"gasLeakage":true,"motionDetected":true}, Exception: {}, Timestamp: 1769084934765
+[WRITE] Identifier: data, Value at (homeSafetySensor.js:33:9:33:36)
+[READ] Identifier: this, Value at (homeSafetySensor.js:34:37:34:41)
+[READ] Identifier: data, Value at (homeSafetySensor.js:34:55:34:59)
+[LITERAL] Value: {"sensorId":"home-sensor-001","temperature":18,"humidity":88,"gasLeakage":true,"motionDetected":true} at (homeSafetySensor.js:34:25:34:61)
+[WRITE] Identifier: payload, Value at (homeSafetySensor.js:34:9:34:61)
+[READ] Identifier: this, Value at (homeSafetySensor.js:35:9:35:13)
+[LITERAL] Value: "home/data" at (homeSafetySensor.js:35:29:35:40)
+[READ] Identifier: JSON, Value at (homeSafetySensor.js:35:42:35:46)
+[READ] Identifier: payload, Value at (homeSafetySensor.js:35:57:35:64)
+[WRITE] Identifier: topic, Value at (Mqtt.js:17:11:17:16)
+[WRITE] Identifier: message, Value at (Mqtt.js:17:18:17:25)
+[LITERAL] Value: undefined at (Mqtt.js:17:27:17:39)
+[BINARY] undefined === undefined = true at (Mqtt.js:17:27:17:39)
+[CONDITIONAL] Result: true at (Mqtt.js:17:27:17:39)
+[LITERAL] Value: {} at (Mqtt.js:17:37:17:39)
+[WRITE] Identifier: options, Value at (Mqtt.js:17:27:17:39)
+[FUNC ENTER] publish at (Mqtt.js:17:3:27:4), Args: ["home/data","{\"sensorId\":\"home-sensor-001\",\"temperature\":18,\"humidity\":88,\"gasLeakage\":true,\"motionDetected\":true}"], Timestamp: 1769084934803
+[READ] Identifier: console, Value at (Mqtt.js:18:5:18:12)
+[LITERAL] Value: "[Broker] Published to topic \"" at (Mqtt.js:18:17:18:49)
+[READ] Identifier: topic, Value at (Mqtt.js:18:49:18:54)
+[LITERAL] Value: "\": " at (Mqtt.js:18:54:18:60)
+[READ] Identifier: message, Value at (Mqtt.js:18:60:18:67)
+[LITERAL] Value: "" at (Mqtt.js:18:67:18:69)
+[BINARY] [Broker] Published to topic " + home/data = [Broker] Published to topic "home/data": {"sensorId":"home-sensor-001","temperature":18,"humidity":88,"gasLeakage":true,"motionDetected":true} at (Mqtt.js:18:17:18:69)
+[Broker] Published to topic "home/data": {"sensorId":"home-sensor-001","temperature":18,"humidity":88,"gasLeakage":true,"motionDetected":true}
+[READ] Identifier: this, Value at (Mqtt.js:19:5:19:9)
+[READ] Identifier: topic, Value at (Mqtt.js:19:31:19:36)
+[READ] Identifier: message, Value at (Mqtt.js:19:38:19:45)
+[READ] Identifier: this, Value at (Mqtt.js:22:9:22:13)
+[READ] Identifier: topic, Value at (Mqtt.js:22:32:22:37)
+[CONDITIONAL] Result: false at (Mqtt.js:22:9:22:38)
+[FUNC EXIT] publish at (Mqtt.js:17:3:27:4), Return: undefined, Exception: {}, Timestamp: 1769084934829
+[FUNC EXIT] publishData at (homeSafetySensor.js:32:5:36:6), Return: undefined, Exception: {}, Timestamp: 1769084934830
+[READ] Identifier: Promise, Value at (homeSafetySensor.js:27:9:27:16)
+[LITERAL] Value: undefined at (homeSafetySensor.js:27:32:29:10)
+[FUNC EXIT] connect at (homeSafetySensor.js:10:5:30:6), Return: undefined, Exception: {}, Timestamp: 1769084934837
+[READ] Identifier: console, Value at (main.js:22:1:22:8)
+[LITERAL] Value: "\n=== Broker State ===" at (main.js:22:13:22:37)
+
+=== Broker State ===
+[READ] Identifier: broker, Value at (main.js:23:1:23:7)
+[FUNC ENTER] listClients at (Mqtt.js:49:3:54:4), Args: [], Timestamp: 1769084934842
+[READ] Identifier: console, Value at (Mqtt.js:50:5:50:12)
+[LITERAL] Value: "[Broker] Connected clients:" at (Mqtt.js:50:17:50:46)
+[Broker] Connected clients:
+[READ] Identifier: this, Value at (Mqtt.js:51:39:51:43)
+[WRITE] Identifier: clientId, Value at (Mqtt.js:51:17:51:25)
+[WRITE] Identifier: options, Value at (Mqtt.js:51:27:51:34)
+[READ] Identifier: console, Value at (Mqtt.js:52:7:52:14)
+[LITERAL] Value: "- Client ID: " at (Mqtt.js:52:19:52:35)
+[READ] Identifier: clientId, Value at (Mqtt.js:52:35:52:43)
+[LITERAL] Value: ", Options: " at (Mqtt.js:52:43:52:57)
+[READ] Identifier: JSON, Value at (Mqtt.js:52:57:52:61)
+[READ] Identifier: options, Value at (Mqtt.js:52:72:52:79)
+[LITERAL] Value: "" at (Mqtt.js:52:80:52:82)
+[BINARY] - Client ID:  + home-sensor-001 = - Client ID: home-sensor-001, Options: {"LWT":{"topic":"home/status","message":"{\"sensorId\":\"home-sensor-001\",\"status\":\"dead\"}"}} at (Mqtt.js:52:19:52:82)
+- Client ID: home-sensor-001, Options: {"LWT":{"topic":"home/status","message":"{\"sensorId\":\"home-sensor-001\",\"status\":\"dead\"}"}}
+[FUNC EXIT] listClients at (Mqtt.js:49:3:54:4), Return: undefined, Exception: {}, Timestamp: 1769084934870
+[READ] Identifier: broker, Value at (main.js:24:1:24:7)
+[FUNC ENTER] listSubscriptions at (Mqtt.js:56:3:61:4), Args: [], Timestamp: 1769084934874
+[READ] Identifier: console, Value at (Mqtt.js:57:5:57:12)
+[LITERAL] Value: "[Broker] Subscriptions:" at (Mqtt.js:57:17:57:42)
+[Broker] Subscriptions:
+[READ] Identifier: this, Value at (Mqtt.js:58:38:58:42)
+[WRITE] Identifier: topic, Value at (Mqtt.js:58:17:58:22)
+[WRITE] Identifier: clientIds, Value at (Mqtt.js:58:24:58:33)
+[READ] Identifier: console, Value at (Mqtt.js:59:7:59:14)
+[LITERAL] Value: "- Topic: \"" at (Mqtt.js:59:19:59:32)
+[READ] Identifier: topic, Value at (Mqtt.js:59:32:59:37)
+[LITERAL] Value: "\", Subscribers: " at (Mqtt.js:59:37:59:56)
+[READ] Identifier: clientIds, Value at (Mqtt.js:59:56:59:65)
+[LITERAL] Value: ", " at (Mqtt.js:59:71:59:75)
+[LITERAL] Value: "" at (Mqtt.js:59:76:59:78)
+[BINARY] - Topic: " + home/processed = - Topic: "home/processed", Subscribers: storage, storage at (Mqtt.js:59:19:59:78)
+- Topic: "home/processed", Subscribers: storage, storage
+[FUNC EXIT] listSubscriptions at (Mqtt.js:56:3:61:4), Return: undefined, Exception: {}, Timestamp: 1769084934892
+[READ] Identifier: broker, Value at (main.js:25:1:25:7)
+[FUNC ENTER] listRetainedMessages at (Mqtt.js:63:3:68:4), Args: [], Timestamp: 1769084934893
+[READ] Identifier: console, Value at (Mqtt.js:64:5:64:12)
+[LITERAL] Value: "[Broker] Retained messages:" at (Mqtt.js:64:17:64:46)
+[Broker] Retained messages:
+[READ] Identifier: this, Value at (Mqtt.js:65:36:65:40)
+[WRITE] Identifier: topic, Value at (Mqtt.js:65:17:65:22)
+[WRITE] Identifier: message, Value at (Mqtt.js:65:24:65:31)
+[READ] Identifier: console, Value at (Mqtt.js:66:7:66:14)
+[LITERAL] Value: "- Topic: \"" at (Mqtt.js:66:19:66:32)
+[READ] Identifier: topic, Value at (Mqtt.js:66:32:66:37)
+[LITERAL] Value: "\", Message: " at (Mqtt.js:66:37:66:52)
+[READ] Identifier: message, Value at (Mqtt.js:66:52:66:59)
+[LITERAL] Value: "" at (Mqtt.js:66:59:66:61)
+[BINARY] - Topic: " + home/data = - Topic: "home/data", Message: {"sensorId":"home-sensor-001","temperature":18,"humidity":88,"gasLeakage":true,"motionDetected":true} at (Mqtt.js:66:19:66:61)
+- Topic: "home/data", Message: {"sensorId":"home-sensor-001","temperature":18,"humidity":88,"gasLeakage":true,"motionDetected":true}
+[FUNC EXIT] listRetainedMessages at (Mqtt.js:63:3:68:4), Return: undefined, Exception: {}, Timestamp: 1769084934920
+[READ] Identifier: console, Value at (main.js:26:1:26:8)
+[LITERAL] Value: "=====================\n" at (main.js:26:13:26:38)
+=====================
+
+[READ] Identifier: setTimeout, Value at (main.js:28:1:28:11)
+[LITERAL] Value: undefined at (main.js:28:12:30:2)
+[LITERAL] Value: 8000 at (main.js:30:4:30:8)
+[FUNC EXIT] <anonymous> at (main.js:1:1:30:12), Return: undefined, Exception: {}, Timestamp: 1769084934934
+[FUNC ENTER] <anonymous> at (homeSafetySensor.js:27:32:29:10), Args: [null], Timestamp: 1769084934941
+[READ] Identifier: this, Value at (homeSafetySensor.js:28:13:28:17)
+[FUNC ENTER] simulateMotionEvent at (homeSafetySensor.js:38:5:44:6), Args: [], Timestamp: 1769084934943
+[READ] Identifier: this, Value at (homeSafetySensor.js:40:23:40:27)
+[READ] Identifier: Math, Value at (homeSafetySensor.js:41:29:41:33)
+[LITERAL] Value: 0.3 at (homeSafetySensor.js:41:45:41:48)
+[BINARY] 0.8722871010326212 < 0.3 = false at (homeSafetySensor.js:41:29:41:48)
+[LITERAL] Value: {"sensorId":"home-sensor-001","motionDetected":false} at (homeSafetySensor.js:39:23:42:10)
+[WRITE] Identifier: event, Value at (homeSafetySensor.js:39:9:42:10)
+[READ] Identifier: this, Value at (homeSafetySensor.js:43:9:43:13)
+[LITERAL] Value: "home/motion" at (homeSafetySensor.js:43:29:43:42)
+[READ] Identifier: JSON, Value at (homeSafetySensor.js:43:44:43:48)
+[READ] Identifier: event, Value at (homeSafetySensor.js:43:59:43:64)
+[WRITE] Identifier: topic, Value at (Mqtt.js:17:11:17:16)
+[WRITE] Identifier: message, Value at (Mqtt.js:17:18:17:25)
+[LITERAL] Value: undefined at (Mqtt.js:17:27:17:39)
+[BINARY] undefined === undefined = true at (Mqtt.js:17:27:17:39)
+[CONDITIONAL] Result: true at (Mqtt.js:17:27:17:39)
+[LITERAL] Value: {} at (Mqtt.js:17:37:17:39)
+[WRITE] Identifier: options, Value at (Mqtt.js:17:27:17:39)
+[FUNC ENTER] publish at (Mqtt.js:17:3:27:4), Args: ["home/motion","{\"sensorId\":\"home-sensor-001\",\"motionDetected\":false}"], Timestamp: 1769084934959
+[READ] Identifier: console, Value at (Mqtt.js:18:5:18:12)
+[LITERAL] Value: "[Broker] Published to topic \"" at (Mqtt.js:18:17:18:49)
+[READ] Identifier: topic, Value at (Mqtt.js:18:49:18:54)
+[LITERAL] Value: "\": " at (Mqtt.js:18:54:18:60)
+[READ] Identifier: message, Value at (Mqtt.js:18:60:18:67)
+[LITERAL] Value: "" at (Mqtt.js:18:67:18:69)
+[BINARY] [Broker] Published to topic " + home/motion = [Broker] Published to topic "home/motion": {"sensorId":"home-sensor-001","motionDetected":false} at (Mqtt.js:18:17:18:69)
+[Broker] Published to topic "home/motion": {"sensorId":"home-sensor-001","motionDetected":false}
+[READ] Identifier: this, Value at (Mqtt.js:19:5:19:9)
+[READ] Identifier: topic, Value at (Mqtt.js:19:31:19:36)
+[READ] Identifier: message, Value at (Mqtt.js:19:38:19:45)
+[READ] Identifier: this, Value at (Mqtt.js:22:9:22:13)
+[READ] Identifier: topic, Value at (Mqtt.js:22:32:22:37)
+[CONDITIONAL] Result: false at (Mqtt.js:22:9:22:38)
+[FUNC EXIT] publish at (Mqtt.js:17:3:27:4), Return: undefined, Exception: {}, Timestamp: 1769084934967
+[FUNC EXIT] simulateMotionEvent at (homeSafetySensor.js:38:5:44:6), Return: undefined, Exception: {}, Timestamp: 1769084934968
+[FUNC EXIT] <anonymous> at (homeSafetySensor.js:27:32:29:10), Return: undefined, Exception: {}, Timestamp: 1769084934968
+[FUNC ENTER] <anonymous> at (main.js:28:12:30:2), Args: [], Timestamp: 1769084942971
+[READ] Identifier: sensor, Value at (main.js:29:5:29:11)
+[FUNC ENTER] stop at (homeSafetySensor.js:46:5:51:6), Args: [], Timestamp: 1769084942978
+[READ] Identifier: clearInterval, Value at (homeSafetySensor.js:47:9:47:22)
+[READ] Identifier: this, Value at (homeSafetySensor.js:47:23:47:27)
+[READ] Identifier: console, Value at (homeSafetySensor.js:48:9:48:16)
+[LITERAL] Value: "[Sensor] Sensor \"" at (homeSafetySensor.js:48:21:48:41)
+[READ] Identifier: this, Value at (homeSafetySensor.js:48:41:48:45)
+[LITERAL] Value: "\" stopped." at (homeSafetySensor.js:48:54:48:66)
+[BINARY] [Sensor] Sensor " + home-sensor-001 = [Sensor] Sensor "home-sensor-001" stopped. at (homeSafetySensor.js:48:21:48:66)
+[Sensor] Sensor "home-sensor-001" stopped.
+[READ] Identifier: this, Value at (homeSafetySensor.js:49:9:49:13)
+[LITERAL] Value: "home/status" at (homeSafetySensor.js:49:29:49:42)
+[READ] Identifier: JSON, Value at (homeSafetySensor.js:49:44:49:48)
+[READ] Identifier: this, Value at (homeSafetySensor.js:49:71:49:75)
+[LITERAL] Value: "dead" at (homeSafetySensor.js:49:94:49:100)
+[LITERAL] Value: {"sensorId":"home-sensor-001","status":"dead"} at (homeSafetySensor.js:49:59:49:102)
+[WRITE] Identifier: topic, Value at (Mqtt.js:17:11:17:16)
+[WRITE] Identifier: message, Value at (Mqtt.js:17:18:17:25)
+[LITERAL] Value: undefined at (Mqtt.js:17:27:17:39)
+[BINARY] undefined === undefined = true at (Mqtt.js:17:27:17:39)
+[CONDITIONAL] Result: true at (Mqtt.js:17:27:17:39)
+[LITERAL] Value: {} at (Mqtt.js:17:37:17:39)
+[WRITE] Identifier: options, Value at (Mqtt.js:17:27:17:39)
+[FUNC ENTER] publish at (Mqtt.js:17:3:27:4), Args: ["home/status","{\"sensorId\":\"home-sensor-001\",\"status\":\"dead\"}"], Timestamp: 1769084943000
+[READ] Identifier: console, Value at (Mqtt.js:18:5:18:12)
+[LITERAL] Value: "[Broker] Published to topic \"" at (Mqtt.js:18:17:18:49)
+[READ] Identifier: topic, Value at (Mqtt.js:18:49:18:54)
+[LITERAL] Value: "\": " at (Mqtt.js:18:54:18:60)
+[READ] Identifier: message, Value at (Mqtt.js:18:60:18:67)
+[LITERAL] Value: "" at (Mqtt.js:18:67:18:69)
+[BINARY] [Broker] Published to topic " + home/status = [Broker] Published to topic "home/status": {"sensorId":"home-sensor-001","status":"dead"} at (Mqtt.js:18:17:18:69)
+[Broker] Published to topic "home/status": {"sensorId":"home-sensor-001","status":"dead"}
+[READ] Identifier: this, Value at (Mqtt.js:19:5:19:9)
+[READ] Identifier: topic, Value at (Mqtt.js:19:31:19:36)
+[READ] Identifier: message, Value at (Mqtt.js:19:38:19:45)
+[READ] Identifier: this, Value at (Mqtt.js:22:9:22:13)
+[READ] Identifier: topic, Value at (Mqtt.js:22:32:22:37)
+[CONDITIONAL] Result: false at (Mqtt.js:22:9:22:38)
+[FUNC EXIT] publish at (Mqtt.js:17:3:27:4), Return: undefined, Exception: {}, Timestamp: 1769084943003
+[READ] Identifier: this, Value at (homeSafetySensor.js:50:9:50:13)
+[READ] Identifier: this, Value at (homeSafetySensor.js:50:32:50:36)
+[FUNC ENTER] disconnect at (Mqtt.js:37:3:45:4), Args: ["home-sensor-001"], Timestamp: 1769084943004
+[READ] Identifier: console, Value at (Mqtt.js:38:5:38:12)
+[LITERAL] Value: "[Broker] Client \"" at (Mqtt.js:38:17:38:37)
+[READ] Identifier: clientId, Value at (Mqtt.js:38:37:38:45)
+[LITERAL] Value: "\" disconnected." at (Mqtt.js:38:45:38:62)
+[BINARY] [Broker] Client " + home-sensor-001 = [Broker] Client "home-sensor-001" disconnected. at (Mqtt.js:38:17:38:62)
+[Broker] Client "home-sensor-001" disconnected.
+[READ] Identifier: this, Value at (Mqtt.js:39:27:39:31)
+[READ] Identifier: clientId, Value at (Mqtt.js:39:44:39:52)
+[WRITE] Identifier: clientOptions, Value at (Mqtt.js:39:5:39:53)
+[READ] Identifier: clientOptions, Value at (Mqtt.js:40:9:40:22)
+[READ] Identifier: clientOptions, Value at (Mqtt.js:40:26:40:39)
+[CONDITIONAL] Result: {"topic":"home/status","message":"{\"sensorId\":\"home-sensor-001\",\"status\":\"dead\"}"} at (Mqtt.js:40:9:40:43)
+[CONDITIONAL] Result: {"topic":"home/status","message":"{\"sensorId\":\"home-sensor-001\",\"status\":\"dead\"}"} at (Mqtt.js:40:9:40:43)
+[READ] Identifier: this, Value at (Mqtt.js:42:7:42:11)
+[READ] Identifier: clientOptions, Value at (Mqtt.js:42:20:42:33)
+[READ] Identifier: clientOptions, Value at (Mqtt.js:42:45:42:58)
+[WRITE] Identifier: topic, Value at (Mqtt.js:17:11:17:16)
+[WRITE] Identifier: message, Value at (Mqtt.js:17:18:17:25)
+[LITERAL] Value: undefined at (Mqtt.js:17:27:17:39)
+[BINARY] undefined === undefined = true at (Mqtt.js:17:27:17:39)
+[CONDITIONAL] Result: true at (Mqtt.js:17:27:17:39)
+[LITERAL] Value: {} at (Mqtt.js:17:37:17:39)
+[WRITE] Identifier: options, Value at (Mqtt.js:17:27:17:39)
+[FUNC ENTER] publish at (Mqtt.js:17:3:27:4), Args: ["home/status","{\"sensorId\":\"home-sensor-001\",\"status\":\"dead\"}"], Timestamp: 1769084943011
+[READ] Identifier: console, Value at (Mqtt.js:18:5:18:12)
+[LITERAL] Value: "[Broker] Published to topic \"" at (Mqtt.js:18:17:18:49)
+[READ] Identifier: topic, Value at (Mqtt.js:18:49:18:54)
+[LITERAL] Value: "\": " at (Mqtt.js:18:54:18:60)
+[READ] Identifier: message, Value at (Mqtt.js:18:60:18:67)
+[LITERAL] Value: "" at (Mqtt.js:18:67:18:69)
+[BINARY] [Broker] Published to topic " + home/status = [Broker] Published to topic "home/status": {"sensorId":"home-sensor-001","status":"dead"} at (Mqtt.js:18:17:18:69)
+[Broker] Published to topic "home/status": {"sensorId":"home-sensor-001","status":"dead"}
+[READ] Identifier: this, Value at (Mqtt.js:19:5:19:9)
+[READ] Identifier: topic, Value at (Mqtt.js:19:31:19:36)
+[READ] Identifier: message, Value at (Mqtt.js:19:38:19:45)
+[READ] Identifier: this, Value at (Mqtt.js:22:9:22:13)
+[READ] Identifier: topic, Value at (Mqtt.js:22:32:22:37)
+[CONDITIONAL] Result: false at (Mqtt.js:22:9:22:38)
+[FUNC EXIT] publish at (Mqtt.js:17:3:27:4), Return: undefined, Exception: {}, Timestamp: 1769084943012
+[READ] Identifier: this, Value at (Mqtt.js:44:5:44:9)
+[READ] Identifier: clientId, Value at (Mqtt.js:44:25:44:33)
+[FUNC EXIT] disconnect at (Mqtt.js:37:3:45:4), Return: undefined, Exception: {}, Timestamp: 1769084943014
+[FUNC EXIT] stop at (homeSafetySensor.js:46:5:51:6), Return: undefined, Exception: {}, Timestamp: 1769084943014
+[FUNC EXIT] <anonymous> at (main.js:28:12:30:2), Return: undefined, Exception: {}, Timestamp: 1769084943015

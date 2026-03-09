@@ -1,0 +1,27 @@
+2. Generic structure for ESM description:
+An Event Source Mapping (ESM) is typically associated with serverless computing platforms like AWS Lambda, 
+where it connects event sources (e.g., AWS services, S3 buckets, streams) to Lambda functions. 
+
+The structure of an Event Source Mapping description would depend on the specific platform and service you are using, 
+but here's a general structure you can use as a reference, particularly for AWS Lambda:
+{
+      "UUID": "mapping-uuid-1",
+      "BatchSize": 10,
+      "EventSourceArn": "arn:aws:lambda:us-east-1:123456789012:function:L6",
+      "FunctionArn": "arn:aws:lambda:us-east-1:123456789012:function:L1",
+    .....
+    "FilterCriteria": {
+        "Filters": [
+            {
+                "AttributeName": "status",
+                "AttributeValue": {"S": "completed"
+                    }
+                }]},
+        // Other event source mappings
+    }
+
+"EventSourceArn"": The ARN (Amazon Resource Name) of the event source, such as an AWS service, S3 bucket, or stream.
+"function_name": The name of the AWS Lambda function that will be triggered by events.
+"Filter criteria" are specific conditions or rules used to narrow down
+a dataset or set of results to include only those that meet certain requirements. 
+

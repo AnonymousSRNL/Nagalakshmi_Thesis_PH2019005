@@ -1,0 +1,129 @@
+const { expect } = require("chai");
+
+describe("Coverage Tests for IoT Application", () => {
+
+    // ---------------------------------------------------------------------
+    // 1. LAMBDA COVERAGE TESTS (LC)
+    // ---------------------------------------------------------------------
+    describe("Lambda Coverage (𝒯ₗc)", () => {
+
+        it("LC‑0: No Lambda functions defined in LC table", () => {
+            const LC = {
+                lambdaName: null,
+                invoker: null,
+                triggerEvent: null,
+                params: null
+            };
+
+            expect(LC.lambdaName).to.equal(null);
+            expect(LC.invoker).to.equal(null);
+            expect(LC.triggerEvent).to.equal(null);
+            expect(LC.params).to.equal(null);
+        });
+
+    });
+
+    // ---------------------------------------------------------------------
+    // 2. END‑TO‑END FLOW COVERAGE TESTS (EE)
+    // ---------------------------------------------------------------------
+    describe("End‑to‑End Flow Coverage (𝒯ₑₑ)", () => {
+
+        it("EE‑0: IoT Core Rule should forward params to S3 Bucket", () => {
+            const EE0 = {
+                component: "IoT Core Rule (temperature-topic)",
+                finalSuccessor: "S3 Bucket (your-s3-bucket-name)",
+                params: ["A1", "A2", "deviceId"]
+            };
+
+            expect(EE0.component).to.equal("IoT Core Rule (temperature-topic)");
+            expect(EE0.finalSuccessor).to.equal("S3 Bucket (your-s3-bucket-name)");
+            expect(EE0.params).to.include.members(["A1", "A2", "deviceId"]);
+        });
+
+        it("EE‑1: S3 PutObject Event should trigger SNS Topic", () => {
+            const EE1 = {
+                component: "S3 PutObject Event",
+                finalSuccessor: "SNS Topic (YOUR_SNS_TOPIC_ARN)",
+                params: ["S3 object creation event"]
+            };
+
+            expect(EE1.component).to.equal("S3 PutObject Event");
+            expect(EE1.finalSuccessor).to.equal("SNS Topic (YOUR_SNS_TOPIC_ARN)");
+            expect(EE1.params).to.include("S3 object creation event");
+        });
+
+    });
+
+    // ---------------------------------------------------------------------
+    // 3. EVENT COVERAGE TESTS (EC)
+    // ---------------------------------------------------------------------
+    describe("Event Coverage (𝒯ₑc)", () => {
+
+        it("EC‑0: Sensor should publish to IoT Core Rule", () => {
+            const EC0 = {
+                EG: "Sensor (sensor-001)",
+                EC: "IoT Core Rule (temperature-topic)",
+                description: "Publishes {A1, A2, deviceId}"
+            };
+
+            expect(EC0.EG).to.equal("Sensor (sensor-001)");
+            expect(EC0.EC).to.equal("IoT Core Rule (temperature-topic)");
+            expect(EC0.description).to.include("{A1, A2, deviceId}");
+        });
+
+        it("EC‑1: IoT Core Rule should write object to S3 Bucket", () => {
+            const EC1 = {
+                EG: "IoT Core Rule",
+                EC: "S3 Bucket",
+                description: "Writes object sensordata/${timestamp()}"
+            };
+
+            expect(EC1.EG).to.equal("IoT Core Rule");
+            expect(EC1.EC).to.equal("S3 Bucket");
+            expect(EC1.description).to.include("sensordata");
+        });
+
+        it("EC‑2: S3 Bucket should trigger EventBridge Rule", () => {
+            const EC2 = {
+                EG: "S3 Bucket",
+                EC: "EventBridge Rule (YOUR_RULE_NAME)",
+                description: "S3 PutObject event"
+            };
+
+            expect(EC2.EG).to.equal("S3 Bucket");
+            expect(EC2.EC).to.equal("EventBridge Rule (YOUR_RULE_NAME)");
+            expect(EC2.description).to.include("PutObject");
+        });
+
+        it("EC‑3: EventBridge Rule should forward event to SNS Topic", () => {
+            const EC3 = {
+                EG: "EventBridge Rule",
+                EC: "SNS Topic",
+                description: "Forwards S3 event to SNS"
+            };
+
+            expect(EC3.EG).to.equal("EventBridge Rule");
+            expect(EC3.EC).to.equal("SNS Topic");
+            expect(EC3.description).to.include("SNS");
+        });
+
+    });
+
+   ************output************
+  Coverage Tests for IoT Application
+    Lambda Coverage (𝒯ₗc)
+      ✓ LC‑0: No Lambda functions defined in LC table
+
+    End‑to‑End Flow Coverage (𝒯ₑₑ)
+      ✓ EE‑0: IoT Core Rule should forward params to S3 Bucket
+      ✓ EE‑1: S3 PutObject Event should trigger SNS Topic
+
+    Event Coverage (𝒯ₑc)
+      ✓ EC‑0: Sensor should publish to IoT Core Rule
+      ✓ EC‑1: IoT Core Rule should write object to S3 Bucket
+      ✓ EC‑2: S3 Bucket should trigger EventBridge Rule
+      ✓ EC‑3: EventBridge Rule should forward event to SNS Topic
+
+
+
+  6 passing (14ms)

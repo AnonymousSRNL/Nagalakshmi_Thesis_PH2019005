@@ -1,0 +1,6 @@
+{
+  "topic": "sensor/data",
+  "sensorId": "s1",
+  "temperature": 25,
+  "pressure": 1000
+}

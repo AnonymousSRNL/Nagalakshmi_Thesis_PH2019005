@@ -1,0 +1,28 @@
+[
+  {
+    "topicFilter": "sensor/data",
+    "messages": [
+      {
+        "payload": {
+          "sensorId": "sensor-001",
+          "timestamp": "2025-01-01T00:00:00Z",
+          "temperature": 42.5,
+          "pressure": 110.2,
+          "classified": true
+        }
+      }
+    ]
+  },
+  {
+    "topicFilter": "sensor/status",
+    "messages": [
+      {
+        "payload": {
+          "sensorId": "sensor-001",
+          "status": "dead",
+          "timestamp": "2025-01-01T00:00:10Z"
+        }
+      }
+    ]
+  }
+]

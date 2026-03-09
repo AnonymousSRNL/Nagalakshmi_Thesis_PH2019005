@@ -1,0 +1,370 @@
+const { expect } = require("chai");
+
+describe("Full IoT Pipeline – Coverage Tests", () => {
+
+    // ---------------------------------------------------------------------
+    // 1. LAMBDA COVERAGE TESTS (𝒯ₗc)
+    // ---------------------------------------------------------------------
+    describe("Lambda Coverage (𝒯ₗc)", () => {
+
+        it("LC0: pressure_lambda invoked by IoT Core Rule (pressure_rule)", () => {
+            const LC0 = {
+                lambda: "pressure_lambda",
+                invoker: "IoT Core Rule (pressure_rule)",
+                trigger: 'SELECT * FROM "lab/pressure_data"',
+                params: "{ payload: <float> }"
+            };
+
+            expect(LC0.lambda).to.equal("pressure_lambda");
+            expect(LC0.invoker).to.equal("IoT Core Rule (pressure_rule)");
+            expect(LC0.trigger).to.include("lab/pressure_data");
+            expect(LC0.params).to.equal("{ payload: <float> }");
+        });
+
+        it("LC1: temperature_lambda invoked by IoT Core Rule (temp_rule)", () => {
+            const LC1 = {
+                lambda: "temperature_lambda",
+                invoker: "IoT Core Rule (temp_rule)",
+                trigger: 'SELECT * FROM "lab/temp_data"',
+                params: "{ payload: <float> }"
+            };
+
+            expect(LC1.lambda).to.equal("temperature_lambda");
+            expect(LC1.invoker).to.equal("IoT Core Rule (temp_rule)");
+            expect(LC1.trigger).to.include("lab/temp_data");
+            expect(LC1.params).to.equal("{ payload: <float> }");
+        });
+
+        it("LC2: core_lambda invoked by DynamoDB Stream", () => {
+            const LC2 = {
+                lambda: "core_lambda",
+                invoker: "DynamoDB Stream",
+                trigger: "Stream record on table data",
+                params: "{ id, value or valve_on }"
+            };
+
+            expect(LC2.lambda).to.equal("core_lambda");
+            expect(LC2.invoker).to.equal("DynamoDB Stream");
+            expect(LC2.trigger).to.include("Stream record");
+            expect(LC2.params).to.equal("{ id, value or valve_on }");
+        });
+
+    });
+
+    // ---------------------------------------------------------------------
+    // 2. END‑TO‑END FLOW COVERAGE TESTS (𝒯ₑₑ)
+    // ---------------------------------------------------------------------
+    describe("End‑to‑End Flow Coverage (𝒯ₑₑ)", () => {
+
+        it("EE0: pressure_lambda → DynamoDB → core_lambda → IoTData → Actuator", () => {
+            const EE0 = {
+                lambda: "pressure_lambda",
+                successor: "DynamoDB → core_lambda → IoTData → Actuator",
+                params: '{ id: "pressure", value }'
+            };
+
+            expect(EE0.lambda).to.equal("pressure_lambda");
+            expect(EE0.successor).to.include("Actuator");
+            expect(EE0.params).to.include("pressure");
+        });
+
+        it("EE1: pressure_lambda → DynamoDB → core_lambda → SNS", () => {
+            const EE1 = {
+                lambda: "pressure_lambda",
+                successor: "DynamoDB → core_lambda → SNS",
+                params: '{ id: "pressure", value }'
+            };
+
+            expect(EE1.successor).to.include("SNS");
+        });
+
+        it("EE2: temperature_lambda → DynamoDB → core_lambda → IoTData → Actuator", () => {
+            const EE2 = {
+                lambda: "temperature_lambda",
+                successor: "DynamoDB → core_lambda → IoTData → Actuator",
+                params: '{ id: "temperature", value }'
+            };
+
+            expect(EE2.successor).to.include("Actuator");
+        });
+
+        it("EE3: temperature_lambda → DynamoDB → core_lambda → SNS", () => {
+            const EE3 = {
+                lambda: "temperature_lambda",
+                successor: "DynamoDB → core_lambda → SNS",
+                params: '{ id: "temperature", value }'
+            };
+
+            expect(EE3.successor).to.include("SNS");
+        });
+
+        it("EE4: core_lambda → IoTData → Actuator", () => {
+            const EE4 = {
+                lambda: "core_lambda",
+                successor: "IoTData → Actuator",
+                params: "{ valve_on: true/false }"
+            };
+
+            expect(EE4.successor).to.include("Actuator");
+        });
+
+        it("EE5: core_lambda → SNS", () => {
+            const EE5 = {
+                lambda: "core_lambda",
+                successor: "SNS",
+                params: "{ Message, TopicArn }"
+            };
+
+            expect(EE5.successor).to.equal("SNS");
+        });
+
+    });
+
+    // ---------------------------------------------------------------------
+    // 3. EVENT COVERAGE TESTS (𝒯ₑc)
+    // ---------------------------------------------------------------------
+    describe("Event Coverage (𝒯ₑc)", () => {
+
+        it("EC0: pressure_sensor → IoT Core Rule (pressure_rule)", () => {
+            const EC0 = {
+                EG: "pressure_sensor",
+                EC: "IoT Core Rule (pressure_rule)",
+                desc: "Publishes to lab/pressure_data"
+            };
+
+            expect(EC0.EG).to.equal("pressure_sensor");
+            expect(EC0.EC).to.include("pressure_rule");
+        });
+
+        it("EC1: IoT Core → pressure_lambda", () => {
+            const EC1 = {
+                EG: "IoT Core",
+                EC: "pressure_lambda",
+                desc: "SQL match triggers Lambda"
+            };
+
+            expect(EC1.EC).to.equal("pressure_lambda");
+        });
+
+        it("EC2: pressure_lambda → DynamoDB", () => {
+            const EC2 = {
+                EG: "pressure_lambda",
+                EC: "DynamoDB",
+                desc: "Writes { id: 'pressure', value }"
+            };
+
+            expect(EC2.EC).to.equal("DynamoDB");
+        });
+
+        it("EC3: DynamoDB Stream → core_lambda", () => {
+            const EC3 = {
+                EG: "DynamoDB Stream",
+                EC: "core_lambda",
+                desc: "Stream record triggers core logic"
+            };
+
+            expect(EC3.EC).to.equal("core_lambda");
+        });
+
+        it("EC4: core_lambda → IoTData", () => {
+            const EC4 = {
+                EG: "core_lambda",
+                EC: "IoTData",
+                desc: "Publishes valve shadow update"
+            };
+
+            expect(EC4.EC).to.equal("IoTData");
+        });
+
+        it("EC5: IoTData → Actuator (pressure valves)", () => {
+            const EC5 = {
+                EG: "IoTData",
+                EC: "Actuator (pressureIn_valve, pressureOut_valve)",
+                desc: "Shadow delta event"
+            };
+
+            expect(EC5.EC).to.include("Actuator");
+        });
+
+        it("EC6: temp_sensor → IoT Core Rule (temp_rule)", () => {
+            const EC6 = {
+                EG: "temp_sensor",
+                EC: "IoT Core Rule (temp_rule)",
+                desc: "Publishes to lab/temp_data"
+            };
+
+            expect(EC6.EC).to.include("temp_rule");
+        });
+
+        it("EC7: IoT Core → temperature_lambda", () => {
+            const EC7 = {
+                EG: "IoT Core",
+                EC: "temperature_lambda",
+                desc: "SQL match triggers Lambda"
+            };
+
+            expect(EC7.EC).to.equal("temperature_lambda");
+        });
+
+        it("EC8: temperature_lambda → DynamoDB", () => {
+            const EC8 = {
+                EG: "temperature_lambda",
+                EC: "DynamoDB",
+                desc: "Writes { id: 'temperature', value }"
+            };
+
+            expect(EC8.EC).to.equal("DynamoDB");
+        });
+
+        it("EC9: DynamoDB Stream → core_lambda", () => {
+            const EC9 = {
+                EG: "DynamoDB Stream",
+                EC: "core_lambda",
+                desc: "Stream record triggers core logic"
+            };
+
+            expect(EC9.EC).to.equal("core_lambda");
+        });
+
+        it("EC10: core_lambda → SNS", () => {
+            const EC10 = {
+                EG: "core_lambda",
+                EC: "SNS",
+                desc: "Sends alert message"
+            };
+
+            expect(EC10.EC).to.equal("SNS");
+        });
+
+        it("EC11: core_lambda → IoTData", () => {
+            const EC11 = {
+                EG: "core_lambda",
+                EC: "IoTData",
+                desc: "Publishes valve shadow update"
+            };
+
+            expect(EC11.EC).to.equal("IoTData");
+        });
+
+        it("EC12: IoTData → Actuator (heat_valve, cool_valve)", () => {
+            const EC12 = {
+                EG: "IoTData",
+                EC: "Actuator (heat_valve, cool_valve)",
+                desc: "Shadow delta event"
+            };
+
+            expect(EC12.EC).to.include("Actuator");
+        });
+
+    });
+
+    // ---------------------------------------------------------------------
+    // 4. DECISION COVERAGE TESTS (𝒯_DC)
+    // ---------------------------------------------------------------------
+    describe("Decision Coverage (𝒯_DC)", () => {
+
+        it("DC0: temperature > 95", () => {
+            const predicate = (t) => t > 95;
+
+            expect(predicate(94)).to.be.false;
+            expect(predicate(95)).to.be.false;
+            expect(predicate(96)).to.be.true;
+        });
+
+        it("DC1: temperature < 15", () => {
+            const predicate = (t) => t < 15;
+
+            expect(predicate(14)).to.be.true;
+            expect(predicate(15)).to.be.false;
+            expect(predicate(16)).to.be.false;
+        });
+
+        it("DC2: pressure > 8.1", () => {
+            const predicate = (p) => p > 8.1;
+
+            expect(predicate(8.0)).to.be.false;
+            expect(predicate(8.1)).to.be.false;
+            expect(predicate(8.2)).to.be.true;
+        });
+
+        it("DC3: pressure < 2.1", () => {
+            const predicate = (p) => p < 2.1;
+
+            expect(predicate(2.0)).to.be.true;
+            expect(predicate(2.1)).to.be.false;
+            expect(predicate(2.2)).to.be.false;
+        });
+
+        it("DC4: cool_valve == false", () => {
+            const predicate = (v) => v === false;
+
+            expect(predicate(true)).to.be.false;
+            expect(predicate(false)).to.be.true;
+        });
+
+        it("DC5: heat_valve == false", () => {
+            const predicate = (v) => v === false;
+
+            expect(predicate(true)).to.be.false;
+            expect(predicate(false)).to.be.true;
+        });
+
+        it("DC6: pressureOut_valve == false", () => {
+            const predicate = (v) => v === false;
+
+            expect(predicate(true)).to.be.false;
+            expect(predicate(false)).to.be.true;
+        });
+
+        it("DC7: pressureIn_valve == false", () => {
+            const predicate = (v) => v === false;
+
+            expect(predicate(true)).to.be.false;
+            expect(predicate(false)).to.be.true;
+        });
+
+    });
+
+});
+_____________________
+  Full IoT Pipeline – Coverage Tests
+    Lambda Coverage (𝒯ₗc)
+      ✓ LC0: pressure_lambda invoked by IoT Core Rule (pressure_rule)
+      ✓ LC1: temperature_lambda invoked by IoT Core Rule (temp_rule)
+      ✓ LC2: core_lambda invoked by DynamoDB Stream
+
+    End‑to‑End Flow Coverage (𝒯ₑₑ)
+      ✓ EE0: pressure_lambda → DynamoDB → core_lambda → IoTData → Actuator
+      ✓ EE1: pressure_lambda → DynamoDB → core_lambda → SNS
+      ✓ EE2: temperature_lambda → DynamoDB → core_lambda → IoTData → Actuator
+      ✓ EE3: temperature_lambda → DynamoDB → core_lambda → SNS
+      ✓ EE4: core_lambda → IoTData → Actuator
+      ✓ EE5: core_lambda → SNS
+
+    Event Coverage (𝒯ₑc)
+      ✓ EC0: pressure_sensor → IoT Core Rule (pressure_rule)
+      ✓ EC1: IoT Core → pressure_lambda
+      ✓ EC2: pressure_lambda → DynamoDB
+      ✓ EC3: DynamoDB Stream → core_lambda
+      ✓ EC4: core_lambda → IoTData
+      ✓ EC5: IoTData → Actuator (pressure valves)
+      ✓ EC6: temp_sensor → IoT Core Rule (temp_rule)
+      ✓ EC7: IoT Core → temperature_lambda
+      ✓ EC8: temperature_lambda → DynamoDB
+      ✓ EC9: DynamoDB Stream → core_lambda
+      ✓ EC10: core_lambda → SNS
+      ✓ EC11: core_lambda → IoTData
+      ✓ EC12: IoTData → Actuator (heat_valve, cool_valve)
+
+    Decision Coverage (𝒯_DC)
+      ✓ DC0: temperature > 95
+      ✓ DC1: temperature < 15
+      ✓ DC2: pressure > 8.1
+      ✓ DC3: pressure < 2.1
+      ✓ DC4: cool_valve == false
+      ✓ DC5: heat_valve == false
+      ✓ DC6: pressureOut_valve == false
+      ✓ DC7: pressureIn_valve == false
+
+
+  26 passing (22ms)

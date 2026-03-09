@@ -1,0 +1,725 @@
+[DEBUG] MyAnalysis initialized.
+[FUNC ENTER] <anonymous> at (main.js:1:1:26:42), Args: [], Timestamp: 1769079716900
+[LITERAL] Value: undefined at (main.js:1:1:26:42)
+[FUNC EXIT] <anonymous> at (main.js:1:1:26:42), Return: undefined, Exception: {}, Timestamp: 1769079716922
+[FUNC ENTER] <anonymous> at (main.js:1:1:26:42), Args: [{},null,{"id":".","path":"/home/nish/Sasank_Setta/ConflictingActions-IoT","exports":"[Circular]","filename":"/home/nish/Sasank_Setta/ConflictingActions-IoT/main.js","loaded":false,"children":[],"paths":["/home/nish/Sasank_Setta/ConflictingActions-IoT/node_modules","/home/nish/Sasank_Setta/node_modules","/home/nish/node_modules","/home/node_modules","/node_modules"]},"/home/nish/Sasank_Setta/ConflictingActions-IoT/main.js","/home/nish/Sasank_Setta/ConflictingActions-IoT"], Timestamp: 1769079716928
+[READ] Identifier: require, Value at (main.js:1:20:1:27)
+[LITERAL] Value: "./Mqtt" at (main.js:1:28:1:36)
+[FUNC ENTER] <anonymous> at (Mqtt.js:1:1:71:30), Args: [], Timestamp: 1769079716966
+[LITERAL] Value: undefined at (Mqtt.js:1:1:71:30)
+[FUNC EXIT] <anonymous> at (Mqtt.js:1:1:71:30), Return: undefined, Exception: {}, Timestamp: 1769079716968
+[FUNC ENTER] <anonymous> at (Mqtt.js:1:1:71:30), Args: [{},null,{"id":"/home/nish/Sasank_Setta/ConflictingActions-IoT/Mqtt.js","path":"/home/nish/Sasank_Setta/ConflictingActions-IoT","exports":"[Circular]","filename":"/home/nish/Sasank_Setta/ConflictingActions-IoT/Mqtt.js","loaded":false,"children":[],"paths":["/home/nish/Sasank_Setta/ConflictingActions-IoT/node_modules","/home/nish/Sasank_Setta/node_modules","/home/nish/node_modules","/home/node_modules","/node_modules"]},"/home/nish/Sasank_Setta/ConflictingActions-IoT/Mqtt.js","/home/nish/Sasank_Setta/ConflictingActions-IoT"], Timestamp: 1769079716984
+[READ] Identifier: require, Value at (Mqtt.js:1:22:1:29)
+[LITERAL] Value: "events" at (Mqtt.js:1:30:1:38)
+[WRITE] Identifier: EventEmitter, Value at (Mqtt.js:1:1:1:39)
+[READ] Identifier: EventEmitter, Value at (Mqtt.js:3:26:3:38)
+[LITERAL] Value: undefined at (Mqtt.js:11:3:15:4)
+[LITERAL] Value: undefined at (Mqtt.js:17:3:27:4)
+[LITERAL] Value: undefined at (Mqtt.js:29:3:35:4)
+[LITERAL] Value: undefined at (Mqtt.js:37:3:45:4)
+[LITERAL] Value: undefined at (Mqtt.js:49:3:54:4)
+[LITERAL] Value: undefined at (Mqtt.js:56:3:61:4)
+[LITERAL] Value: undefined at (Mqtt.js:63:3:68:4)
+[READ] Identifier: module, Value at (Mqtt.js:71:1:71:7)
+[READ] Identifier: MQTTBroker, Value at (Mqtt.js:71:18:71:28)
+[FUNC EXIT] <anonymous> at (Mqtt.js:1:1:71:30), Return: undefined, Exception: {}, Timestamp: 1769079717013
+[WRITE] Identifier: MQTTBroker, Value at (main.js:1:1:1:37)
+[READ] Identifier: require, Value at (main.js:2:23:2:30)
+[LITERAL] Value: "./vehicleSensor" at (main.js:2:31:2:48)
+[FUNC ENTER] <anonymous> at (vehicleSensor.js:1:1:37:34), Args: [], Timestamp: 1769079717024
+[LITERAL] Value: undefined at (vehicleSensor.js:1:1:37:34)
+[FUNC EXIT] <anonymous> at (vehicleSensor.js:1:1:37:34), Return: undefined, Exception: {}, Timestamp: 1769079717027
+[FUNC ENTER] <anonymous> at (vehicleSensor.js:1:1:37:34), Args: [{},null,{"id":"/home/nish/Sasank_Setta/ConflictingActions-IoT/vehicleSensor.js","path":"/home/nish/Sasank_Setta/ConflictingActions-IoT","exports":"[Circular]","filename":"/home/nish/Sasank_Setta/ConflictingActions-IoT/vehicleSensor.js","loaded":false,"children":[],"paths":["/home/nish/Sasank_Setta/ConflictingActions-IoT/node_modules","/home/nish/Sasank_Setta/node_modules","/home/nish/node_modules","/home/node_modules","/node_modules"]},"/home/nish/Sasank_Setta/ConflictingActions-IoT/vehicleSensor.js","/home/nish/Sasank_Setta/ConflictingActions-IoT"], Timestamp: 1769079717031
+[LITERAL] Value: undefined at (vehicleSensor.js:8:5:13:6)
+[LITERAL] Value: undefined at (vehicleSensor.js:15:5:23:6)
+[LITERAL] Value: undefined at (vehicleSensor.js:25:5:29:6)
+[LITERAL] Value: undefined at (vehicleSensor.js:31:5:34:6)
+[READ] Identifier: module, Value at (vehicleSensor.js:37:1:37:7)
+[READ] Identifier: VehicleSensor, Value at (vehicleSensor.js:37:18:37:31)
+[FUNC EXIT] <anonymous> at (vehicleSensor.js:1:1:37:34), Return: undefined, Exception: {}, Timestamp: 1769079717039
+[WRITE] Identifier: VehicleSensor, Value at (main.js:2:1:2:49)
+[READ] Identifier: require, Value at (main.js:3:23:3:30)
+[LITERAL] Value: "./fireSafetyApp" at (main.js:3:31:3:48)
+[FUNC ENTER] <anonymous> at (fireSafetyApp.js:1:1:26:34), Args: [], Timestamp: 1769079717055
+[LITERAL] Value: undefined at (fireSafetyApp.js:1:1:26:34)
+[FUNC EXIT] <anonymous> at (fireSafetyApp.js:1:1:26:34), Return: undefined, Exception: {}, Timestamp: 1769079717057
+[FUNC ENTER] <anonymous> at (fireSafetyApp.js:1:1:26:34), Args: [{},null,{"id":"/home/nish/Sasank_Setta/ConflictingActions-IoT/fireSafetyApp.js","path":"/home/nish/Sasank_Setta/ConflictingActions-IoT","exports":"[Circular]","filename":"/home/nish/Sasank_Setta/ConflictingActions-IoT/fireSafetyApp.js","loaded":false,"children":[],"paths":["/home/nish/Sasank_Setta/ConflictingActions-IoT/node_modules","/home/nish/Sasank_Setta/node_modules","/home/nish/node_modules","/home/node_modules","/node_modules"]},"/home/nish/Sasank_Setta/ConflictingActions-IoT/fireSafetyApp.js","/home/nish/Sasank_Setta/ConflictingActions-IoT"], Timestamp: 1769079717058
+[LITERAL] Value: undefined at (fireSafetyApp.js:6:5:23:6)
+[READ] Identifier: module, Value at (fireSafetyApp.js:26:1:26:7)
+[READ] Identifier: FireSafetyApp, Value at (fireSafetyApp.js:26:18:26:31)
+[FUNC EXIT] <anonymous> at (fireSafetyApp.js:1:1:26:34), Return: undefined, Exception: {}, Timestamp: 1769079717066
+[WRITE] Identifier: FireSafetyApp, Value at (main.js:3:1:3:49)
+[READ] Identifier: require, Value at (main.js:4:31:4:38)
+[LITERAL] Value: "./collisionAvoidanceApp" at (main.js:4:39:4:64)
+[FUNC ENTER] <anonymous> at (collisionAvoidanceApp.js:1:1:26:42), Args: [], Timestamp: 1769079717077
+[LITERAL] Value: undefined at (collisionAvoidanceApp.js:1:1:26:42)
+[FUNC EXIT] <anonymous> at (collisionAvoidanceApp.js:1:1:26:42), Return: undefined, Exception: {}, Timestamp: 1769079717080
+[FUNC ENTER] <anonymous> at (collisionAvoidanceApp.js:1:1:26:42), Args: [{},null,{"id":"/home/nish/Sasank_Setta/ConflictingActions-IoT/collisionAvoidanceApp.js","path":"/home/nish/Sasank_Setta/ConflictingActions-IoT","exports":"[Circular]","filename":"/home/nish/Sasank_Setta/ConflictingActions-IoT/collisionAvoidanceApp.js","loaded":false,"children":[],"paths":["/home/nish/Sasank_Setta/ConflictingActions-IoT/node_modules","/home/nish/Sasank_Setta/node_modules","/home/nish/node_modules","/home/node_modules","/node_modules"]},"/home/nish/Sasank_Setta/ConflictingActions-IoT/collisionAvoidanceApp.js","/home/nish/Sasank_Setta/ConflictingActions-IoT"], Timestamp: 1769079717082
+[LITERAL] Value: undefined at (collisionAvoidanceApp.js:6:5:23:6)
+[READ] Identifier: module, Value at (collisionAvoidanceApp.js:26:1:26:7)
+[READ] Identifier: CollisionAvoidanceApp, Value at (collisionAvoidanceApp.js:26:18:26:39)
+[FUNC EXIT] <anonymous> at (collisionAvoidanceApp.js:1:1:26:42), Return: undefined, Exception: {}, Timestamp: 1769079717088
+[WRITE] Identifier: CollisionAvoidanceApp, Value at (main.js:4:1:4:65)
+[READ] Identifier: require, Value at (main.js:5:25:5:32)
+[LITERAL] Value: "./commandResolver" at (main.js:5:33:5:52)
+[FUNC ENTER] <anonymous> at (commandResolver.js:1:1:45:36), Args: [], Timestamp: 1769079717098
+[LITERAL] Value: undefined at (commandResolver.js:1:1:45:36)
+[FUNC EXIT] <anonymous> at (commandResolver.js:1:1:45:36), Return: undefined, Exception: {}, Timestamp: 1769079717103
+[FUNC ENTER] <anonymous> at (commandResolver.js:1:1:45:36), Args: [{},null,{"id":"/home/nish/Sasank_Setta/ConflictingActions-IoT/commandResolver.js","path":"/home/nish/Sasank_Setta/ConflictingActions-IoT","exports":"[Circular]","filename":"/home/nish/Sasank_Setta/ConflictingActions-IoT/commandResolver.js","loaded":false,"children":[],"paths":["/home/nish/Sasank_Setta/ConflictingActions-IoT/node_modules","/home/nish/Sasank_Setta/node_modules","/home/nish/node_modules","/home/node_modules","/node_modules"]},"/home/nish/Sasank_Setta/ConflictingActions-IoT/commandResolver.js","/home/nish/Sasank_Setta/ConflictingActions-IoT"], Timestamp: 1769079717104
+[LITERAL] Value: undefined at (commandResolver.js:7:5:19:6)
+[LITERAL] Value: undefined at (commandResolver.js:21:5:42:6)
+[READ] Identifier: module, Value at (commandResolver.js:45:1:45:7)
+[READ] Identifier: CommandResolver, Value at (commandResolver.js:45:18:45:33)
+[FUNC EXIT] <anonymous> at (commandResolver.js:1:1:45:36), Return: undefined, Exception: {}, Timestamp: 1769079717109
+[WRITE] Identifier: CommandResolver, Value at (main.js:5:1:5:53)
+[READ] Identifier: require, Value at (main.js:6:27:6:34)
+[LITERAL] Value: "./driverControlUnit" at (main.js:6:35:6:56)
+[FUNC ENTER] <anonymous> at (driverControlUnit.js:1:1:23:38), Args: [], Timestamp: 1769079717118
+[LITERAL] Value: undefined at (driverControlUnit.js:1:1:23:38)
+[FUNC EXIT] <anonymous> at (driverControlUnit.js:1:1:23:38), Return: undefined, Exception: {}, Timestamp: 1769079717120
+[FUNC ENTER] <anonymous> at (driverControlUnit.js:1:1:23:38), Args: [{},null,{"id":"/home/nish/Sasank_Setta/ConflictingActions-IoT/driverControlUnit.js","path":"/home/nish/Sasank_Setta/ConflictingActions-IoT","exports":"[Circular]","filename":"/home/nish/Sasank_Setta/ConflictingActions-IoT/driverControlUnit.js","loaded":false,"children":[],"paths":["/home/nish/Sasank_Setta/ConflictingActions-IoT/node_modules","/home/nish/Sasank_Setta/node_modules","/home/nish/node_modules","/home/node_modules","/node_modules"]},"/home/nish/Sasank_Setta/ConflictingActions-IoT/driverControlUnit.js","/home/nish/Sasank_Setta/ConflictingActions-IoT"], Timestamp: 1769079717122
+[LITERAL] Value: undefined at (driverControlUnit.js:6:5:20:6)
+[READ] Identifier: module, Value at (driverControlUnit.js:23:1:23:7)
+[READ] Identifier: DriverControlUnit, Value at (driverControlUnit.js:23:18:23:35)
+[FUNC EXIT] <anonymous> at (driverControlUnit.js:1:1:23:38), Return: undefined, Exception: {}, Timestamp: 1769079717130
+[WRITE] Identifier: DriverControlUnit, Value at (main.js:6:1:6:57)
+[READ] Identifier: MQTTBroker, Value at (main.js:8:20:8:30)
+[FUNC ENTER] MQTTBroker at (Mqtt.js:3:1:69:2), Args: [null], Timestamp: 1769079717132
+[READ] Identifier: Map, Value at (Mqtt.js:6:24:6:27)
+[READ] Identifier: Map, Value at (Mqtt.js:7:30:7:33)
+[READ] Identifier: Map, Value at (Mqtt.js:8:33:8:36)
+[FUNC EXIT] MQTTBroker at (Mqtt.js:3:1:69:2), Return: {"_events":{},"_eventsCount":0,"clients":{},"subscriptions":{},"retainedMessages":{}}, Exception: {}, Timestamp: 1769079717136
+[WRITE] Identifier: broker, Value at (main.js:8:1:8:32)
+[READ] Identifier: VehicleSensor, Value at (main.js:10:20:10:33)
+[LITERAL] Value: "vehicle-001" at (main.js:10:34:10:47)
+[READ] Identifier: broker, Value at (main.js:10:49:10:55)
+[FUNC ENTER] VehicleSensor at (vehicleSensor.js:1:1:35:2), Args: ["vehicle-001",{"_events":{},"_eventsCount":0,"clients":{},"subscriptions":{},"retainedMessages":{}}], Timestamp: 1769079717156
+[READ] Identifier: this, Value at (vehicleSensor.js:3:9:3:13)
+[READ] Identifier: sensorId, Value at (vehicleSensor.js:3:25:3:33)
+[READ] Identifier: this, Value at (vehicleSensor.js:4:9:4:13)
+[READ] Identifier: broker, Value at (vehicleSensor.js:4:23:4:29)
+[READ] Identifier: this, Value at (vehicleSensor.js:5:9:5:13)
+[LITERAL] Value: null at (vehicleSensor.js:5:25:5:29)
+[FUNC EXIT] VehicleSensor at (vehicleSensor.js:1:1:35:2), Return: undefined, Exception: {}, Timestamp: 1769079717168
+[WRITE] Identifier: sensor, Value at (main.js:10:1:10:56)
+[READ] Identifier: FireSafetyApp, Value at (main.js:12:21:12:34)
+[READ] Identifier: broker, Value at (main.js:12:35:12:41)
+[FUNC ENTER] FireSafetyApp at (fireSafetyApp.js:1:1:24:2), Args: [{"_events":{},"_eventsCount":0,"clients":{},"subscriptions":{},"retainedMessages":{}}], Timestamp: 1769079717178
+[READ] Identifier: this, Value at (fireSafetyApp.js:3:9:3:13)
+[READ] Identifier: broker, Value at (fireSafetyApp.js:3:23:3:29)
+[FUNC EXIT] FireSafetyApp at (fireSafetyApp.js:1:1:24:2), Return: undefined, Exception: {}, Timestamp: 1769079717182
+[WRITE] Identifier: fireApp, Value at (main.js:12:1:12:42)
+[READ] Identifier: fireApp, Value at (main.js:13:1:13:8)
+[FUNC ENTER] start at (fireSafetyApp.js:6:5:23:6), Args: [], Timestamp: 1769079717184
+[READ] Identifier: this, Value at (fireSafetyApp.js:7:9:7:13)
+[LITERAL] Value: "fire" at (fireSafetyApp.js:7:31:7:37)
+[LITERAL] Value: "vehicle/raw" at (fireSafetyApp.js:7:39:7:52)
+[FUNC ENTER] subscribe at (Mqtt.js:29:3:35:4), Args: ["fire","vehicle/raw"], Timestamp: 1769079717187
+[READ] Identifier: this, Value at (Mqtt.js:30:10:30:14)
+[READ] Identifier: topic, Value at (Mqtt.js:30:33:30:38)
+[CONDITIONAL] Result: false at (Mqtt.js:30:10:30:39)
+[READ] Identifier: this, Value at (Mqtt.js:31:7:31:11)
+[READ] Identifier: topic, Value at (Mqtt.js:31:30:31:35)
+[LITERAL] Value: [] at (Mqtt.js:31:37:31:39)
+[READ] Identifier: this, Value at (Mqtt.js:33:5:33:9)
+[READ] Identifier: topic, Value at (Mqtt.js:33:28:33:33)
+[READ] Identifier: clientId, Value at (Mqtt.js:33:40:33:48)
+[READ] Identifier: console, Value at (Mqtt.js:34:5:34:12)
+[LITERAL] Value: "[Broker] Client \"" at (Mqtt.js:34:17:34:37)
+[READ] Identifier: clientId, Value at (Mqtt.js:34:37:34:45)
+[LITERAL] Value: "\" subscribed to \"" at (Mqtt.js:34:45:34:65)
+[READ] Identifier: topic, Value at (Mqtt.js:34:65:34:70)
+[LITERAL] Value: "\"." at (Mqtt.js:34:70:34:74)
+[BINARY] [Broker] Client " + fire = [Broker] Client "fire" subscribed to "vehicle/raw". at (Mqtt.js:34:17:34:74)
+[Broker] Client "fire" subscribed to "vehicle/raw".
+[FUNC EXIT] subscribe at (Mqtt.js:29:3:35:4), Return: undefined, Exception: {}, Timestamp: 1769079717213
+[READ] Identifier: this, Value at (fireSafetyApp.js:9:9:9:13)
+[LITERAL] Value: "message" at (fireSafetyApp.js:9:24:9:33)
+[LITERAL] Value: undefined at (fireSafetyApp.js:9:35:22:10)
+[FUNC EXIT] start at (fireSafetyApp.js:6:5:23:6), Return: undefined, Exception: {}, Timestamp: 1769079717217
+[READ] Identifier: CollisionAvoidanceApp, Value at (main.js:15:26:15:47)
+[READ] Identifier: broker, Value at (main.js:15:48:15:54)
+[FUNC ENTER] CollisionAvoidanceApp at (collisionAvoidanceApp.js:1:1:24:2), Args: [{"_events":{},"_eventsCount":1,"clients":{},"subscriptions":{},"retainedMessages":{}}], Timestamp: 1769079717219
+[READ] Identifier: this, Value at (collisionAvoidanceApp.js:3:9:3:13)
+[READ] Identifier: broker, Value at (collisionAvoidanceApp.js:3:23:3:29)
+[FUNC EXIT] CollisionAvoidanceApp at (collisionAvoidanceApp.js:1:1:24:2), Return: undefined, Exception: {}, Timestamp: 1769079717222
+[WRITE] Identifier: collisionApp, Value at (main.js:15:1:15:55)
+[READ] Identifier: collisionApp, Value at (main.js:16:1:16:13)
+[FUNC ENTER] start at (collisionAvoidanceApp.js:6:5:23:6), Args: [], Timestamp: 1769079717227
+[READ] Identifier: this, Value at (collisionAvoidanceApp.js:7:9:7:13)
+[LITERAL] Value: "collision" at (collisionAvoidanceApp.js:7:31:7:42)
+[LITERAL] Value: "vehicle/raw" at (collisionAvoidanceApp.js:7:44:7:57)
+[FUNC ENTER] subscribe at (Mqtt.js:29:3:35:4), Args: ["collision","vehicle/raw"], Timestamp: 1769079717231
+[READ] Identifier: this, Value at (Mqtt.js:30:10:30:14)
+[READ] Identifier: topic, Value at (Mqtt.js:30:33:30:38)
+[CONDITIONAL] Result: true at (Mqtt.js:30:10:30:39)
+[READ] Identifier: this, Value at (Mqtt.js:33:5:33:9)
+[READ] Identifier: topic, Value at (Mqtt.js:33:28:33:33)
+[READ] Identifier: clientId, Value at (Mqtt.js:33:40:33:48)
+[READ] Identifier: console, Value at (Mqtt.js:34:5:34:12)
+[LITERAL] Value: "[Broker] Client \"" at (Mqtt.js:34:17:34:37)
+[READ] Identifier: clientId, Value at (Mqtt.js:34:37:34:45)
+[LITERAL] Value: "\" subscribed to \"" at (Mqtt.js:34:45:34:65)
+[READ] Identifier: topic, Value at (Mqtt.js:34:65:34:70)
+[LITERAL] Value: "\"." at (Mqtt.js:34:70:34:74)
+[BINARY] [Broker] Client " + collision = [Broker] Client "collision" subscribed to "vehicle/raw". at (Mqtt.js:34:17:34:74)
+[Broker] Client "collision" subscribed to "vehicle/raw".
+[FUNC EXIT] subscribe at (Mqtt.js:29:3:35:4), Return: undefined, Exception: {}, Timestamp: 1769079717239
+[READ] Identifier: this, Value at (collisionAvoidanceApp.js:9:9:9:13)
+[LITERAL] Value: "message" at (collisionAvoidanceApp.js:9:24:9:33)
+[LITERAL] Value: undefined at (collisionAvoidanceApp.js:9:35:22:10)
+[FUNC EXIT] start at (collisionAvoidanceApp.js:6:5:23:6), Return: undefined, Exception: {}, Timestamp: 1769079717242
+[READ] Identifier: CommandResolver, Value at (main.js:18:22:18:37)
+[READ] Identifier: broker, Value at (main.js:18:38:18:44)
+[FUNC ENTER] CommandResolver at (commandResolver.js:1:1:43:2), Args: [{"_events":{"message":[null,null]},"_eventsCount":1,"clients":{},"subscriptions":{},"retainedMessages":{}}], Timestamp: 1769079717245
+[READ] Identifier: this, Value at (commandResolver.js:3:9:3:13)
+[READ] Identifier: broker, Value at (commandResolver.js:3:23:3:29)
+[READ] Identifier: this, Value at (commandResolver.js:4:9:4:13)
+[LITERAL] Value: [] at (commandResolver.js:4:24:4:26)
+[FUNC EXIT] CommandResolver at (commandResolver.js:1:1:43:2), Return: undefined, Exception: {}, Timestamp: 1769079717248
+[WRITE] Identifier: resolver, Value at (main.js:18:1:18:45)
+[READ] Identifier: resolver, Value at (main.js:19:1:19:9)
+[FUNC ENTER] start at (commandResolver.js:7:5:19:6), Args: [], Timestamp: 1769079717250
+[READ] Identifier: this, Value at (commandResolver.js:8:9:8:13)
+[LITERAL] Value: "resolver" at (commandResolver.js:8:31:8:41)
+[LITERAL] Value: "vehicle/command" at (commandResolver.js:8:43:8:60)
+[FUNC ENTER] subscribe at (Mqtt.js:29:3:35:4), Args: ["resolver","vehicle/command"], Timestamp: 1769079717252
+[READ] Identifier: this, Value at (Mqtt.js:30:10:30:14)
+[READ] Identifier: topic, Value at (Mqtt.js:30:33:30:38)
+[CONDITIONAL] Result: false at (Mqtt.js:30:10:30:39)
+[READ] Identifier: this, Value at (Mqtt.js:31:7:31:11)
+[READ] Identifier: topic, Value at (Mqtt.js:31:30:31:35)
+[LITERAL] Value: [] at (Mqtt.js:31:37:31:39)
+[READ] Identifier: this, Value at (Mqtt.js:33:5:33:9)
+[READ] Identifier: topic, Value at (Mqtt.js:33:28:33:33)
+[READ] Identifier: clientId, Value at (Mqtt.js:33:40:33:48)
+[READ] Identifier: console, Value at (Mqtt.js:34:5:34:12)
+[LITERAL] Value: "[Broker] Client \"" at (Mqtt.js:34:17:34:37)
+[READ] Identifier: clientId, Value at (Mqtt.js:34:37:34:45)
+[LITERAL] Value: "\" subscribed to \"" at (Mqtt.js:34:45:34:65)
+[READ] Identifier: topic, Value at (Mqtt.js:34:65:34:70)
+[LITERAL] Value: "\"." at (Mqtt.js:34:70:34:74)
+[BINARY] [Broker] Client " + resolver = [Broker] Client "resolver" subscribed to "vehicle/command". at (Mqtt.js:34:17:34:74)
+[Broker] Client "resolver" subscribed to "vehicle/command".
+[FUNC EXIT] subscribe at (Mqtt.js:29:3:35:4), Return: undefined, Exception: {}, Timestamp: 1769079717257
+[READ] Identifier: this, Value at (commandResolver.js:10:9:10:13)
+[LITERAL] Value: "message" at (commandResolver.js:10:24:10:33)
+[LITERAL] Value: undefined at (commandResolver.js:10:35:18:10)
+[FUNC EXIT] start at (commandResolver.js:7:5:19:6), Return: undefined, Exception: {}, Timestamp: 1769079717260
+[READ] Identifier: DriverControlUnit, Value at (main.js:21:20:21:37)
+[READ] Identifier: broker, Value at (main.js:21:38:21:44)
+[FUNC ENTER] DriverControlUnit at (driverControlUnit.js:1:1:21:2), Args: [{"_events":{"message":[null,null,null]},"_eventsCount":1,"clients":{},"subscriptions":{},"retainedMessages":{}}], Timestamp: 1769079717265
+[READ] Identifier: this, Value at (driverControlUnit.js:3:9:3:13)
+[READ] Identifier: broker, Value at (driverControlUnit.js:3:23:3:29)
+[FUNC EXIT] DriverControlUnit at (driverControlUnit.js:1:1:21:2), Return: undefined, Exception: {}, Timestamp: 1769079717268
+[WRITE] Identifier: driver, Value at (main.js:21:1:21:45)
+[READ] Identifier: driver, Value at (main.js:22:1:22:7)
+[FUNC ENTER] start at (driverControlUnit.js:6:5:20:6), Args: [], Timestamp: 1769079717272
+[READ] Identifier: this, Value at (driverControlUnit.js:7:9:7:13)
+[LITERAL] Value: "driver" at (driverControlUnit.js:7:31:7:39)
+[LITERAL] Value: "vehicle/finalAction" at (driverControlUnit.js:7:41:7:62)
+[FUNC ENTER] subscribe at (Mqtt.js:29:3:35:4), Args: ["driver","vehicle/finalAction"], Timestamp: 1769079717275
+[READ] Identifier: this, Value at (Mqtt.js:30:10:30:14)
+[READ] Identifier: topic, Value at (Mqtt.js:30:33:30:38)
+[CONDITIONAL] Result: false at (Mqtt.js:30:10:30:39)
+[READ] Identifier: this, Value at (Mqtt.js:31:7:31:11)
+[READ] Identifier: topic, Value at (Mqtt.js:31:30:31:35)
+[LITERAL] Value: [] at (Mqtt.js:31:37:31:39)
+[READ] Identifier: this, Value at (Mqtt.js:33:5:33:9)
+[READ] Identifier: topic, Value at (Mqtt.js:33:28:33:33)
+[READ] Identifier: clientId, Value at (Mqtt.js:33:40:33:48)
+[READ] Identifier: console, Value at (Mqtt.js:34:5:34:12)
+[LITERAL] Value: "[Broker] Client \"" at (Mqtt.js:34:17:34:37)
+[READ] Identifier: clientId, Value at (Mqtt.js:34:37:34:45)
+[LITERAL] Value: "\" subscribed to \"" at (Mqtt.js:34:45:34:65)
+[READ] Identifier: topic, Value at (Mqtt.js:34:65:34:70)
+[LITERAL] Value: "\"." at (Mqtt.js:34:70:34:74)
+[BINARY] [Broker] Client " + driver = [Broker] Client "driver" subscribed to "vehicle/finalAction". at (Mqtt.js:34:17:34:74)
+[Broker] Client "driver" subscribed to "vehicle/finalAction".
+[FUNC EXIT] subscribe at (Mqtt.js:29:3:35:4), Return: undefined, Exception: {}, Timestamp: 1769079717285
+[READ] Identifier: this, Value at (driverControlUnit.js:9:9:9:13)
+[LITERAL] Value: "message" at (driverControlUnit.js:9:24:9:33)
+[LITERAL] Value: undefined at (driverControlUnit.js:9:35:19:10)
+[FUNC EXIT] start at (driverControlUnit.js:6:5:20:6), Return: undefined, Exception: {}, Timestamp: 1769079717288
+[READ] Identifier: sensor, Value at (main.js:24:1:24:7)
+[FUNC ENTER] connect at (vehicleSensor.js:15:5:23:6), Args: [], Timestamp: 1769079717289
+[READ] Identifier: this, Value at (vehicleSensor.js:16:9:16:13)
+[READ] Identifier: this, Value at (vehicleSensor.js:16:29:16:33)
+[WRITE] Identifier: clientId, Value at (Mqtt.js:11:11:11:19)
+[LITERAL] Value: undefined at (Mqtt.js:11:21:11:33)
+[BINARY] undefined === undefined = true at (Mqtt.js:11:21:11:33)
+[CONDITIONAL] Result: true at (Mqtt.js:11:21:11:33)
+[LITERAL] Value: {} at (Mqtt.js:11:31:11:33)
+[WRITE] Identifier: options, Value at (Mqtt.js:11:21:11:33)
+[FUNC ENTER] connect at (Mqtt.js:11:3:15:4), Args: ["vehicle-001"], Timestamp: 1769079717294
+[READ] Identifier: this, Value at (Mqtt.js:12:5:12:9)
+[READ] Identifier: clientId, Value at (Mqtt.js:12:22:12:30)
+[READ] Identifier: options, Value at (Mqtt.js:12:32:12:39)
+[READ] Identifier: console, Value at (Mqtt.js:13:5:13:12)
+[LITERAL] Value: "[Broker] Client \"" at (Mqtt.js:13:17:13:37)
+[READ] Identifier: clientId, Value at (Mqtt.js:13:37:13:45)
+[LITERAL] Value: "\" connected." at (Mqtt.js:13:45:13:59)
+[BINARY] [Broker] Client " + vehicle-001 = [Broker] Client "vehicle-001" connected. at (Mqtt.js:13:17:13:59)
+[Broker] Client "vehicle-001" connected.
+[READ] Identifier: this, Value at (Mqtt.js:14:5:14:9)
+[LITERAL] Value: "connect" at (Mqtt.js:14:15:14:24)
+[READ] Identifier: clientId, Value at (Mqtt.js:14:26:14:34)
+[READ] Identifier: options, Value at (Mqtt.js:14:36:14:43)
+[FUNC EXIT] connect at (Mqtt.js:11:3:15:4), Return: undefined, Exception: {}, Timestamp: 1769079717300
+[READ] Identifier: this, Value at (vehicleSensor.js:18:9:18:13)
+[FUNC ENTER] publishData at (vehicleSensor.js:25:5:29:6), Args: [], Timestamp: 1769079717301
+[READ] Identifier: this, Value at (vehicleSensor.js:26:22:26:26)
+[FUNC ENTER] generateData at (vehicleSensor.js:8:5:13:6), Args: [], Timestamp: 1769079717305
+[READ] Identifier: Math, Value at (vehicleSensor.js:10:25:10:29)
+[READ] Identifier: Math, Value at (vehicleSensor.js:10:36:10:40)
+[LITERAL] Value: 200 at (vehicleSensor.js:10:52:10:55)
+[BINARY] 0.5049841073216973 * 200 = 100.99682146433946 at (vehicleSensor.js:10:36:10:55)
+[LITERAL] Value: 50 at (vehicleSensor.js:10:25:10:61)
+[BINARY] 100 + 50 = 150 at (vehicleSensor.js:10:25:10:61)
+[READ] Identifier: Math, Value at (vehicleSensor.js:11:27:11:31)
+[READ] Identifier: Math, Value at (vehicleSensor.js:11:38:11:42)
+[LITERAL] Value: 20 at (vehicleSensor.js:11:54:11:56)
+[BINARY] 0.15294598047007624 * 20 = 3.0589196094015247 at (vehicleSensor.js:11:38:11:56)
+[LITERAL] Value: 1 at (vehicleSensor.js:11:27:11:61)
+[BINARY] 3 + 1 = 4 at (vehicleSensor.js:11:27:11:61)
+[LITERAL] Value: {"engineTemp":150,"rearDistance":4} at (vehicleSensor.js:9:16:12:10)
+[RETURN] at (vehicleSensor.js:9:9:12:11), Value: {"engineTemp":150,"rearDistance":4}
+[FUNC EXIT] generateData at (vehicleSensor.js:8:5:13:6), Return: {"engineTemp":150,"rearDistance":4}, Exception: {}, Timestamp: 1769079717322
+[WRITE] Identifier: data, Value at (vehicleSensor.js:26:9:26:41)
+[READ] Identifier: this, Value at (vehicleSensor.js:27:37:27:41)
+[READ] Identifier: data, Value at (vehicleSensor.js:27:55:27:59)
+[LITERAL] Value: {"sensorId":"vehicle-001","engineTemp":150,"rearDistance":4} at (vehicleSensor.js:27:25:27:61)
+[WRITE] Identifier: payload, Value at (vehicleSensor.js:27:9:27:61)
+[READ] Identifier: this, Value at (vehicleSensor.js:28:9:28:13)
+[LITERAL] Value: "vehicle/raw" at (vehicleSensor.js:28:29:28:42)
+[READ] Identifier: JSON, Value at (vehicleSensor.js:28:44:28:48)
+[READ] Identifier: payload, Value at (vehicleSensor.js:28:59:28:66)
+[WRITE] Identifier: topic, Value at (Mqtt.js:17:11:17:16)
+[WRITE] Identifier: message, Value at (Mqtt.js:17:18:17:25)
+[LITERAL] Value: undefined at (Mqtt.js:17:27:17:39)
+[BINARY] undefined === undefined = true at (Mqtt.js:17:27:17:39)
+[CONDITIONAL] Result: true at (Mqtt.js:17:27:17:39)
+[LITERAL] Value: {} at (Mqtt.js:17:37:17:39)
+[WRITE] Identifier: options, Value at (Mqtt.js:17:27:17:39)
+[FUNC ENTER] publish at (Mqtt.js:17:3:27:4), Args: ["vehicle/raw","{\"sensorId\":\"vehicle-001\",\"engineTemp\":150,\"rearDistance\":4}"], Timestamp: 1769079717342
+[READ] Identifier: console, Value at (Mqtt.js:18:5:18:12)
+[LITERAL] Value: "[Broker] Published to topic \"" at (Mqtt.js:18:17:18:49)
+[READ] Identifier: topic, Value at (Mqtt.js:18:49:18:54)
+[LITERAL] Value: "\": " at (Mqtt.js:18:54:18:60)
+[READ] Identifier: message, Value at (Mqtt.js:18:60:18:67)
+[LITERAL] Value: "" at (Mqtt.js:18:67:18:69)
+[BINARY] [Broker] Published to topic " + vehicle/raw = [Broker] Published to topic "vehicle/raw": {"sensorId":"vehicle-001","engineTemp":150,"rearDistance":4} at (Mqtt.js:18:17:18:69)
+[Broker] Published to topic "vehicle/raw": {"sensorId":"vehicle-001","engineTemp":150,"rearDistance":4}
+[READ] Identifier: this, Value at (Mqtt.js:19:5:19:9)
+[READ] Identifier: topic, Value at (Mqtt.js:19:31:19:36)
+[READ] Identifier: message, Value at (Mqtt.js:19:38:19:45)
+[READ] Identifier: this, Value at (Mqtt.js:22:9:22:13)
+[READ] Identifier: topic, Value at (Mqtt.js:22:32:22:37)
+[CONDITIONAL] Result: true at (Mqtt.js:22:9:22:38)
+[READ] Identifier: this, Value at (Mqtt.js:23:7:23:11)
+[READ] Identifier: topic, Value at (Mqtt.js:23:30:23:35)
+[LITERAL] Value: undefined at (Mqtt.js:23:45:25:8)
+[FUNC ENTER] <anonymous> at (Mqtt.js:23:45:25:8), Args: ["fire",0,["fire","collision"]], Timestamp: 1769079717354
+[READ] Identifier: this, Value at (Mqtt.js:24:9:24:13)
+[LITERAL] Value: "message" at (Mqtt.js:24:19:24:28)
+[READ] Identifier: clientId, Value at (Mqtt.js:24:30:24:38)
+[READ] Identifier: topic, Value at (Mqtt.js:24:40:24:45)
+[READ] Identifier: message, Value at (Mqtt.js:24:47:24:54)
+[FUNC ENTER] <anonymous> at (fireSafetyApp.js:9:35:22:10), Args: ["fire","vehicle/raw","{\"sensorId\":\"vehicle-001\",\"engineTemp\":150,\"rearDistance\":4}"], Timestamp: 1769079717359
+[READ] Identifier: topic, Value at (fireSafetyApp.js:10:17:10:22)
+[LITERAL] Value: "vehicle/raw" at (fireSafetyApp.js:10:17:10:40)
+[BINARY] vehicle/raw === vehicle/raw = true at (fireSafetyApp.js:10:17:10:40)
+[CONDITIONAL] Result: true at (fireSafetyApp.js:10:17:10:40)
+[READ] Identifier: JSON, Value at (fireSafetyApp.js:11:30:11:34)
+[READ] Identifier: message, Value at (fireSafetyApp.js:11:41:11:48)
+[WRITE] Identifier: data, Value at (fireSafetyApp.js:11:17:11:49)
+[READ] Identifier: data, Value at (fireSafetyApp.js:13:21:13:25)
+[LITERAL] Value: 180 at (fireSafetyApp.js:13:39:13:42)
+[BINARY] 150 > 180 = false at (fireSafetyApp.js:13:21:13:42)
+[CONDITIONAL] Result: false at (fireSafetyApp.js:13:21:13:42)
+[FUNC EXIT] <anonymous> at (fireSafetyApp.js:9:35:22:10), Return: undefined, Exception: {}, Timestamp: 1769079717366
+[FUNC ENTER] <anonymous> at (collisionAvoidanceApp.js:9:35:22:10), Args: ["fire","vehicle/raw","{\"sensorId\":\"vehicle-001\",\"engineTemp\":150,\"rearDistance\":4}"], Timestamp: 1769079717366
+[READ] Identifier: topic, Value at (collisionAvoidanceApp.js:10:17:10:22)
+[LITERAL] Value: "vehicle/raw" at (collisionAvoidanceApp.js:10:17:10:40)
+[BINARY] vehicle/raw === vehicle/raw = true at (collisionAvoidanceApp.js:10:17:10:40)
+[CONDITIONAL] Result: true at (collisionAvoidanceApp.js:10:17:10:40)
+[READ] Identifier: JSON, Value at (collisionAvoidanceApp.js:11:30:11:34)
+[READ] Identifier: message, Value at (collisionAvoidanceApp.js:11:41:11:48)
+[WRITE] Identifier: data, Value at (collisionAvoidanceApp.js:11:17:11:49)
+[READ] Identifier: data, Value at (collisionAvoidanceApp.js:13:21:13:25)
+[LITERAL] Value: 5 at (collisionAvoidanceApp.js:13:41:13:42)
+[BINARY] 4 < 5 = true at (collisionAvoidanceApp.js:13:21:13:42)
+[CONDITIONAL] Result: true at (collisionAvoidanceApp.js:13:21:13:42)
+[READ] Identifier: console, Value at (collisionAvoidanceApp.js:14:21:14:28)
+[LITERAL] Value: "[CollisionAvoidance] Rear vehicle too close! Requesting DO NOT STOP." at (collisionAvoidanceApp.js:14:33:14:103)
+[CollisionAvoidance] Rear vehicle too close! Requesting DO NOT STOP.
+[READ] Identifier: this, Value at (collisionAvoidanceApp.js:15:21:15:25)
+[LITERAL] Value: "vehicle/command" at (collisionAvoidanceApp.js:15:41:15:58)
+[READ] Identifier: JSON, Value at (collisionAvoidanceApp.js:15:60:15:64)
+[LITERAL] Value: "CollisionAvoidanceApp" at (collisionAvoidanceApp.js:16:33:16:56)
+[LITERAL] Value: "DO_NOT_STOP" at (collisionAvoidanceApp.js:17:33:17:46)
+[LITERAL] Value: "Rear vehicle too close" at (collisionAvoidanceApp.js:18:33:18:57)
+[LITERAL] Value: {"source":"CollisionAvoidanceApp","action":"DO_NOT_STOP","reason":"Rear vehicle too close"} at (collisionAvoidanceApp.js:15:75:19:22)
+[WRITE] Identifier: topic, Value at (Mqtt.js:17:11:17:16)
+[WRITE] Identifier: message, Value at (Mqtt.js:17:18:17:25)
+[LITERAL] Value: undefined at (Mqtt.js:17:27:17:39)
+[BINARY] undefined === undefined = true at (Mqtt.js:17:27:17:39)
+[CONDITIONAL] Result: true at (Mqtt.js:17:27:17:39)
+[LITERAL] Value: {} at (Mqtt.js:17:37:17:39)
+[WRITE] Identifier: options, Value at (Mqtt.js:17:27:17:39)
+[FUNC ENTER] publish at (Mqtt.js:17:3:27:4), Args: ["vehicle/command","{\"source\":\"CollisionAvoidanceApp\",\"action\":\"DO_NOT_STOP\",\"reason\":\"Rear vehicle too close\"}"], Timestamp: 1769079717399
+[READ] Identifier: console, Value at (Mqtt.js:18:5:18:12)
+[LITERAL] Value: "[Broker] Published to topic \"" at (Mqtt.js:18:17:18:49)
+[READ] Identifier: topic, Value at (Mqtt.js:18:49:18:54)
+[LITERAL] Value: "\": " at (Mqtt.js:18:54:18:60)
+[READ] Identifier: message, Value at (Mqtt.js:18:60:18:67)
+[LITERAL] Value: "" at (Mqtt.js:18:67:18:69)
+[BINARY] [Broker] Published to topic " + vehicle/command = [Broker] Published to topic "vehicle/command": {"source":"CollisionAvoidanceApp","action":"DO_NOT_STOP","reason":"Rear vehicle too close"} at (Mqtt.js:18:17:18:69)
+[Broker] Published to topic "vehicle/command": {"source":"CollisionAvoidanceApp","action":"DO_NOT_STOP","reason":"Rear vehicle too close"}
+[READ] Identifier: this, Value at (Mqtt.js:19:5:19:9)
+[READ] Identifier: topic, Value at (Mqtt.js:19:31:19:36)
+[READ] Identifier: message, Value at (Mqtt.js:19:38:19:45)
+[READ] Identifier: this, Value at (Mqtt.js:22:9:22:13)
+[READ] Identifier: topic, Value at (Mqtt.js:22:32:22:37)
+[CONDITIONAL] Result: true at (Mqtt.js:22:9:22:38)
+[READ] Identifier: this, Value at (Mqtt.js:23:7:23:11)
+[READ] Identifier: topic, Value at (Mqtt.js:23:30:23:35)
+[LITERAL] Value: undefined at (Mqtt.js:23:45:25:8)
+[FUNC ENTER] <anonymous> at (Mqtt.js:23:45:25:8), Args: ["resolver",0,["resolver"]], Timestamp: 1769079717409
+[READ] Identifier: this, Value at (Mqtt.js:24:9:24:13)
+[LITERAL] Value: "message" at (Mqtt.js:24:19:24:28)
+[READ] Identifier: clientId, Value at (Mqtt.js:24:30:24:38)
+[READ] Identifier: topic, Value at (Mqtt.js:24:40:24:45)
+[READ] Identifier: message, Value at (Mqtt.js:24:47:24:54)
+[FUNC ENTER] <anonymous> at (fireSafetyApp.js:9:35:22:10), Args: ["resolver","vehicle/command","{\"source\":\"CollisionAvoidanceApp\",\"action\":\"DO_NOT_STOP\",\"reason\":\"Rear vehicle too close\"}"], Timestamp: 1769079717410
+[READ] Identifier: topic, Value at (fireSafetyApp.js:10:17:10:22)
+[LITERAL] Value: "vehicle/raw" at (fireSafetyApp.js:10:17:10:40)
+[BINARY] vehicle/command === vehicle/raw = false at (fireSafetyApp.js:10:17:10:40)
+[CONDITIONAL] Result: false at (fireSafetyApp.js:10:17:10:40)
+[FUNC EXIT] <anonymous> at (fireSafetyApp.js:9:35:22:10), Return: undefined, Exception: {}, Timestamp: 1769079717411
+[FUNC ENTER] <anonymous> at (collisionAvoidanceApp.js:9:35:22:10), Args: ["resolver","vehicle/command","{\"source\":\"CollisionAvoidanceApp\",\"action\":\"DO_NOT_STOP\",\"reason\":\"Rear vehicle too close\"}"], Timestamp: 1769079717412
+[READ] Identifier: topic, Value at (collisionAvoidanceApp.js:10:17:10:22)
+[LITERAL] Value: "vehicle/raw" at (collisionAvoidanceApp.js:10:17:10:40)
+[BINARY] vehicle/command === vehicle/raw = false at (collisionAvoidanceApp.js:10:17:10:40)
+[CONDITIONAL] Result: false at (collisionAvoidanceApp.js:10:17:10:40)
+[FUNC EXIT] <anonymous> at (collisionAvoidanceApp.js:9:35:22:10), Return: undefined, Exception: {}, Timestamp: 1769079717413
+[FUNC ENTER] <anonymous> at (commandResolver.js:10:35:18:10), Args: ["resolver","vehicle/command","{\"source\":\"CollisionAvoidanceApp\",\"action\":\"DO_NOT_STOP\",\"reason\":\"Rear vehicle too close\"}"], Timestamp: 1769079717414
+[READ] Identifier: topic, Value at (commandResolver.js:11:17:11:22)
+[LITERAL] Value: "vehicle/command" at (commandResolver.js:11:17:11:44)
+[BINARY] vehicle/command === vehicle/command = true at (commandResolver.js:11:17:11:44)
+[CONDITIONAL] Result: true at (commandResolver.js:11:17:11:44)
+[READ] Identifier: JSON, Value at (commandResolver.js:12:29:12:33)
+[READ] Identifier: message, Value at (commandResolver.js:12:40:12:47)
+[WRITE] Identifier: cmd, Value at (commandResolver.js:12:17:12:48)
+[READ] Identifier: this, Value at (commandResolver.js:13:17:13:21)
+[READ] Identifier: cmd, Value at (commandResolver.js:13:35:13:38)
+[READ] Identifier: setTimeout, Value at (commandResolver.js:16:17:16:27)
+[LITERAL] Value: undefined at (commandResolver.js:16:28:16:48)
+[LITERAL] Value: 50 at (commandResolver.js:16:50:16:52)
+[FUNC EXIT] <anonymous> at (commandResolver.js:10:35:18:10), Return: undefined, Exception: {}, Timestamp: 1769079717425
+[FUNC ENTER] <anonymous> at (driverControlUnit.js:9:35:19:10), Args: ["resolver","vehicle/command","{\"source\":\"CollisionAvoidanceApp\",\"action\":\"DO_NOT_STOP\",\"reason\":\"Rear vehicle too close\"}"], Timestamp: 1769079717426
+[READ] Identifier: topic, Value at (driverControlUnit.js:10:17:10:22)
+[LITERAL] Value: "vehicle/finalAction" at (driverControlUnit.js:10:17:10:48)
+[BINARY] vehicle/command === vehicle/finalAction = false at (driverControlUnit.js:10:17:10:48)
+[CONDITIONAL] Result: false at (driverControlUnit.js:10:17:10:48)
+[FUNC EXIT] <anonymous> at (driverControlUnit.js:9:35:19:10), Return: undefined, Exception: {}, Timestamp: 1769079717430
+[FUNC EXIT] <anonymous> at (Mqtt.js:23:45:25:8), Return: undefined, Exception: {}, Timestamp: 1769079717430
+[FUNC EXIT] publish at (Mqtt.js:17:3:27:4), Return: undefined, Exception: {}, Timestamp: 1769079717431
+[FUNC EXIT] <anonymous> at (collisionAvoidanceApp.js:9:35:22:10), Return: undefined, Exception: {}, Timestamp: 1769079717432
+[FUNC ENTER] <anonymous> at (commandResolver.js:10:35:18:10), Args: ["fire","vehicle/raw","{\"sensorId\":\"vehicle-001\",\"engineTemp\":150,\"rearDistance\":4}"], Timestamp: 1769079717432
+[READ] Identifier: topic, Value at (commandResolver.js:11:17:11:22)
+[LITERAL] Value: "vehicle/command" at (commandResolver.js:11:17:11:44)
+[BINARY] vehicle/raw === vehicle/command = false at (commandResolver.js:11:17:11:44)
+[CONDITIONAL] Result: false at (commandResolver.js:11:17:11:44)
+[FUNC EXIT] <anonymous> at (commandResolver.js:10:35:18:10), Return: undefined, Exception: {}, Timestamp: 1769079717434
+[FUNC ENTER] <anonymous> at (driverControlUnit.js:9:35:19:10), Args: ["fire","vehicle/raw","{\"sensorId\":\"vehicle-001\",\"engineTemp\":150,\"rearDistance\":4}"], Timestamp: 1769079717434
+[READ] Identifier: topic, Value at (driverControlUnit.js:10:17:10:22)
+[LITERAL] Value: "vehicle/finalAction" at (driverControlUnit.js:10:17:10:48)
+[BINARY] vehicle/raw === vehicle/finalAction = false at (driverControlUnit.js:10:17:10:48)
+[CONDITIONAL] Result: false at (driverControlUnit.js:10:17:10:48)
+[FUNC EXIT] <anonymous> at (driverControlUnit.js:9:35:19:10), Return: undefined, Exception: {}, Timestamp: 1769079717436
+[FUNC EXIT] <anonymous> at (Mqtt.js:23:45:25:8), Return: undefined, Exception: {}, Timestamp: 1769079717437
+[FUNC ENTER] <anonymous> at (Mqtt.js:23:45:25:8), Args: ["collision",1,["fire","collision"]], Timestamp: 1769079717437
+[READ] Identifier: this, Value at (Mqtt.js:24:9:24:13)
+[LITERAL] Value: "message" at (Mqtt.js:24:19:24:28)
+[READ] Identifier: clientId, Value at (Mqtt.js:24:30:24:38)
+[READ] Identifier: topic, Value at (Mqtt.js:24:40:24:45)
+[READ] Identifier: message, Value at (Mqtt.js:24:47:24:54)
+[FUNC ENTER] <anonymous> at (fireSafetyApp.js:9:35:22:10), Args: ["collision","vehicle/raw","{\"sensorId\":\"vehicle-001\",\"engineTemp\":150,\"rearDistance\":4}"], Timestamp: 1769079717441
+[READ] Identifier: topic, Value at (fireSafetyApp.js:10:17:10:22)
+[LITERAL] Value: "vehicle/raw" at (fireSafetyApp.js:10:17:10:40)
+[BINARY] vehicle/raw === vehicle/raw = true at (fireSafetyApp.js:10:17:10:40)
+[CONDITIONAL] Result: true at (fireSafetyApp.js:10:17:10:40)
+[READ] Identifier: JSON, Value at (fireSafetyApp.js:11:30:11:34)
+[READ] Identifier: message, Value at (fireSafetyApp.js:11:41:11:48)
+[WRITE] Identifier: data, Value at (fireSafetyApp.js:11:17:11:49)
+[READ] Identifier: data, Value at (fireSafetyApp.js:13:21:13:25)
+[LITERAL] Value: 180 at (fireSafetyApp.js:13:39:13:42)
+[BINARY] 150 > 180 = false at (fireSafetyApp.js:13:21:13:42)
+[CONDITIONAL] Result: false at (fireSafetyApp.js:13:21:13:42)
+[FUNC EXIT] <anonymous> at (fireSafetyApp.js:9:35:22:10), Return: undefined, Exception: {}, Timestamp: 1769079717444
+[FUNC ENTER] <anonymous> at (collisionAvoidanceApp.js:9:35:22:10), Args: ["collision","vehicle/raw","{\"sensorId\":\"vehicle-001\",\"engineTemp\":150,\"rearDistance\":4}"], Timestamp: 1769079717444
+[READ] Identifier: topic, Value at (collisionAvoidanceApp.js:10:17:10:22)
+[LITERAL] Value: "vehicle/raw" at (collisionAvoidanceApp.js:10:17:10:40)
+[BINARY] vehicle/raw === vehicle/raw = true at (collisionAvoidanceApp.js:10:17:10:40)
+[CONDITIONAL] Result: true at (collisionAvoidanceApp.js:10:17:10:40)
+[READ] Identifier: JSON, Value at (collisionAvoidanceApp.js:11:30:11:34)
+[READ] Identifier: message, Value at (collisionAvoidanceApp.js:11:41:11:48)
+[WRITE] Identifier: data, Value at (collisionAvoidanceApp.js:11:17:11:49)
+[READ] Identifier: data, Value at (collisionAvoidanceApp.js:13:21:13:25)
+[LITERAL] Value: 5 at (collisionAvoidanceApp.js:13:41:13:42)
+[BINARY] 4 < 5 = true at (collisionAvoidanceApp.js:13:21:13:42)
+[CONDITIONAL] Result: true at (collisionAvoidanceApp.js:13:21:13:42)
+[READ] Identifier: console, Value at (collisionAvoidanceApp.js:14:21:14:28)
+[LITERAL] Value: "[CollisionAvoidance] Rear vehicle too close! Requesting DO NOT STOP." at (collisionAvoidanceApp.js:14:33:14:103)
+[CollisionAvoidance] Rear vehicle too close! Requesting DO NOT STOP.
+[READ] Identifier: this, Value at (collisionAvoidanceApp.js:15:21:15:25)
+[LITERAL] Value: "vehicle/command" at (collisionAvoidanceApp.js:15:41:15:58)
+[READ] Identifier: JSON, Value at (collisionAvoidanceApp.js:15:60:15:64)
+[LITERAL] Value: "CollisionAvoidanceApp" at (collisionAvoidanceApp.js:16:33:16:56)
+[LITERAL] Value: "DO_NOT_STOP" at (collisionAvoidanceApp.js:17:33:17:46)
+[LITERAL] Value: "Rear vehicle too close" at (collisionAvoidanceApp.js:18:33:18:57)
+[LITERAL] Value: {"source":"CollisionAvoidanceApp","action":"DO_NOT_STOP","reason":"Rear vehicle too close"} at (collisionAvoidanceApp.js:15:75:19:22)
+[WRITE] Identifier: topic, Value at (Mqtt.js:17:11:17:16)
+[WRITE] Identifier: message, Value at (Mqtt.js:17:18:17:25)
+[LITERAL] Value: undefined at (Mqtt.js:17:27:17:39)
+[BINARY] undefined === undefined = true at (Mqtt.js:17:27:17:39)
+[CONDITIONAL] Result: true at (Mqtt.js:17:27:17:39)
+[LITERAL] Value: {} at (Mqtt.js:17:37:17:39)
+[WRITE] Identifier: options, Value at (Mqtt.js:17:27:17:39)
+[FUNC ENTER] publish at (Mqtt.js:17:3:27:4), Args: ["vehicle/command","{\"source\":\"CollisionAvoidanceApp\",\"action\":\"DO_NOT_STOP\",\"reason\":\"Rear vehicle too close\"}"], Timestamp: 1769079717451
+[READ] Identifier: console, Value at (Mqtt.js:18:5:18:12)
+[LITERAL] Value: "[Broker] Published to topic \"" at (Mqtt.js:18:17:18:49)
+[READ] Identifier: topic, Value at (Mqtt.js:18:49:18:54)
+[LITERAL] Value: "\": " at (Mqtt.js:18:54:18:60)
+[READ] Identifier: message, Value at (Mqtt.js:18:60:18:67)
+[LITERAL] Value: "" at (Mqtt.js:18:67:18:69)
+[BINARY] [Broker] Published to topic " + vehicle/command = [Broker] Published to topic "vehicle/command": {"source":"CollisionAvoidanceApp","action":"DO_NOT_STOP","reason":"Rear vehicle too close"} at (Mqtt.js:18:17:18:69)
+[Broker] Published to topic "vehicle/command": {"source":"CollisionAvoidanceApp","action":"DO_NOT_STOP","reason":"Rear vehicle too close"}
+[READ] Identifier: this, Value at (Mqtt.js:19:5:19:9)
+[READ] Identifier: topic, Value at (Mqtt.js:19:31:19:36)
+[READ] Identifier: message, Value at (Mqtt.js:19:38:19:45)
+[READ] Identifier: this, Value at (Mqtt.js:22:9:22:13)
+[READ] Identifier: topic, Value at (Mqtt.js:22:32:22:37)
+[CONDITIONAL] Result: true at (Mqtt.js:22:9:22:38)
+[READ] Identifier: this, Value at (Mqtt.js:23:7:23:11)
+[READ] Identifier: topic, Value at (Mqtt.js:23:30:23:35)
+[LITERAL] Value: undefined at (Mqtt.js:23:45:25:8)
+[FUNC ENTER] <anonymous> at (Mqtt.js:23:45:25:8), Args: ["resolver",0,["resolver"]], Timestamp: 1769079717458
+[READ] Identifier: this, Value at (Mqtt.js:24:9:24:13)
+[LITERAL] Value: "message" at (Mqtt.js:24:19:24:28)
+[READ] Identifier: clientId, Value at (Mqtt.js:24:30:24:38)
+[READ] Identifier: topic, Value at (Mqtt.js:24:40:24:45)
+[READ] Identifier: message, Value at (Mqtt.js:24:47:24:54)
+[FUNC ENTER] <anonymous> at (fireSafetyApp.js:9:35:22:10), Args: ["resolver","vehicle/command","{\"source\":\"CollisionAvoidanceApp\",\"action\":\"DO_NOT_STOP\",\"reason\":\"Rear vehicle too close\"}"], Timestamp: 1769079717459
+[READ] Identifier: topic, Value at (fireSafetyApp.js:10:17:10:22)
+[LITERAL] Value: "vehicle/raw" at (fireSafetyApp.js:10:17:10:40)
+[BINARY] vehicle/command === vehicle/raw = false at (fireSafetyApp.js:10:17:10:40)
+[CONDITIONAL] Result: false at (fireSafetyApp.js:10:17:10:40)
+[FUNC EXIT] <anonymous> at (fireSafetyApp.js:9:35:22:10), Return: undefined, Exception: {}, Timestamp: 1769079717461
+[FUNC ENTER] <anonymous> at (collisionAvoidanceApp.js:9:35:22:10), Args: ["resolver","vehicle/command","{\"source\":\"CollisionAvoidanceApp\",\"action\":\"DO_NOT_STOP\",\"reason\":\"Rear vehicle too close\"}"], Timestamp: 1769079717461
+[READ] Identifier: topic, Value at (collisionAvoidanceApp.js:10:17:10:22)
+[LITERAL] Value: "vehicle/raw" at (collisionAvoidanceApp.js:10:17:10:40)
+[BINARY] vehicle/command === vehicle/raw = false at (collisionAvoidanceApp.js:10:17:10:40)
+[CONDITIONAL] Result: false at (collisionAvoidanceApp.js:10:17:10:40)
+[FUNC EXIT] <anonymous> at (collisionAvoidanceApp.js:9:35:22:10), Return: undefined, Exception: {}, Timestamp: 1769079717463
+[FUNC ENTER] <anonymous> at (commandResolver.js:10:35:18:10), Args: ["resolver","vehicle/command","{\"source\":\"CollisionAvoidanceApp\",\"action\":\"DO_NOT_STOP\",\"reason\":\"Rear vehicle too close\"}"], Timestamp: 1769079717463
+[READ] Identifier: topic, Value at (commandResolver.js:11:17:11:22)
+[LITERAL] Value: "vehicle/command" at (commandResolver.js:11:17:11:44)
+[BINARY] vehicle/command === vehicle/command = true at (commandResolver.js:11:17:11:44)
+[CONDITIONAL] Result: true at (commandResolver.js:11:17:11:44)
+[READ] Identifier: JSON, Value at (commandResolver.js:12:29:12:33)
+[READ] Identifier: message, Value at (commandResolver.js:12:40:12:47)
+[WRITE] Identifier: cmd, Value at (commandResolver.js:12:17:12:48)
+[READ] Identifier: this, Value at (commandResolver.js:13:17:13:21)
+[READ] Identifier: cmd, Value at (commandResolver.js:13:35:13:38)
+[READ] Identifier: setTimeout, Value at (commandResolver.js:16:17:16:27)
+[LITERAL] Value: undefined at (commandResolver.js:16:28:16:48)
+[LITERAL] Value: 50 at (commandResolver.js:16:50:16:52)
+[FUNC EXIT] <anonymous> at (commandResolver.js:10:35:18:10), Return: undefined, Exception: {}, Timestamp: 1769079717466
+[FUNC ENTER] <anonymous> at (driverControlUnit.js:9:35:19:10), Args: ["resolver","vehicle/command","{\"source\":\"CollisionAvoidanceApp\",\"action\":\"DO_NOT_STOP\",\"reason\":\"Rear vehicle too close\"}"], Timestamp: 1769079717467
+[READ] Identifier: topic, Value at (driverControlUnit.js:10:17:10:22)
+[LITERAL] Value: "vehicle/finalAction" at (driverControlUnit.js:10:17:10:48)
+[BINARY] vehicle/command === vehicle/finalAction = false at (driverControlUnit.js:10:17:10:48)
+[CONDITIONAL] Result: false at (driverControlUnit.js:10:17:10:48)
+[FUNC EXIT] <anonymous> at (driverControlUnit.js:9:35:19:10), Return: undefined, Exception: {}, Timestamp: 1769079717468
+[FUNC EXIT] <anonymous> at (Mqtt.js:23:45:25:8), Return: undefined, Exception: {}, Timestamp: 1769079717468
+[FUNC EXIT] publish at (Mqtt.js:17:3:27:4), Return: undefined, Exception: {}, Timestamp: 1769079717468
+[FUNC EXIT] <anonymous> at (collisionAvoidanceApp.js:9:35:22:10), Return: undefined, Exception: {}, Timestamp: 1769079717469
+[FUNC ENTER] <anonymous> at (commandResolver.js:10:35:18:10), Args: ["collision","vehicle/raw","{\"sensorId\":\"vehicle-001\",\"engineTemp\":150,\"rearDistance\":4}"], Timestamp: 1769079717469
+[READ] Identifier: topic, Value at (commandResolver.js:11:17:11:22)
+[LITERAL] Value: "vehicle/command" at (commandResolver.js:11:17:11:44)
+[BINARY] vehicle/raw === vehicle/command = false at (commandResolver.js:11:17:11:44)
+[CONDITIONAL] Result: false at (commandResolver.js:11:17:11:44)
+[FUNC EXIT] <anonymous> at (commandResolver.js:10:35:18:10), Return: undefined, Exception: {}, Timestamp: 1769079717470
+[FUNC ENTER] <anonymous> at (driverControlUnit.js:9:35:19:10), Args: ["collision","vehicle/raw","{\"sensorId\":\"vehicle-001\",\"engineTemp\":150,\"rearDistance\":4}"], Timestamp: 1769079717471
+[READ] Identifier: topic, Value at (driverControlUnit.js:10:17:10:22)
+[LITERAL] Value: "vehicle/finalAction" at (driverControlUnit.js:10:17:10:48)
+[BINARY] vehicle/raw === vehicle/finalAction = false at (driverControlUnit.js:10:17:10:48)
+[CONDITIONAL] Result: false at (driverControlUnit.js:10:17:10:48)
+[FUNC EXIT] <anonymous> at (driverControlUnit.js:9:35:19:10), Return: undefined, Exception: {}, Timestamp: 1769079717472
+[FUNC EXIT] <anonymous> at (Mqtt.js:23:45:25:8), Return: undefined, Exception: {}, Timestamp: 1769079717472
+[FUNC EXIT] publish at (Mqtt.js:17:3:27:4), Return: undefined, Exception: {}, Timestamp: 1769079717473
+[FUNC EXIT] publishData at (vehicleSensor.js:25:5:29:6), Return: undefined, Exception: {}, Timestamp: 1769079717473
+[FUNC EXIT] connect at (vehicleSensor.js:15:5:23:6), Return: undefined, Exception: {}, Timestamp: 1769079717473
+[READ] Identifier: setTimeout, Value at (main.js:26:1:26:11)
+[LITERAL] Value: undefined at (main.js:26:12:26:31)
+[LITERAL] Value: 12000 at (main.js:26:33:26:38)
+[FUNC EXIT] <anonymous> at (main.js:1:1:26:42), Return: undefined, Exception: {}, Timestamp: 1769079717477
+[FUNC ENTER] <anonymous> at (commandResolver.js:16:28:16:48), Args: [], Timestamp: 1769079717484
+[READ] Identifier: this, Value at (commandResolver.js:16:34:16:38)
+[FUNC ENTER] resolve at (commandResolver.js:21:5:42:6), Args: [], Timestamp: 1769079717486
+[READ] Identifier: this, Value at (commandResolver.js:22:13:22:17)
+[LITERAL] Value: 0 at (commandResolver.js:22:13:22:38)
+[BINARY] 2 === 0 = false at (commandResolver.js:22:13:22:38)
+[CONDITIONAL] Result: false at (commandResolver.js:22:13:22:38)
+[READ] Identifier: this, Value at (commandResolver.js:24:25:24:29)
+[LITERAL] Value: undefined at (commandResolver.js:24:43:24:67)
+[FUNC ENTER] <anonymous> at (commandResolver.js:24:43:24:67), Args: [{"source":"CollisionAvoidanceApp","action":"DO_NOT_STOP","reason":"Rear vehicle too close"},0,["[Circular]",{"source":"CollisionAvoidanceApp","action":"DO_NOT_STOP","reason":"Rear vehicle too close"}]], Timestamp: 1769079717497
+[READ] Identifier: c, Value at (commandResolver.js:24:48:24:49)
+[LITERAL] Value: "STOP" at (commandResolver.js:24:48:24:67)
+[BINARY] DO_NOT_STOP === STOP = false at (commandResolver.js:24:48:24:67)
+[RETURN] at (commandResolver.js:24:57:24:66), Value: false
+[FUNC EXIT] <anonymous> at (commandResolver.js:24:43:24:67), Return: false, Exception: {}, Timestamp: 1769079717502
+[FUNC ENTER] <anonymous> at (commandResolver.js:24:43:24:67), Args: [{"source":"CollisionAvoidanceApp","action":"DO_NOT_STOP","reason":"Rear vehicle too close"},1,[{"source":"CollisionAvoidanceApp","action":"DO_NOT_STOP","reason":"Rear vehicle too close"},"[Circular]"]], Timestamp: 1769079717502
+[READ] Identifier: c, Value at (commandResolver.js:24:48:24:49)
+[LITERAL] Value: "STOP" at (commandResolver.js:24:48:24:67)
+[BINARY] DO_NOT_STOP === STOP = false at (commandResolver.js:24:48:24:67)
+[RETURN] at (commandResolver.js:24:57:24:66), Value: false
+[FUNC EXIT] <anonymous> at (commandResolver.js:24:43:24:67), Return: false, Exception: {}, Timestamp: 1769079717505
+[WRITE] Identifier: fireCmd, Value at (commandResolver.js:24:9:24:68)
+[READ] Identifier: this, Value at (commandResolver.js:25:30:25:34)
+[LITERAL] Value: undefined at (commandResolver.js:25:48:25:79)
+[FUNC ENTER] <anonymous> at (commandResolver.js:25:48:25:79), Args: [{"source":"CollisionAvoidanceApp","action":"DO_NOT_STOP","reason":"Rear vehicle too close"},0,["[Circular]",{"source":"CollisionAvoidanceApp","action":"DO_NOT_STOP","reason":"Rear vehicle too close"}]], Timestamp: 1769079717508
+[READ] Identifier: c, Value at (commandResolver.js:25:53:25:54)
+[LITERAL] Value: "DO_NOT_STOP" at (commandResolver.js:25:53:25:79)
+[BINARY] DO_NOT_STOP === DO_NOT_STOP = true at (commandResolver.js:25:53:25:79)
+[RETURN] at (commandResolver.js:25:62:25:78), Value: true
+[FUNC EXIT] <anonymous> at (commandResolver.js:25:48:25:79), Return: true, Exception: {}, Timestamp: 1769079717513
+[WRITE] Identifier: collisionCmd, Value at (commandResolver.js:25:9:25:80)
+[READ] Identifier: fireCmd, Value at (commandResolver.js:29:13:29:20)
+[CONDITIONAL] Result: undefined at (commandResolver.js:29:13:29:36)
+[CONDITIONAL] Result: undefined at (commandResolver.js:29:13:29:36)
+[READ] Identifier: fireCmd, Value at (commandResolver.js:33:20:33:27)
+[CONDITIONAL] Result: undefined at (commandResolver.js:33:20:33:27)
+[READ] Identifier: collisionCmd, Value at (commandResolver.js:35:20:35:32)
+[CONDITIONAL] Result: {"source":"CollisionAvoidanceApp","action":"DO_NOT_STOP","reason":"Rear vehicle too close"} at (commandResolver.js:35:20:35:32)
+[LITERAL] Value: "DO_NOT_STOP" at (commandResolver.js:36:27:36:40)
+[WRITE] Identifier: finalAction, Value at (commandResolver.js:36:13:36:40)
+[READ] Identifier: this, Value at (commandResolver.js:39:9:39:13)
+[LITERAL] Value: [] at (commandResolver.js:39:24:39:26)
+[READ] Identifier: this, Value at (commandResolver.js:41:9:41:13)
+[LITERAL] Value: "vehicle/finalAction" at (commandResolver.js:41:29:41:50)
+[READ] Identifier: JSON, Value at (commandResolver.js:41:52:41:56)
+[READ] Identifier: finalAction, Value at (commandResolver.js:41:69:41:80)
+[LITERAL] Value: {"finalAction":"DO_NOT_STOP"} at (commandResolver.js:41:67:41:82)
+[WRITE] Identifier: topic, Value at (Mqtt.js:17:11:17:16)
+[WRITE] Identifier: message, Value at (Mqtt.js:17:18:17:25)
+[LITERAL] Value: undefined at (Mqtt.js:17:27:17:39)
+[BINARY] undefined === undefined = true at (Mqtt.js:17:27:17:39)
+[CONDITIONAL] Result: true at (Mqtt.js:17:27:17:39)
+[LITERAL] Value: {} at (Mqtt.js:17:37:17:39)
+[WRITE] Identifier: options, Value at (Mqtt.js:17:27:17:39)
+[FUNC ENTER] publish at (Mqtt.js:17:3:27:4), Args: ["vehicle/finalAction","{\"finalAction\":\"DO_NOT_STOP\"}"], Timestamp: 1769079717532
+[READ] Identifier: console, Value at (Mqtt.js:18:5:18:12)
+[LITERAL] Value: "[Broker] Published to topic \"" at (Mqtt.js:18:17:18:49)
+[READ] Identifier: topic, Value at (Mqtt.js:18:49:18:54)
+[LITERAL] Value: "\": " at (Mqtt.js:18:54:18:60)
+[READ] Identifier: message, Value at (Mqtt.js:18:60:18:67)
+[LITERAL] Value: "" at (Mqtt.js:18:67:18:69)
+[BINARY] [Broker] Published to topic " + vehicle/finalAction = [Broker] Published to topic "vehicle/finalAction": {"finalAction":"DO_NOT_STOP"} at (Mqtt.js:18:17:18:69)
+[Broker] Published to topic "vehicle/finalAction": {"finalAction":"DO_NOT_STOP"}
+[READ] Identifier: this, Value at (Mqtt.js:19:5:19:9)
+[READ] Identifier: topic, Value at (Mqtt.js:19:31:19:36)
+[READ] Identifier: message, Value at (Mqtt.js:19:38:19:45)
+[READ] Identifier: this, Value at (Mqtt.js:22:9:22:13)
+[READ] Identifier: topic, Value at (Mqtt.js:22:32:22:37)
+[CONDITIONAL] Result: true at (Mqtt.js:22:9:22:38)
+[READ] Identifier: this, Value at (Mqtt.js:23:7:23:11)
+[READ] Identifier: topic, Value at (Mqtt.js:23:30:23:35)
+[LITERAL] Value: undefined at (Mqtt.js:23:45:25:8)
+[FUNC ENTER] <anonymous> at (Mqtt.js:23:45:25:8), Args: ["driver",0,["driver"]], Timestamp: 1769079717536
+[READ] Identifier: this, Value at (Mqtt.js:24:9:24:13)
+[LITERAL] Value: "message" at (Mqtt.js:24:19:24:28)
+[READ] Identifier: clientId, Value at (Mqtt.js:24:30:24:38)
+[READ] Identifier: topic, Value at (Mqtt.js:24:40:24:45)
+[READ] Identifier: message, Value at (Mqtt.js:24:47:24:54)
+[FUNC ENTER] <anonymous> at (fireSafetyApp.js:9:35:22:10), Args: ["driver","vehicle/finalAction","{\"finalAction\":\"DO_NOT_STOP\"}"], Timestamp: 1769079717537
+[READ] Identifier: topic, Value at (fireSafetyApp.js:10:17:10:22)
+[LITERAL] Value: "vehicle/raw" at (fireSafetyApp.js:10:17:10:40)
+[BINARY] vehicle/finalAction === vehicle/raw = false at (fireSafetyApp.js:10:17:10:40)
+[CONDITIONAL] Result: false at (fireSafetyApp.js:10:17:10:40)
+[FUNC EXIT] <anonymous> at (fireSafetyApp.js:9:35:22:10), Return: undefined, Exception: {}, Timestamp: 1769079717538
+[FUNC ENTER] <anonymous> at (collisionAvoidanceApp.js:9:35:22:10), Args: ["driver","vehicle/finalAction","{\"finalAction\":\"DO_NOT_STOP\"}"], Timestamp: 1769079717539
+[READ] Identifier: topic, Value at (collisionAvoidanceApp.js:10:17:10:22)
+[LITERAL] Value: "vehicle/raw" at (collisionAvoidanceApp.js:10:17:10:40)
+[BINARY] vehicle/finalAction === vehicle/raw = false at (collisionAvoidanceApp.js:10:17:10:40)
+[CONDITIONAL] Result: false at (collisionAvoidanceApp.js:10:17:10:40)
+[FUNC EXIT] <anonymous> at (collisionAvoidanceApp.js:9:35:22:10), Return: undefined, Exception: {}, Timestamp: 1769079717540
+[FUNC ENTER] <anonymous> at (commandResolver.js:10:35:18:10), Args: ["driver","vehicle/finalAction","{\"finalAction\":\"DO_NOT_STOP\"}"], Timestamp: 1769079717541
+[READ] Identifier: topic, Value at (commandResolver.js:11:17:11:22)
+[LITERAL] Value: "vehicle/command" at (commandResolver.js:11:17:11:44)
+[BINARY] vehicle/finalAction === vehicle/command = false at (commandResolver.js:11:17:11:44)
+[CONDITIONAL] Result: false at (commandResolver.js:11:17:11:44)
+[FUNC EXIT] <anonymous> at (commandResolver.js:10:35:18:10), Return: undefined, Exception: {}, Timestamp: 1769079717542
+[FUNC ENTER] <anonymous> at (driverControlUnit.js:9:35:19:10), Args: ["driver","vehicle/finalAction","{\"finalAction\":\"DO_NOT_STOP\"}"], Timestamp: 1769079717542
+[READ] Identifier: topic, Value at (driverControlUnit.js:10:17:10:22)
+[LITERAL] Value: "vehicle/finalAction" at (driverControlUnit.js:10:17:10:48)
+[BINARY] vehicle/finalAction === vehicle/finalAction = true at (driverControlUnit.js:10:17:10:48)
+[CONDITIONAL] Result: true at (driverControlUnit.js:10:17:10:48)
+[READ] Identifier: JSON, Value at (driverControlUnit.js:11:41:11:45)
+[READ] Identifier: message, Value at (driverControlUnit.js:11:52:11:59)
+[WRITE] Identifier: finalAction, Value at (driverControlUnit.js:11:25:11:36)
+[READ] Identifier: finalAction, Value at (driverControlUnit.js:13:21:13:32)
+[LITERAL] Value: "STOP" at (driverControlUnit.js:13:21:13:43)
+[BINARY] DO_NOT_STOP === STOP = false at (driverControlUnit.js:13:21:13:43)
+[CONDITIONAL] Result: false at (driverControlUnit.js:13:21:13:43)
+[READ] Identifier: console, Value at (driverControlUnit.js:16:21:16:28)
+[LITERAL] Value: "[DriverControl] Maintaining speed to avoid collision." at (driverControlUnit.js:16:33:16:88)
+[DriverControl] Maintaining speed to avoid collision.
+[FUNC EXIT] <anonymous> at (driverControlUnit.js:9:35:19:10), Return: undefined, Exception: {}, Timestamp: 1769079717548
+[FUNC EXIT] <anonymous> at (Mqtt.js:23:45:25:8), Return: undefined, Exception: {}, Timestamp: 1769079717548
+[FUNC EXIT] publish at (Mqtt.js:17:3:27:4), Return: undefined, Exception: {}, Timestamp: 1769079717549
+[FUNC EXIT] resolve at (commandResolver.js:21:5:42:6), Return: undefined, Exception: {}, Timestamp: 1769079717549
+[RETURN] at (commandResolver.js:16:34:16:48), Value: undefined
+[FUNC EXIT] <anonymous> at (commandResolver.js:16:28:16:48), Return: undefined, Exception: {}, Timestamp: 1769079717549
+[FUNC ENTER] <anonymous> at (commandResolver.js:16:28:16:48), Args: [], Timestamp: 1769079717553
+[READ] Identifier: this, Value at (commandResolver.js:16:34:16:38)
+[FUNC ENTER] resolve at (commandResolver.js:21:5:42:6), Args: [], Timestamp: 1769079717555
+[READ] Identifier: this, Value at (commandResolver.js:22:13:22:17)
+[LITERAL] Value: 0 at (commandResolver.js:22:13:22:38)
+[BINARY] 0 === 0 = true at (commandResolver.js:22:13:22:38)
+[CONDITIONAL] Result: true at (commandResolver.js:22:13:22:38)
+[RETURN] at (commandResolver.js:22:40:22:47), Value: undefined
+[w] Could not find <return> slot
+[RETURN] at (commandResolver.js:22:40:22:47), Value: undefined
+[FUNC EXIT] resolve at (commandResolver.js:21:5:42:6), Return: undefined, Exception: {}, Timestamp: 1769079717559
+[RETURN] at (commandResolver.js:16:34:16:48), Value: undefined
+[FUNC EXIT] <anonymous> at (commandResolver.js:16:28:16:48), Return: undefined, Exception: {}, Timestamp: 1769079717560
+[FUNC ENTER] <anonymous> at (main.js:26:12:26:31), Args: [], Timestamp: 1769079729557
+[READ] Identifier: sensor, Value at (main.js:26:18:26:24)
+[FUNC ENTER] stop at (vehicleSensor.js:31:5:34:6), Args: [], Timestamp: 1769079729566
+[READ] Identifier: clearInterval, Value at (vehicleSensor.js:32:9:32:22)
+[READ] Identifier: this, Value at (vehicleSensor.js:32:23:32:27)
+[READ] Identifier: this, Value at (vehicleSensor.js:33:9:33:13)
+[READ] Identifier: this, Value at (vehicleSensor.js:33:32:33:36)
+[FUNC ENTER] disconnect at (Mqtt.js:37:3:45:4), Args: ["vehicle-001"], Timestamp: 1769079729568
+[READ] Identifier: console, Value at (Mqtt.js:38:5:38:12)
+[LITERAL] Value: "[Broker] Client \"" at (Mqtt.js:38:17:38:37)
+[READ] Identifier: clientId, Value at (Mqtt.js:38:37:38:45)
+[LITERAL] Value: "\" disconnected." at (Mqtt.js:38:45:38:62)
+[BINARY] [Broker] Client " + vehicle-001 = [Broker] Client "vehicle-001" disconnected. at (Mqtt.js:38:17:38:62)
+[Broker] Client "vehicle-001" disconnected.
+[READ] Identifier: this, Value at (Mqtt.js:39:27:39:31)
+[READ] Identifier: clientId, Value at (Mqtt.js:39:44:39:52)
+[WRITE] Identifier: clientOptions, Value at (Mqtt.js:39:5:39:53)
+[READ] Identifier: clientOptions, Value at (Mqtt.js:40:9:40:22)
+[READ] Identifier: clientOptions, Value at (Mqtt.js:40:26:40:39)
+[CONDITIONAL] Result: undefined at (Mqtt.js:40:9:40:43)
+[CONDITIONAL] Result: undefined at (Mqtt.js:40:9:40:43)
+[READ] Identifier: this, Value at (Mqtt.js:44:5:44:9)
+[READ] Identifier: clientId, Value at (Mqtt.js:44:25:44:33)
+[FUNC EXIT] disconnect at (Mqtt.js:37:3:45:4), Return: undefined, Exception: {}, Timestamp: 1769079729580
+[FUNC EXIT] stop at (vehicleSensor.js:31:5:34:6), Return: undefined, Exception: {}, Timestamp: 1769079729581
+[RETURN] at (main.js:26:18:26:31), Value: undefined
+[FUNC EXIT] <anonymous> at (main.js:26:12:26:31), Return: undefined, Exception: {}, Timestamp: 1769079729581

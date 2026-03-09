@@ -1,0 +1,17 @@
+{
+  "ruleArn": "arn:aws:iot:us-west-2:123456789012:rule/my-iot-rule",
+  "rule": {
+    "description": "My IoT Rule Description",
+    "ruleName": "my-iot-rule",
+    "actions": [
+      {
+        "lambda": {
+          "functionArn": "arn:aws:lambda:us-west-2:123456789012:function/my-lambda-function"
+        }
+      }
+    ],
+    "sql": "SELECT * FROM 'my/iot/topic'",
+    "awsIotSqlVersion": "2016-03-23",
+    "ruleDisabled": false
+  }
+}

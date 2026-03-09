@@ -1,0 +1,51 @@
+TestEvents:
+{
+  "oil_temp": "120",
+  "car_status": "1"
+}
+Output:
+Function Logs
+START RequestId: bf9d3000-c50f-4806-937a-dae2a60395ae Version: $LATEST
+2022-07-02T06:25:00.688Z	bf9d3000-c50f-4806-937a-dae2a60395ae	INFO	Event => {"oil_temp":"120","car_status":"1"}
+2022-07-02T06:25:00.689Z	bf9d3000-c50f-4806-937a-dae2a60395ae	INFO	engine is heated much,  park the vehicle
+2022-07-02T06:25:00.689Z	bf9d3000-c50f-4806-937a-dae2a60395ae	INFO	break_status is high
+END RequestId: bf9d3000-c50f-4806-937a-dae2a60395ae
+REPORT RequestId: bf9d3000-c50f-4806-937a-dae2a60395ae	Duration: 163.35 ms	Billed Duration: 164 ms	Memory Size: 128 MB	Max Memory Used: 76 MB
+
+TestEvents:
+{
+  "oil_temp": "90",
+  "car_status": "1"
+}
+Output:
+Function Logs
+START RequestId: ee299c3f-994d-4f9f-8670-195d7bb92aaa Version: $LATEST
+2022-07-02T06:26:28.810Z	ee299c3f-994d-4f9f-8670-195d7bb92aaa	INFO	Event => {"oil_temp":"90","car_status":"1"}
+2022-07-02T06:26:28.810Z	ee299c3f-994d-4f9f-8670-195d7bb92aaa	INFO	break_status is low
+END RequestId: ee299c3f-994d-4f9f-8670-195d7bb92aaa
+REPORT RequestId: ee299c3f-994d-4f9f-8670-195d7bb92aaa	Duration: 116.91 ms	Billed Duration: 117 ms	Memory Size: 128 MB	Max Memory Used: 77 MB
+
+TestEvents:
+{
+  "oil_temp": "90",
+  "car_status": "0"
+}
+output:
+Function Logs
+START RequestId: 12b7cc6b-ec1e-4792-afea-5e13d919080d Version: $LATEST
+2022-07-02T06:29:05.791Z	12b7cc6b-ec1e-4792-afea-5e13d919080d	INFO	Event => {"oil_temp":"90","car_status":"0"}
+2022-07-02T06:29:05.791Z	12b7cc6b-ec1e-4792-afea-5e13d919080d	INFO	break_status is low
+END RequestId: 12b7cc6b-ec1e-4792-afea-5e13d919080d
+REPORT RequestId: 12b7cc6b-ec1e-4792-afea-5e13d919080d	Duration: 149.31 ms	Billed Duration: 150 ms	Memory Size: 128 MB	Max Memory Used: 77 MB
+
+TestEvents:
+{
+  "oil_temp": "120",
+  "car_status": "0"
+}
+Function Logs
+START RequestId: e0af1653-a8f9-48e2-b2a2-2e6ea4c8ec2e Version: $LATEST
+2022-07-02T06:37:41.934Z	e0af1653-a8f9-48e2-b2a2-2e6ea4c8ec2e	INFO	Event => {"oil_temp":"120","car_status":"0"}
+2022-07-02T06:37:41.937Z	e0af1653-a8f9-48e2-b2a2-2e6ea4c8ec2e	INFO	car is parked
+END RequestId: e0af1653-a8f9-48e2-b2a2-2e6ea4c8ec2e
+REPORT RequestId: e0af1653-a8f9-48e2-b2a2-2e6ea4c8ec2e	Duration: 4.78 ms	Billed Duration: 5 ms	Memory Size: 128 MB	Max Memory Used: 76 MB	Init Duration: 425.45 ms

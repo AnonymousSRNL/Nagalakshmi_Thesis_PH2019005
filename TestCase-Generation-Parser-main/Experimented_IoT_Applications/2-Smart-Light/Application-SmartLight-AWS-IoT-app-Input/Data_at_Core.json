@@ -1,0 +1,46 @@
+{
+  "topicFilter": "lightSensorTopic",
+  "qos": 0,
+  "messages": [
+    {
+      "format": "json",
+      "topic": "lightSensorTopic",
+      "timestamp": 1650286895446,
+      "payload": {
+        "uv_visible": 742.4426453424581
+      }
+    },
+    {
+      "format": "json",
+      "topic": "lightSensorTopic",
+      "timestamp": 1650286885438,
+      "payload": {
+        "uv_visible": 650.3233539182089
+      }
+    },
+    {
+      "format": "json",
+      "topic": "lightSensorTopic",
+      "timestamp": 1650286875426,
+      "payload": {
+        "uv_visible": 281.6200242106699
+      }
+    },
+    {
+      "format": "json",
+      "topic": "lightSensorTopic",
+      "timestamp": 1650286865405,
+      "payload": {
+        "uv_visible": 367.43249172849545
+      }
+    },
+    {
+      "format": "json",
+      "topic": "lightSensorTopic",
+      "timestamp": 1650286855440,
+      "payload": {
+        "uv_visible": 917.8688240848032
+      }
+    }
+  ]
+}
